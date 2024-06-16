@@ -41,6 +41,8 @@ Work experience
   * San Jose, CA, USA
 
 
-Service and leadership
+Service
 ======
-* Currently signed in to 43 different slack teams
+* Workshop Organizer
+  * Efficient Learning for Face Analysis" in WACV 2024
+  * "Learning with Limited Data for Face Analysis" in ACCV 2022
