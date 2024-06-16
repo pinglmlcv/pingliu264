@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Ping Liu / Site Title"
+title                    : "Assistant Professor, Dr. Ping Liu"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
