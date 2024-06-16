@@ -10,18 +10,11 @@ redirect_from:
 
 ## Service
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+Service
+======
+* Workshop Organizer
+  * Efficient Learning for Face Analysis" in WACV 2024
+  * "Learning with Limited Data for Face Analysis" in ACCV 2022
 
 
 
