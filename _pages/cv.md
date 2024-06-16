@@ -39,10 +39,3 @@ Work experience
 * Jul 2015 - Apr 2017: Senior Applied Research Engineer 
   * Sony US Research Center
   * San Jose, CA, USA
-
-
-Service
-======
-* Workshop Organizer
-  * Efficient Learning for Face Analysis" in WACV 2024
-  * "Learning with Limited Data for Face Analysis" in ACCV 2022
