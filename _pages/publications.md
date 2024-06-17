@@ -18,7 +18,7 @@ Preprint
 "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey"
 arXiv:2406.06965, 2024
 
-* Chuangchuang Tan, Ping Liu, Renshuai Tao, Huan Liu, Yao Zhao, Baoyuan Wu, Yunchao Wei
+9. Chuangchuang Tan, Ping Liu, Renshuai Tao, Huan Liu, Yao Zhao, Baoyuan Wu, Yunchao Wei
 "Data-Independent Operator: A Training-Free Artifact Representation Extractor for Generalizable Deepfake Detection"
 arXiv:2403.06803, 2024.
 
