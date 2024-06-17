@@ -12,4 +12,15 @@ Dr. Ping LIU is a Tenure Track Assistant Professor in Department of Computer Sci
 He received his Ph.D degree from  Department of Computer Science and Engineering, University of South Carolina, Columbia, SC, US.  Before that, he was a research assistant in the Intelligent Systems and Biomedical Robotics Group (ISBRG), University of Portsmouth, UK.  He got his Master Degree from Huazhong University of Science and Technology (HUST), WuHan, China;  Bachelor Degree (EE) from Wuhan University of Technology (WUT), WuHan, China.
 
 
-** News
+Research Interest:
+======
+AIGC, Face-centric AI, Efficient AI
+ 
+News:
+======
+* Apr 2024: Our work “VehicleGAN: Pair-flexible Pose Guided Image Synthesis for Vehicle Re-identification" has been accepted for publication in the IEEE IV 2024 Workshop on Foundation Intelligence for Intelligent Vehicles! Congratulations to Baolu LI!
+* Mar 2024: Our work "DD-RobustBench: An Adversarial Robustness Benchmark for Dataset Distillation" is posed online: https://arxiv.org/pdf/2403.13322.pdf. 
+* Mar 2024: Our work "Data-Independent Operator: A Training-Free Artifact Representation Extractor for Generalizable Deepfake Detection" is posted online: https://arxiv.org/html/2403.06803v1 
+* Mar 2024: Our work  "Unified Diffusion-Based Rigid and Non-Rigid Editing with Text and Image Guidance" is accepted by ICME 2024! Congratulations to Jiacheng WANG!
+* Feb 2024: Our work "Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection" has been accepted by CVPR 2024. Congratulations to Chuangchuang TAN!
+* Feb 2024: Our work "Two Trades is not Baffled: Condense Graph via Crafting Rational Gradient Matching" is posted online: https://arxiv.org/pdf/2402.04924.pdf 
