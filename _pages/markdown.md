@@ -10,7 +10,7 @@ redirect_from:
 Service
 ======
 * Workshop Organizer
-  * Efficient Learning for Face Analysis" in WACV 2024
+  * "Efficient Learning for Face Analysis" in WACV 2024
   * "Learning with Limited Data for Face Analysis" in ACCV 2022
  
 * Area Chair
