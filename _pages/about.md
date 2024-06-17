@@ -25,4 +25,9 @@ News:
 * Mar 2024: Our work "Data-Independent Operator: A Training-Free Artifact Representation Extractor for Generalizable Deepfake Detection" is posted online: https://arxiv.org/html/2403.06803v1 
 * Mar 2024: Our work  "Unified Diffusion-Based Rigid and Non-Rigid Editing with Text and Image Guidance" is accepted by ICME 2024! Congratulations to Jiacheng WANG!
 * Feb 2024: Our work "Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection" has been accepted by CVPR 2024. Congratulations to Chuangchuang TAN!
-* Feb 2024: Our work "Two Trades is not Baffled: Condense Graph via Crafting Rational Gradient Matching" is posted online: https://arxiv.org/pdf/2402.04924.pdf 
+* Feb 2024: Our work "Two Trades is not Baffled: Condense Graph via Crafting Rational Gradient Matching" is posted online: https://arxiv.org/pdf/2402.04924.pdf
+
+
+<div id="clustrmaps-widget">
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=oXRv4M63JdtwBIkQ5oKu8c-q64iduHv6EuXiZlADu50&cl=ffffff&w=a"></script>
+</div>
