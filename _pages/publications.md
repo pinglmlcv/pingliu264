@@ -11,3 +11,9 @@ author_profile: true
 
 {% include base_path %}
 
+Preprint
+=======
+* Ping Liu, Qiqi Tao, Joey Tianyi Zhou
+"Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Sur-
+vey"
+arXiv:2406.06965, 2024
