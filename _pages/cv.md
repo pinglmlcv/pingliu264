@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 
-
 Education
 ======
 * Ph.D in Computer Science, University of South Carolina, 2015
@@ -39,3 +38,15 @@ Work experience
 * Jul 2015 - Apr 2017: Senior Applied Research Engineer 
   * Sony US Research Center
   * San Jose, CA, USA
+
+Languages
+======
+* Mandarin
+* English (C1)
+* Japanese (2023:A1==>2024:A2ing)
+
+Hobby
+=======
+ * Video games: Halo, Call of Duty, ...
+ * Fictions: Three Body, Sherlock Holmes, ...
+ * Manga: ゴブリンスレイヤー, One-punch man, BLEACH, Guyver: The Bioboosted Armor, Rurouni Kenshin, ...
