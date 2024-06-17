@@ -14,7 +14,7 @@ author_profile: true
 
 Preprint
 =======
-10. **Ping Liu**, Qiqi Tao, Joey Tianyi Zhou
+10. Ping Liu, Qiqi Tao, Joey Tianyi Zhou
 "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey"
 arXiv:2406.06965, 2024
 
@@ -30,7 +30,7 @@ arXiv:2403.13322, 2024.(* means equal contributions)
 "Two Trades is not Baffled: Condense Graph via Crafting Rational Gradient Matching"
 arXiv:2402.04924, 2024.
 
-6. Gabriel Tjio, Ping Liu*, Yawei Luo, Chee-Keong Kwoh, Joey Tianyi Zhou
+6. Gabriel Tjio, Ping Liu\*, Yawei Luo, Chee-Keong Kwoh, Joey Tianyi Zhou
 "Generating Reliable Pixel-Level Labels for Source Free Domain Adaptation"
 arXiv:2307.00893, 2023. (* means corresponding author)
 
@@ -38,7 +38,7 @@ arXiv:2307.00893, 2023. (* means corresponding author)
 "Mitigating Biased Activation in Weakly-supervised Object Localization via Counterfactual Learning"
 arXiv:2305.15354, 2023.
 
-4. Gabriel Tjio, Ping Liu*, Chee-Keong Kwoh, Joey Tianyi Zhou
+4. Gabriel Tjio, Ping Liu\*, Chee-Keong Kwoh, Joey Tianyi Zhou
 "Dual Stage Stylization Modulation for Domain Generalized Semantic Segmentation"
 arXiv:2304.09347, 2023. (* means corresponding author)
 
@@ -55,11 +55,11 @@ arXiv, 2020.
 
 Journal
 =======
-20. Jiacheng Wang, Ping Liu*, Jingen Liu, Wei Xu*
+20. Jiacheng Wang, Ping Liu\*, Jingen Liu, Wei Xu*
 "GlassesCLIP: Text-guided Eyeglasses Manipulation with Spatial Constraints"
 IEEE Transactions on Multimedia, 2023. (* means co-corresponding author)
 
-19. Yang Zhang, Xin Yu, Xiaobo Lu, Ping Liu*
+19. Yang Zhang, Xin Yu, Xiaobo Lu, Ping Liu\*
 "Pro-UIGAN: Progressive Face Hallucination from Occluded Thumbnails"
 IEEE Transactions on Image Processing, 2022. (* means corresponding author).
 
