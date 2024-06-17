@@ -22,7 +22,7 @@ arXiv:2406.06965, 2024
 "Data-Independent Operator: A Training-Free Artifact Representation Extractor for Generalizable Deepfake Detection"
 arXiv:2403.06803, 2024.
 
-8. Yifan Wu, Jiawei Du*, Ping Liu*, Yuewei Lin, Wenqing Chen, Wei Xu
+8. Yifan Wu, Jiawei Du\*, Ping Liu\*, Yuewei Lin, Wenqing Chen, Wei Xu
 "DD-RobustBench: An Adversarial Robustness Benchmark for Dataset Distillation"
 arXiv:2403.13322, 2024.(* means equal contributions)
 
