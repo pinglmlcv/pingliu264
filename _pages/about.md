@@ -18,8 +18,9 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
-* June 2024: Our work "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey" is posted online: https://arxiv.org/abs/2406.06965
-* June 2024: Invited as SPC for AAAI 2025.
+* Jun 2024: Our Awesome Comprehensive Deepfake Detection is posted online: https://github.com/qiqitao77/Awesome-Comprehensive-Deepfake-Detection. If you believe there are additional works that should be included in our list, please do not hesitate to send us an email (pingl@unr.edu and tao.qiqi@outlook.com) or raise an issue. 
+* Jun 2024: Our work "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey" is posted online: https://arxiv.org/abs/2406.06965
+* Jun 2024: Invited as SPC for AAAI 2025.
 * Apr 2024: Our work “VehicleGAN: Pair-flexible Pose Guided Image Synthesis for Vehicle Re-identification" has been accepted for publication in the IEEE IV 2024 Workshop on Foundation Intelligence for Intelligent Vehicles! Congratulations to Baolu LI!
 * Mar 2024: Our work "DD-RobustBench: An Adversarial Robustness Benchmark for Dataset Distillation" is posed online: https://arxiv.org/pdf/2403.13322.pdf. 
 * Mar 2024: Our work "Data-Independent Operator: A Training-Free Artifact Representation Extractor for Generalizable Deepfake Detection" is posted online: https://arxiv.org/html/2403.06803v1 
