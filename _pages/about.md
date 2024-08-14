@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Aug 2024: Our work "Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator" is posted online: https://arxiv.org/pdf/2408.06927
 * Jul 2024: Our paper "Kill Two Birds with One Stone: Domain Generalization for Semantic Segmentation via Network Pruning" is accepted by International Journal of Computer Vision.
 * Jun 2024: Our Awesome Comprehensive Deepfake Detection is posted online: https://github.com/qiqitao77/Awesome-Comprehensive-Deepfake-Detection. If you believe there are additional works that should be included in our list, please do not hesitate to send us an email (pingl@unr.edu and tao.qiqi@outlook.com) or raise an issue. 
 * Jun 2024: Our work "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey" is posted online: https://arxiv.org/abs/2406.06965
