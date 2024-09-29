@@ -137,6 +137,9 @@ Neurocomputing, 2013.
 
 Conference
 =======
+29.  **Ping Liu**, Qiqi Tao, Joey Tianyi Zhou, "Robust Deepfake Detection by Addressing Generalization and Trustworthiness Challenges: A Short Survey"
+ACM MM 2024 Workshop on Multi-modal Misinformation Governance in the Era of Foundation Models.
+
 28. Baolu Li\*, **Ping Liu**\*, Lan Fu, Jinlong Li, Jianwu Fang, Zhigang Xu, Hongkai Yu
 "VehicleGAN:Pair-flexible Pose Guided Image Synthesis for Vehicle Re-identification"
 IEEE IV 2024 Workshop on Foundation Intelligence for Intelligent Vehicles, 2024. (\* means co-first author)
