@@ -21,10 +21,10 @@ News:
 * Oct 2024: Elected among World's Top 2% Scientists 2024 based on [Stanford and Elsevier Data](https://topresearcherslist.com/Home/Search?AuthFull=liu%2C+ping)
 * Sep 2024: Siwei MENG received Graduate Dean's Merit Scholar Award from UNR. Congratulations to Siwei MENG!
 * Sep 2024: Our work "Robust Deepfake Detection by Addressing Generalization and Trustworthiness Challenges: A Short Survey" is accepted by ACM MM 2024 Workshop on Multi-modal Misinformation Governance in the Era of Foundation Models.
-* Aug 2024: Our work "Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator" is posted online: https://arxiv.org/pdf/2408.06927
+* Aug 2024: Our work "Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator" is posted [online](https://arxiv.org/pdf/2408.06927)
 * Jul 2024: Our paper "Kill Two Birds with One Stone: Domain Generalization for Semantic Segmentation via Network Pruning" is accepted by International Journal of Computer Vision.
 * Jun 2024: Our Awesome Comprehensive Deepfake Detection is posted online: https://github.com/qiqitao77/Awesome-Comprehensive-Deepfake-Detection. If you believe there are additional works that should be included in our list, please do not hesitate to send us an email (pingl@unr.edu and tao.qiqi@outlook.com) or raise an issue. 
-* Jun 2024: Our work "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey" is posted online: https://arxiv.org/abs/2406.06965
+* Jun 2024: Our work "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey" is posted [online](https://arxiv.org/abs/2406.06965)
 * Jun 2024: Invited as SPC for AAAI 2025.
 * Apr 2024: Our work “VehicleGAN: Pair-flexible Pose Guided Image Synthesis for Vehicle Re-identification" has been accepted for publication in the IEEE IV 2024 Workshop on Foundation Intelligence for Intelligent Vehicles! Congratulations to Baolu LI!
 
