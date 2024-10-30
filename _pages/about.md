@@ -27,7 +27,6 @@ News:
 * Jun 2024: Our Awesome Comprehensive Deepfake Detection is posted online: https://github.com/qiqitao77/Awesome-Comprehensive-Deepfake-Detection. If you believe there are additional works that should be included in our list, please do not hesitate to send us an email (pingl@unr.edu and tao.qiqi@outlook.com) or raise an issue. 
 * Jun 2024: Our work "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey" is posted [online](https://arxiv.org/abs/2406.06965)
 * Jun 2024: Invited as SPC for AAAI 2025.
-* Apr 2024: Our work “VehicleGAN: Pair-flexible Pose Guided Image Synthesis for Vehicle Re-identification" has been accepted for publication in the IEEE IV 2024 Workshop on Foundation Intelligence for Intelligent Vehicles! Congratulations to Baolu LI!
 
 <div id="clustrmaps-widget">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=oXRv4M63JdtwBIkQ5oKu8c-q64iduHv6EuXiZlADu50&cl=ffffff&w=a"></script>
