@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Nov 2024: Invited to serve as Area Chair at IJCAI 2025.
 * Oct 2024: Our work, "Robust Deepfake Detection by Addressing Generalization and Trustworthiness Challenges: A Short Survey" received Best Paper Award (Survey) at ACM MM 2024 Workshop on Multi-modal Misinformation Governance in the Era of Foundation Models. Congratulations and heartfelt thanks to all co-authors!
 * Oct 2024: Elected among World's Top 2% Scientists 2024 based on [Stanford and Elsevier Data](https://topresearcherslist.com/Home/Search?AuthFull=liu%2C+ping)
 * Sep 2024: Siwei MENG received Graduate Dean's Merit Scholar Award from UNR. Congratulations to Siwei MENG!
