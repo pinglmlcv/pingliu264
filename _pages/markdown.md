@@ -14,6 +14,7 @@ Service
   * "Learning with Limited Data for Face Analysis" in ACCV 2022
  
 * Area Chair
+  * International Joint Conference on Artificial Intelligence (IJCAI) 2025
   * ACM Multimedia(MM) 2022-2024
   * IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR) 2022
   * Asian Conference on Machine Learning (ACML) 2021
