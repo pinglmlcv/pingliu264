@@ -7,6 +7,15 @@ redirect_from:
   - /markdown.html
 ---
 
+Advisees
+======
+* Ph.D. Students
+  * Siwei Meng, 2024
+  * Ryota Yagi, 2024
+    
+* M.S. Students
+  * Youngsook Choi, 2025 
+    
 Service
 ======
 * Workshop Organizer
