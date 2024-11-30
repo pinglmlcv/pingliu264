@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Nov 2024: Our work "Enhancing Vehicle Re-identification by Pair-flexible Pose Guided Vehicle Image Synthesis" is accepted by Green Energy and Intelligent Transportation. Congratulations to Baolu Li!
 * Nov 2024: Our work "MICAS: Multi-grained In-Context Adaptive Sampling for 3D Point Cloud Processing" is posted [online](https://arxiv.org/abs/2411.16773)
 * Nov 2024: Invited to serve as Area Chair at IJCAI 2025.
 * Oct 2024: Our work, "Robust Deepfake Detection by Addressing Generalization and Trustworthiness Challenges: A Short Survey" received Best Paper Award (Survey) at ACM MM 2024 Workshop on Multi-modal Misinformation Governance in the Era of Foundation Models. Congratulations and heartfelt thanks to all co-authors!
