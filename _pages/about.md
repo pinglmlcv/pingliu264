@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Dec 2024: Our work "RIGI: Rectifying Image-to-3D Generation Inconsistency via Uncertainty-aware Learning" is posted [online](https://arxiv.org/abs/2411.18866)
 * Nov 2024: Our work "Enhancing Vehicle Re-identification by Pair-flexible Pose Guided Vehicle Image Synthesis" is accepted by Green Energy and Intelligent Transportation. Congratulations to Baolu Li!
 * Nov 2024: Our work "MICAS: Multi-grained In-Context Adaptive Sampling for 3D Point Cloud Processing" is posted [online](https://arxiv.org/abs/2411.16773)
 * Nov 2024: Invited to serve as Area Chair at IJCAI 2025.
