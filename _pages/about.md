@@ -28,9 +28,6 @@ News:
 * Sep 2024: Our work "Robust Deepfake Detection by Addressing Generalization and Trustworthiness Challenges: A Short Survey" is accepted by ACM MM 2024 Workshop on Multi-modal Misinformation Governance in the Era of Foundation Models.
 * Aug 2024: Our work "Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator" is posted [online](https://arxiv.org/pdf/2408.06927)
 * Jul 2024: Our paper "Kill Two Birds with One Stone: Domain Generalization for Semantic Segmentation via Network Pruning" is accepted by International Journal of Computer Vision.
-* Jun 2024: Our Awesome Comprehensive Deepfake Detection is posted online: https://github.com/qiqitao77/Awesome-Comprehensive-Deepfake-Detection. If you believe there are additional works that should be included in our list, please do not hesitate to send us an email (pingl@unr.edu and tao.qiqi@outlook.com) or raise an issue. 
-* Jun 2024: Our work "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey" is posted [online](https://arxiv.org/abs/2406.06965)
-* Jun 2024: Invited as SPC for AAAI 2025.
 
 <div id="clustrmaps-widget">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=oXRv4M63JdtwBIkQ5oKu8c-q64iduHv6EuXiZlADu50&cl=ffffff&w=a"></script>
