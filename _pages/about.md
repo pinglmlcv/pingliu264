@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Dec 2024: Our work "Counterfactual Co-occurring Learning for Bias Mitigation in Weakly-supervised Object Localization" is accepted by IEEE Transactions on Multimedia. Congratulations to Dr. Feifei Shao!
 * Dec 2024: Our work "CLIP-SR: Collaborative Linguistic and Image Processing for Super-Resolution" is posted [online](https://arxiv.org/abs/2412.11609)
 * Dec 2024: Our work "RIGI: Rectifying Image-to-3D Generation Inconsistency via Uncertainty-aware Learning" is posted [online](https://arxiv.org/abs/2411.18866)
 * Nov 2024: Our work "Enhancing Vehicle Re-identification by Pair-flexible Pose Guided Vehicle Image Synthesis" is accepted by Green Energy and Intelligent Transportation. Congratulations to Baolu Li!
