@@ -43,8 +43,8 @@ Languages
 ======
 * Mandarin
 * English (C1)
-* Japanese (2023:A1==>2024:A2ing)
-* Korean (2024: A1ing)
+* Japanese (2023:A1;2024-2025:A2ing)
+* Korean (2024-2025: A1ing)
 
 Hobby
 =======
