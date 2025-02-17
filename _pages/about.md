@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Feb 2025: Our work "Grounding Creativity in Physics: A Brief Survey of Physical Priors in AIGC" is posted [online](https://arxiv.org/pdf/2502.07007)
 * Feb 2025: I am invited as an Area Chair for ACM MM 2025.
 * Feb 2025: Our work "The Evolution of Dataset Distillation: Toward Scalable and Generalizable Solution" is posted [online](https://arxiv.org/abs/2502.05673)
 * Jan 2025: Our work "Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator" is accepted by ICLR 2025. Congratulations to Dr. Xin Zhang!
