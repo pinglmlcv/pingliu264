@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Feb 2025: Our work "MICAS: Multi-grained In-Context Adaptive Sampling for 3D Point Cloud Processing" is accepted by CVPR 2025. Congratulations to Dr. Feifei Shao!
 * Feb 2025: Our work "Grounding Creativity in Physics: A Brief Survey of Physical Priors in AIGC" is posted [online](https://arxiv.org/pdf/2502.07007)
 * Feb 2025: I am invited as an Area Chair for ACM MM 2025.
 * Feb 2025: Our work "The Evolution of Dataset Distillation: Toward Scalable and Generalizable Solution" is posted [online](https://arxiv.org/abs/2502.05673)
@@ -26,7 +27,6 @@ News:
 * Dec 2024: Our work "CLIP-SR: Collaborative Linguistic and Image Processing for Super-Resolution" is posted [online](https://arxiv.org/abs/2412.11609)
 * Dec 2024: Our work "RIGI: Rectifying Image-to-3D Generation Inconsistency via Uncertainty-aware Learning" is posted [online](https://arxiv.org/abs/2411.18866)
 * Nov 2024: Our work "Enhancing Vehicle Re-identification by Pair-flexible Pose Guided Vehicle Image Synthesis" is accepted by Green Energy and Intelligent Transportation. Congratulations to Baolu Li!
-* Nov 2024: Our work "MICAS: Multi-grained In-Context Adaptive Sampling for 3D Point Cloud Processing" is posted [online](https://arxiv.org/abs/2411.16773)
 * Nov 2024: Invited to serve as Area Chair at IJCAI 2025.
 * Oct 2024: Our work, "Robust Deepfake Detection by Addressing Generalization and Trustworthiness Challenges: A Short Survey" received Best Paper Award (Survey) at ACM MM 2024 Workshop on Multi-modal Misinformation Governance in the Era of Foundation Models. Congratulations and heartfelt thanks to all co-authors!
 * Oct 2024: Elected among World's Top 2% Scientists 2024 based on [Stanford and Elsevier Data](https://topresearcherslist.com/Home/Search?AuthFull=liu%2C+ping)
