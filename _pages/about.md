@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Apr 2025: We have just updated our survey on facial deepfake detection: "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: Progress and Challenges" [online](https://arxiv.org/pdf/2406.06965)
 * Mar 2025: Our work "DD-RobustBench: An Adversarial Robustness Benchmark for Dataset Distillation" is accepted by IEEE Transactions on Image Processing 2025.
 * Feb 2025: Our work "MICAS: Multi-grained In-Context Adaptive Sampling for 3D Point Cloud Processing" is accepted by CVPR 2025. 
 * Feb 2025: Our work "Grounding Creativity in Physics: A Brief Survey of Physical Priors in AIGC" is posted [online](https://arxiv.org/pdf/2502.07007)
