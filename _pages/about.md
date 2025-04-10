@@ -18,7 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
-* Apr 2025: Our team member was awarded the Graduate Dean’s Merit Scholarship for the second time.
+* Apr 2025: Our team member was awarded the Graduate Dean’s Merit Scholarship for the second time!
 * Apr 2025: Our work "CLIP-SR: Collaborative Linguistic and Image Processing for Super-Resolution" is accepted by IEEE Transactions on Multimedia.
 * Apr 2025: We have just updated our survey on facial deepfake detection: "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: Progress and Challenges" [online](https://arxiv.org/pdf/2406.06965)
 * Mar 2025: Our work "DD-RobustBench: An Adversarial Robustness Benchmark for Dataset Distillation" is accepted by IEEE Transactions on Image Processing 2025.
