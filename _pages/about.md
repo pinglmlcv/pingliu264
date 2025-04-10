@@ -18,6 +18,8 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Apr 2025: Our team member was awarded the Graduate Dean’s Merit Scholarship for the second time.
+* Apr 2025: Our work "CLIP-SR: Collaborative Linguistic and Image Processing for Super-Resolution" is accepted by IEEE Transactions on Multimedia.
 * Apr 2025: We have just updated our survey on facial deepfake detection: "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: Progress and Challenges" [online](https://arxiv.org/pdf/2406.06965)
 * Mar 2025: Our work "DD-RobustBench: An Adversarial Robustness Benchmark for Dataset Distillation" is accepted by IEEE Transactions on Image Processing 2025.
 * Feb 2025: Our work "MICAS: Multi-grained In-Context Adaptive Sampling for 3D Point Cloud Processing" is accepted by CVPR 2025. 
@@ -26,12 +28,9 @@ News:
 * Feb 2025: Our work "The Evolution of Dataset Distillation: Toward Scalable and Generalizable Solution" is posted [online](https://arxiv.org/abs/2502.05673)
 * Jan 2025: Our work "Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator" is accepted by ICLR 2025. 
 * Dec 2024: Our work "Counterfactual Co-occurring Learning for Bias Mitigation in Weakly-supervised Object Localization" is accepted by IEEE Transactions on Multimedia. 
-* Dec 2024: Our work "CLIP-SR: Collaborative Linguistic and Image Processing for Super-Resolution" is posted [online](https://arxiv.org/abs/2412.11609)
 * Dec 2024: Our work "RIGI: Rectifying Image-to-3D Generation Inconsistency via Uncertainty-aware Learning" is posted [online](https://arxiv.org/abs/2411.18866)
 * Nov 2024: Our work "Enhancing Vehicle Re-identification by Pair-flexible Pose Guided Vehicle Image Synthesis" is accepted by Green Energy and Intelligent Transportation. 
 * Nov 2024: Invited to serve as Area Chair at IJCAI 2025.
-* Oct 2024: Our work, "Robust Deepfake Detection by Addressing Generalization and Trustworthiness Challenges: A Short Survey" received Best Paper Award (Survey) at ACM MM 2024 Workshop on Multi-modal Misinformation Governance in the Era of Foundation Models. Congratulations and heartfelt thanks to all co-authors!
-* Oct 2024: Elected among World's Top 2% Scientists 2024 based on [Stanford and Elsevier Data](https://topresearcherslist.com/Home/Search?AuthFull=liu%2C+ping)
 
 <div id="clustrmaps-widget">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=oXRv4M63JdtwBIkQ5oKu8c-q64iduHv6EuXiZlADu50&cl=ffffff&w=a"></script>
