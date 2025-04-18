@@ -10,10 +10,10 @@ redirect_from:
 Advisees
 ======
 * Ph.D. Students
-  * Siwei Meng, 2024
+  * Siwei Meng, 2024 Fall -
     
 * M.S. Students
-  * Youngsook Choi, 2025 
+  * Youngsook Choi, 2025 Spring -
     
 Service
 ======
