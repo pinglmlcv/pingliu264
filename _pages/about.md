@@ -18,12 +18,12 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Apr 2025: Our work "Grounding Creativity in Physics: A Brief Survey of Physical Priors in AIGC" is accepted by IJCAI 2025 survey track. Congratulations to Siwei!
 * Apr 2025: Our team member was awarded the Graduate Dean’s Merit Scholarship for the second time!
 * Apr 2025: Our work "CLIP-SR: Collaborative Linguistic and Image Processing for Super-Resolution" is accepted by IEEE Transactions on Multimedia.
 * Apr 2025: We have just updated our survey on facial deepfake detection: "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: Progress and Challenges" [online](https://arxiv.org/pdf/2406.06965)
 * Mar 2025: Our work "DD-RobustBench: An Adversarial Robustness Benchmark for Dataset Distillation" is accepted by IEEE Transactions on Image Processing 2025.
 * Feb 2025: Our work "MICAS: Multi-grained In-Context Adaptive Sampling for 3D Point Cloud Processing" is accepted by CVPR 2025. 
-* Feb 2025: Our work "Grounding Creativity in Physics: A Brief Survey of Physical Priors in AIGC" is posted [online](https://arxiv.org/pdf/2502.07007)
 * Feb 2025: I am invited as an Area Chair for ACM MM 2025.
 * Feb 2025: Our work "The Evolution of Dataset Distillation: Toward Scalable and Generalizable Solution" is posted [online](https://arxiv.org/abs/2502.05673)
 * Jan 2025: Our work "Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator" is accepted by ICLR 2025. 
