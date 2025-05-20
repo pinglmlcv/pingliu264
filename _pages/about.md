@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* May 2025: Our proposal “AI-Powered Wildfire Detection” has been selected for funding by NSF EPSCoR, and I am honored to serve as the Principal Investigator (PI) on this project.
 * Apr 2025: Our work "Grounding Creativity in Physics: A Brief Survey of Physical Priors in AIGC" is accepted by IJCAI 2025 survey track. Congratulations to Siwei!
 * Apr 2025: Our team member was awarded the Graduate Dean’s Merit Scholarship for the second time!
 * Apr 2025: Our work "CLIP-SR: Collaborative Linguistic and Image Processing for Super-Resolution" is accepted by IEEE Transactions on Multimedia.
