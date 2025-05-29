@@ -18,7 +18,6 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
-* May 2025: Our work "Erasing Concepts, Steering Generations: A Comprehensive Survey of Concept Suppression" is posted [online](https://arxiv.org/abs/2505.19398)
 * May 2025: Our work "Erased or Dormant? Rethinking Concept Erasure Through Reversibility" is posted [online](https://arxiv.org/abs/2505.16174)
 * May 2025: Our work "MAGIC: Motion-Aware Generative Inference via Confidence-Guided LLM" is posted [online](https://arxiv.org/abs/2505.16456)
 * May 2025: Our proposal “AI-Powered Wildfire Detection” has been selected for funding by NSF EPSCoR, and I am honored to serve as the Principal Investigator (PI) on this project.
