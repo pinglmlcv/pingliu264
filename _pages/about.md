@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Jun 2025: Our work "Fed-HeLLo: Efficient Federated Foundation Model Fine-Tuning with Heterogeneous LoRA Allocation" is accepted by IEEE Transactions on Neural Networks and Learning Systems 2025.
 * Jun 2025: Our work "Counterfactual Co-occurring Learning for Bias Mitigation in Weakly-supervised Object Localization" is accepted by IEEE Transactions on Multimedia 2025.
 * Jun 2025: Our work "SEED: A Benchmark Dataset for Sequential Facial Attribute Editing with Diffusion Models" is posted [online](https://arxiv.org/pdf/2506.00562)
 * May 2025: Our work "Erased or Dormant? Rethinking Concept Erasure Through Reversibility" is posted [online](https://arxiv.org/abs/2505.16174)
