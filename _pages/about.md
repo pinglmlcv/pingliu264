@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Jul 2025: I am invited as a senior PC member for AAAI 2026.
 * Jun 2025: Our work "Fed-HeLLo: Efficient Federated Foundation Model Fine-Tuning with Heterogeneous LoRA Allocation" is accepted by IEEE Transactions on Neural Networks and Learning Systems 2025.
 * Jun 2025: Our work "Counterfactual Co-occurring Learning for Bias Mitigation in Weakly-supervised Object Localization" is accepted by IEEE Transactions on Multimedia 2025.
 * Jun 2025: Our work "SEED: A Benchmark Dataset for Sequential Facial Attribute Editing with Diffusion Models" is posted [online](https://arxiv.org/pdf/2506.00562)
@@ -32,7 +33,6 @@ News:
 * Feb 2025: Our work "MICAS: Multi-grained In-Context Adaptive Sampling for 3D Point Cloud Processing" is accepted by CVPR 2025. 
 * Feb 2025: I am invited as an Area Chair for ACM MM 2025.
 * Feb 2025: Our work "The Evolution of Dataset Distillation: Toward Scalable and Generalizable Solution" is posted [online](https://arxiv.org/abs/2502.05673)
-* Jan 2025: Our work "Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator" is accepted by ICLR 2025. 
 
 <div id="clustrmaps-widget">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=oXRv4M63JdtwBIkQ5oKu8c-q64iduHv6EuXiZlADu50&cl=ffffff&w=a"></script>
