@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Jul 2025: Our work "Advances in 4D Generation: Techniques, Challenges, and Future Directions" is posted [online](https://arxiv.org/abs/2503.14501)
 * Jul 2025: I am invited as a senior PC member for AAAI 2026.
 * Jun 2025: Our work "Fed-HeLLo: Efficient Federated Foundation Model Fine-Tuning with Heterogeneous LoRA Allocation" is accepted by IEEE Transactions on Neural Networks and Learning Systems 2025.
 * Jun 2025: Our work "Counterfactual Co-occurring Learning for Bias Mitigation in Weakly-supervised Object Localization" is accepted by IEEE Transactions on Multimedia 2025.
