@@ -10,7 +10,6 @@ redirect_from:
 Advisees
 ======
 * Ph.D. Students
-  * Yuxin Hong, 2025 Fall -
   * Siwei Meng, 2024 Fall -
     
 * M.S. Students
