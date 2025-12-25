@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Dec 2025: We will organize a workshop "Physics-Driven AIGC: Physically-Consistent Video, 4D Scene, and World Generation" on ICME 2026. More details will be released soon on the [website](https://sites.google.com/view/icme2026phyaigc). 
 * Sep 2025: Our work "ADD: An Automated Neural Architecture Search Baseline for Deepfake Detection" is accepted by IEEE International Workshop on Information Forensics and Security (WIFS) 2025.
 * Aug 2025: Our proposal “Acquisition of a High-Performance GPU Cluster for Large-Scale AI” has been selected for funding by NSF, and I am honored to serve as the Principal Investigator (PI) on this project.
 * Jul 2025: Our work "Advances in 4D Generation: Techniques, Challenges, and Future Directions" is posted [online](https://arxiv.org/abs/2503.14501)
