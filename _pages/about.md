@@ -31,10 +31,6 @@ News:
 * May 2025: My work "Erased or Dormant? Rethinking Concept Erasure Through Reversibility" is posted [online](https://arxiv.org/abs/2505.16174)
 * May 2025: Our work "MAGIC: Motion-Aware Generative Inference via Confidence-Guided LLM" is posted [online](https://arxiv.org/abs/2505.16456)
 * May 2025: Our proposal “AI-Powered Wildfire Detection” has been selected for funding by NSF EPSCoR, and I am honored to serve as the Principal Investigator (PI) on this project.
-* Apr 2025: Our work "Grounding Creativity in Physics: A Brief Survey of Physical Priors in AIGC" is accepted by IJCAI 2025 survey track. Congratulations to Siwei!
-* Apr 2025: Our team member was awarded the Graduate Dean’s Merit Scholarship for the second time!
-* Apr 2025: Our work "CLIP-SR: Collaborative Linguistic and Image Processing for Super-Resolution" is accepted by IEEE Transactions on Multimedia 2025.
-* Apr 2025: We have just updated our survey on facial deepfake detection: "Evolving from Single-modal to Multi-modal Facial Deepfake Detection: Progress and Challenges" [online](https://arxiv.org/pdf/2406.06965)
 
 <div id="clustrmaps-widget">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=oXRv4M63JdtwBIkQ5oKu8c-q64iduHv6EuXiZlADu50&cl=ffffff&w=a"></script>
