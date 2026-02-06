@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Feb 2026: Our workshop proposal, SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems, has been accepted at SIGIR 2026! Looking forward to building this conversation with the research community — stay tuned for the CFP!
 * Jan 2026: Our work "Machine Unlearning under Retain–Forget Entanglement" is accepted by ICLR 2026.
 * Jan 2026: I am invited as a senior PC member for IJCAI 2026.
 * Dec 2025: We will organize workshop "Physics-Driven AIGC: Physically-Consistent Video, 4D Scene, and World Generation" on ICME 2026. More details will be released soon on the [website](https://sites.google.com/view/icme2026phyaigc). 
