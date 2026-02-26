@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* Feb 2026: I am invited as Area Chair for ACM MM 2026.
 * Feb 2026: Our work "Closed-Form Concept Erasure via Double Projections" is accepted by CVPR 2026.
 * Feb 2026: Our work "Low-Rank Test-Time Training for Pre-Trained Point Cloud Models" is accepted by CVPR 2026.
 * Feb 2026: Our workshop proposal, SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems, has been accepted at SIGIR 2026! Looking forward to building this conversation with the research community — stay tuned for the CFP!
