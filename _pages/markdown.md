@@ -12,9 +12,6 @@ Advisees
 * Ph.D. Students
   * Siwei Meng, 2024 Fall -
     
-* M.S. Students
-  * Youngsook Choi, 2025 Spring -
-    
 Service
 ======
 * Workshop Organizer
