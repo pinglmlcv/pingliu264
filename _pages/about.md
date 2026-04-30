@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* May 2026: Our work: "Where Concept Erasure Should Occur: Concept–Layer Alignment in Text-to-Video Diffusion Models" is accepted by ICML 2026.
 * Apr 2026: Our work: "ABCDE: Agentic-Based Controlled Dynamic Erasure for Intent-Aware Safety Reasoning" is accepted by Transactions on Machine Learning Research.
 * Mar 2026: Our work "PROBE: Diagnosing Residual Concept Capacity in Erased Text-to-Video Diffusion Models" is posted [online](https://arxiv.org/pdf/2603.21547).
 * Feb 2026: I am invited as Area Chair for ACM MM 2026.
