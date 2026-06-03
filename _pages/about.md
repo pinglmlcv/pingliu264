@@ -18,6 +18,7 @@ AIGC, Face-centric AI, Efficient AI
  
 News:
 ======
+* June 2026: Our work: "RIGI: Rectifying Image-to-3D Generation Inconsistency via Uncertainty-aware Learning" is accepted by IEEE Transactions on Image Processing.
 * May 2026: Our work: "Closed-Form Linear-Probe Dataset Distillation for Pre-trained Vision Models" is posted [online](https://arxiv.org/abs/2605.07194).
 * May 2026: Our work: "Where Concept Erasure Should Occur: Concept–Layer Alignment in Text-to-Video Diffusion Models" is accepted by ICML 2026.
 * Apr 2026: Our work: "ABCDE: Agentic-Based Controlled Dynamic Erasure for Intent-Aware Safety Reasoning" is accepted by Transactions on Machine Learning Research.
@@ -33,12 +34,9 @@ News:
 * Aug 2025: Our proposal “Acquisition of a High-Performance GPU Cluster for Large-Scale AI” has been selected for funding by NSF, and I am honored to serve as the Principal Investigator (PI) on this project.
 * Jul 2025: Our work "Advances in 4D Generation: Techniques, Challenges, and Future Directions" is posted [online](https://arxiv.org/abs/2503.14501)
 * Jul 2025: I am invited as a senior PC member for AAAI 2026.
-* Jun 2025: Our work "Fed-HeLLo: Efficient Federated Foundation Model Fine-Tuning with Heterogeneous LoRA Allocation" is accepted by IEEE Transactions on Neural Networks and Learning Systems 2025.
-* Jun 2025: Our work "Counterfactual Co-occurring Learning for Bias Mitigation in Weakly-supervised Object Localization" is accepted by IEEE Transactions on Multimedia 2025.
+* Jun 2025: Our work "Fed-HeLLo: Efficient Federated Foundation Model Fine-Tuning with Heterogeneous LoRA Allocation" is accepted by IEEE Transactions on Neural Networks and Learning Systems.
+* Jun 2025: Our work "Counterfactual Co-occurring Learning for Bias Mitigation in Weakly-supervised Object Localization" is accepted by IEEE Transactions on Multimedia.
 * Jun 2025: Our work "SEED: A Benchmark Dataset for Sequential Facial Attribute Editing with Diffusion Models" is posted [online](https://arxiv.org/pdf/2506.00562)
-* May 2025: My work "Erased or Dormant? Rethinking Concept Erasure Through Reversibility" is posted [online](https://arxiv.org/abs/2505.16174)
-* May 2025: Our work "MAGIC: Motion-Aware Generative Inference via Confidence-Guided LLM" is posted [online](https://arxiv.org/abs/2505.16456)
-* May 2025: Our proposal “AI-Powered Wildfire Detection” has been selected for funding by NSF EPSCoR, and I am honored to serve as the Principal Investigator (PI) on this project.
 
 <div id="clustrmaps-widget">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=oXRv4M63JdtwBIkQ5oKu8c-q64iduHv6EuXiZlADu50&cl=ffffff&w=a"></script>
