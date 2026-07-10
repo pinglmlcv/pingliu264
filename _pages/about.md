@@ -14,10 +14,12 @@ He received his Ph.D degree from  Department of Computer Science and Engineering
 
 Research Interest:
 ======
-AIGC, Face-centric AI, Efficient AI
+AIGC
  
 News:
 ======
+* July 2026: Our work: "MUTE: Motion Concept Unlearning in Video Diffusion Models" is accepted by ACM MM 2026.
+* July 2026: Our work: "When Physical Preferences Meet Semantic Constraints: Physical and Semantic Direct Preference Optimization for Text-to-Video Generation" is accepted by ACM MM 2026.
 * June 2026: I am invited as a senior PC member for AAAI 2027.
 * June 2026: Our work: "PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided LLM" is accepted by ECCV 2026.
 * June 2026: Our work: "RIGI: Rectifying Image-to-3D Generation Inconsistency via Uncertainty-aware Learning" is accepted by IEEE Transactions on Image Processing.
@@ -36,9 +38,6 @@ News:
 * Aug 2025: Our proposal “Acquisition of a High-Performance GPU Cluster for Large-Scale AI” has been selected for funding by NSF, and I am honored to serve as the Principal Investigator (PI) on this project.
 * Jul 2025: Our work "Advances in 4D Generation: Techniques, Challenges, and Future Directions" is posted [online](https://arxiv.org/abs/2503.14501)
 * Jul 2025: I am invited as a senior PC member for AAAI 2026.
-* Jun 2025: Our work "Fed-HeLLo: Efficient Federated Foundation Model Fine-Tuning with Heterogeneous LoRA Allocation" is accepted by IEEE Transactions on Neural Networks and Learning Systems.
-* Jun 2025: Our work "Counterfactual Co-occurring Learning for Bias Mitigation in Weakly-supervised Object Localization" is accepted by IEEE Transactions on Multimedia.
-* Jun 2025: Our work "SEED: A Benchmark Dataset for Sequential Facial Attribute Editing with Diffusion Models" is posted [online](https://arxiv.org/pdf/2506.00562)
 
 <div id="clustrmaps-widget">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=oXRv4M63JdtwBIkQ5oKu8c-q64iduHv6EuXiZlADu50&cl=ffffff&w=a"></script>
