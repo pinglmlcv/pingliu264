@@ -18,6 +18,8 @@ AIGC
  
 News:
 ======
+* July 2026: Our work: "Motion Concept Unlearning in Video Diffusion Models" is accepted by ACM Multimedia 2026.
+* July 2026: Our work: "When Physical Preferences Meet Semantic Constraints: Physical and Semantic Direct Preference Optimization for Text-to-Video Generation" is accepted by ACM Multimedia 2026.
 * June 2026: I am invited as a senior PC member for AAAI 2027.
 * June 2026: Our work: "PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided LLM" is accepted by ECCV 2026.
 * June 2026: Our work: "RIGI: Rectifying Image-to-3D Generation Inconsistency via Uncertainty-aware Learning" is accepted by IEEE Transactions on Image Processing.
