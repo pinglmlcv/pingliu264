@@ -18,6 +18,7 @@ AIGC
  
 News:
 ======
+* July 2026: We will organize workshop "MIRAI Driving: Multimodal Intelligence and Reasoning for Autonomous and Intelligent Driving" on ACCV 2026, Osaka, Japan.
 * July 2026: Our work: "When Physical Preferences Meet Semantic Constraints: Physical and Semantic Direct Preference Optimization for Text-to-Video Generation" is accepted by ACM Multimedia 2026.
 * June 2026: I am invited as a senior PC member for AAAI 2027.
 * June 2026: Our work: "PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided LLM" is accepted by ECCV 2026.
