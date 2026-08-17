@@ -11,6 +11,7 @@ Advisees
 ======
 * Ph.D. Students
   * Siwei Meng, 2024 Fall -
+  * Xinyu Hu, 2026 Fall -
     
 Service
 ======
@@ -20,12 +21,12 @@ Service
  
 * Area Chair
   * International Joint Conference on Artificial Intelligence (IJCAI) 2025
-  * ACM Multimedia(MM) 2022-2024
+  * ACM Multimedia(MM) 2022-2026
   * IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR) 2022
   * Asian Conference on Machine Learning (ACML) 2021
 
 * Senior PC Member/Meta Reviewer:
-  * AAAI Conference on Artificial Intelligence (AAAI) 2021, 2023-2025
+  * AAAI Conference on Artificial Intelligence (AAAI) 2021, 2023-2026
   
 * PC Member/Reviewer:
   * IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019-2022,2024
