@@ -18,6 +18,7 @@ AIGC
  
 News:
 ======
+* Sep 2026: Our work, "When Scores Conflict with Preferences: Calibrated Drift Control for Heterogeneous DPO" is accepted by NeurIPS 2026. 
 * Sep 2026: Our work, "Closed-Form Linear-Probe Dataset Distillation for Pre-trained Vision Models" is accepted by NeurIPS 2026.
 * Sep 2026: Our work, "DOME: Drift-Adaptive On-Policy Motion Erasure in Video Diffusion Transformers" is accepted by NeurIPS 2026.
 * Aug 2026: Our work, "MUTE: Motion Concept Unlearning in Video Diffusion Models" is accepted by ACM Multimedia 2026.
