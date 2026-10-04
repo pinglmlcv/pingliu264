@@ -18,6 +18,7 @@ AIGC
  
 News:
 ======
+* Oct 2026: Gave an invited talk, "Intervene and Verify: Toward Controllable Generative Models and World Models," at UC Merced.
 * Sep 2026: Our work, "PhyMetric: Diagnosing Physical Plausibility in Text-to-Video Generation via Scene-Level QA" is accepted by NeurIPS 2026, Evaluations and Datasets Track. Congratulations to Siwei!
 * Sep 2026: Our work, "Calibrated Drift Control for Heterogeneous DPO" is accepted by NeurIPS 2026. 
 * Sep 2026: Our work, "Closed-Form Linear-Probe Dataset Distillation for Pre-trained Vision Models" is accepted by NeurIPS 2026.
@@ -38,11 +39,6 @@ News:
 * Feb 2026: Our workshop proposal, SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems, has been accepted at SIGIR 2026! Looking forward to building this conversation with the research community — stay tuned for the CFP!
 * Jan 2026: Our work "Machine Unlearning under Retain–Forget Entanglement" is accepted by ICLR 2026.
 * Jan 2026: I am invited as a senior PC member for IJCAI 2026.
-* Dec 2025: We will organize workshop "Physics-Driven AIGC: Physically-Consistent Video, 4D Scene, and World Generation" on ICME 2026. More details will be released soon on the [website](https://sites.google.com/view/icme2026phyaigc). 
-* Sep 2025: Our work "ADD: An Automated Neural Architecture Search Baseline for Deepfake Detection" is accepted by IEEE International Workshop on Information Forensics and Security (WIFS) 2025.
-* Aug 2025: Our proposal “Acquisition of a High-Performance GPU Cluster for Large-Scale AI” has been selected for funding by NSF, and I am honored to serve as the Principal Investigator (PI) on this project.
-* Jul 2025: Our work "Advances in 4D Generation: Techniques, Challenges, and Future Directions" is posted [online](https://arxiv.org/abs/2503.14501)
-* Jul 2025: I am invited as a senior PC member for AAAI 2026.
 
 <div id="clustrmaps-widget">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=oXRv4M63JdtwBIkQ5oKu8c-q64iduHv6EuXiZlADu50&cl=ffffff&w=a"></script>
