@@ -86,6 +86,19 @@ author_profile: true
 .v-aaai{background:#b45309;} .v-wifs{background:#64748b;} .v-mmw{background:#0f766e;}
 .rs-res { grid-template-columns:repeat(3,1fr); }
 @media (max-width: 900px) { .rs-res { grid-template-columns:1fr; } }
+.rs-other { display:grid; grid-template-columns:1fr 1fr; gap:1.1em; margin:0 0 2.8em; }
+.rs-ob { background:#f8fafc; border:1px solid var(--line); border-top:4px solid var(--k); border-radius:16px; padding:1.3em 1.3em 1em; }
+.rs-ob h3 { margin:0 0 0.2em; padding:0; border:0; font-size:1.12em; color:var(--ink); display:flex; align-items:center; gap:0.5em; }
+.rs-ob h3 i { color:var(--k); }
+.rs-ob .sub { font-size:0.72em; text-transform:uppercase; letter-spacing:0.12em; color:var(--k); font-weight:700; }
+.rs-ob p { font-size:0.9em; color:var(--muted); margin:0.6em 0 0.9em; }
+.rs-ob ul { list-style:none; margin:0; padding:0; }
+.rs-ob li { font-size:0.86em; line-height:1.45; padding:0.55em 0; border-top:1px dashed var(--line); margin:0; }
+.rs-ob li .vn { display:inline-block; font-size:0.78em; font-weight:700; color:#fff; background:var(--k); border-radius:5px; padding:0.05em 0.5em; margin-right:0.45em; }
+.rs-ob li .tt { font-weight:600; color:var(--ink); }
+.rs-ob li .au { display:block; color:var(--muted); font-size:0.95em; }
+.rs-ob li a { font-size:0.9em; }
+@media (max-width: 900px) { .rs-other { grid-template-columns:1fr; } }
 </style>
 
 <div class="rs">
@@ -169,6 +182,32 @@ author_profile: true
 </ul>
 </div>
 
+<h3 class="rs-h3">Other directions</h3>
+<div class="rs-other">
+<div class="rs-ob" style="--k:#475569">
+<span class="sub">Efficient learning</span>
+<h3><i class="fas fa-compress-arrows-alt"></i>Dataset Distillation</h3>
+<p>We also study dataset distillation, which compresses a large training set into a small synthetic one that preserves what models learn from it, with attention to efficiency, robustness, and pre-trained vision models.</p>
+<ul>
+<li><span class="vn">NeurIPS 2026</span><span class="tt">Closed-Form Linear-Probe Dataset Distillation for Pre-trained Vision Models</span> <a href="https://arxiv.org/abs/2605.07194">[arXiv]</a><span class="au">Bincheng Peng, Guang Li, <b>Ping Liu</b>, Takahiro Ogawa, Miki Haseyama</span></li>
+<li><span class="vn">ICLR 2025</span><span class="tt">Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator</span><span class="au">Xin Zhang, Jiawei Du, <b>Ping Liu</b>, Joey Tianyi Zhou</span></li>
+<li><span class="vn">TIP 2025</span><span class="tt">DD-RobustBench: An Adversarial Robustness Benchmark for Dataset Distillation</span><span class="au">Yifan Wu, Jiawei Du<sup>♠</sup>, <b>Ping Liu</b><sup>♠</sup>, Yuewei Lin, Wenqing Chen, Wei Xu</span></li>
+<li><span class="vn">ICLR 2023</span><span class="tt">Meta Knowledge Condensation for Federated Learning</span><span class="au"><b>Ping Liu</b><sup>♠</sup>, Xin Yu<sup>♠</sup>, Joey Tianyi Zhou</span></li>
+</ul>
+</div>
+<div class="rs-ob" style="--k:#8b5e34">
+<span class="sub">Earlier work</span>
+<h3><i class="fas fa-smile"></i>Facial Expression Analysis</h3>
+<p>Earlier work, beginning with Ping Liu's Ph.D. research, developed deep and sparse representation methods for facial expression recognition and facial action analysis.</p>
+<ul>
+<li><span class="vn">CVPR 2014</span><span class="tt">Facial Expression Recognition via a Boosted Deep Belief Network</span><span class="au"><b>Ping Liu</b><sup>♠</sup>, Shizhong Han<sup>♠</sup>, Zibo Meng, Yan Tong</span></li>
+<li><span class="vn">ECCV 2014</span><span class="tt">Feature Disentangling Machine: A Novel Approach of Feature Selection and Disentangling in Facial Expression Analysis</span><span class="au"><b>Ping Liu</b>, Joey Tianyi Zhou, Ivor Tsang, Zibo Meng, Shizhong Han, Yan Tong</span></li>
+<li><span class="vn">FG 2017</span><span class="tt">Identity-Aware Convolutional Neural Network for Facial Expression Recognition</span><span class="au">Zibo Meng<sup>♠</sup>, <b>Ping Liu</b><sup>♠</sup>, Jie Cai, Shizhong Han, Yan Tong</span></li>
+<li><span class="vn">TCYB 2021</span><span class="tt">Point Adversarial Self Mining: A Simple Method for Facial Expression Recognition</span><span class="au"><b>Ping Liu</b>, Yuewei Lin, Zibo Meng, Lu Lu, Weihong Deng, Joey Tianyi Zhou, Yi Yang</span></li>
+</ul>
+</div>
+</div>
+
 <h3 class="rs-h3">Open resources</h3>
 <div class="rs-res">
 <div class="rs-card" style="--c:#4b4fc9"><div class="rs-ic"><i class="fas fa-eraser"></i></div><b>Awesome-Concept-Erasure</b><span>A curated list of papers on concept erasure and machine unlearning for text-to-image and text-to-video generative models, maintained by our group.</span><div class="rs-meta"><a class="rs-gh" href="https://github.com/pinglmlcv/Awesome-Concept-Erasure"><i class="fab fa-github"></i> GitHub</a></div></div>
@@ -176,5 +215,5 @@ author_profile: true
 <div class="rs-card" style="--c:#be185d"><div class="rs-ic"><i class="fas fa-user-secret"></i></div><b>Awesome-Comprehensive-Deepfake-Detection</b><span>A curated list of deepfake detection papers and datasets, the companion repository to our survey on facial deepfake detection (<a href="https://arxiv.org/abs/2406.06965">arXiv:2406.06965</a>). Maintained by our group.</span><div class="rs-meta"><a class="rs-gh" href="https://github.com/qiqitao77/Awesome-Comprehensive-Deepfake-Detection"><i class="fab fa-github"></i> GitHub</a><img src="https://img.shields.io/github/stars/qiqitao77/Awesome-Comprehensive-Deepfake-Detection?style=social" alt="GitHub stars"></div></div>
 </div>
 
-<p class="rs-note"><sup>†</sup> corresponding or co-corresponding author. The full list is on the <a href="{{ base_path }}/publications/">Publications</a> page.</p>
+<p class="rs-note"><sup>†</sup> corresponding or co-corresponding author; <sup>♠</sup> equal contribution. The full list is on the <a href="{{ base_path }}/publications/">Publications</a> page.</p>
 </div>
