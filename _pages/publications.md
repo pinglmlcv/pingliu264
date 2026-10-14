@@ -56,10 +56,10 @@ author_profile: true
 <div class="pb-h"><div class="ic" style="background:#1f2a44"><i class="fas fa-book"></i></div><h2>All Publications</h2></div>
 <p class="pb-note"><sup>†</sup> corresponding or co-corresponding author; <sup>♠</sup> equal contribution.</p>
 <div class="pb-bar">
-<button class="pb-btn on" data-f="all">All<b>71</b></button>
-<button class="pb-btn" data-f="conference">Conference<b>41</b></button>
-<button class="pb-btn" data-f="journal">Journal<b>20</b></button>
-<button class="pb-btn" data-f="preprint">Preprint<b>10</b></button>
+<button class="pb-btn on" data-f="all">All</button>
+<button class="pb-btn" data-f="conference">Conference</button>
+<button class="pb-btn" data-f="journal">Journal</button>
+<button class="pb-btn" data-f="preprint">Preprint</button>
 </div>
 <div id="pb-all">
 <div class="pb-year" data-year="2026"><span>2026</span></div><ul class="pb-list">
@@ -151,7 +151,7 @@ author_profile: true
 </ul>
 <div class="pb-year" data-year="2014"><span>2014</span></div><ul class="pb-list">
 <li class="pb-item" data-type="conference"><span class="pb-badge" style="background:#1d4ed8">ECCV<em>2014</em></span><div class="pb-body"><span class="pb-t">Feature Disentangling Machine: A Novel Approach of Feature Selection and Disentangling in Facial Expression Analysis</span><span class="pb-a"><b>Ping Liu</b>, Joey Tianyi Zhou, Ivor Tsang, Zibo Meng, Shizhong Han, Yan Tong</span><span class="pb-v">European Conference on Computer Vision (ECCV 2014)</span></div></li>
-<li class="pb-item" data-type="conference"><span class="pb-badge" style="background:#2f6fd6">CVPR<em>2014</em></span><div class="pb-body"><span class="pb-t">Facial Expression Recognition via a Boosted Deep Belief Network</span><span class="pb-flag gold">879+ citations</span><span class="pb-a"><b>Ping Liu</b><sup>♠</sup>, Shizhong Han<sup>♠</sup>, Zibo Meng, Yan Tong</span><span class="pb-v">IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2014)</span></div></li>
+<li class="pb-item" data-type="conference"><span class="pb-badge" style="background:#2f6fd6">CVPR<em>2014</em></span><div class="pb-body"><span class="pb-t">Facial Expression Recognition via a Boosted Deep Belief Network</span><span class="pb-a"><b>Ping Liu</b><sup>♠</sup>, Shizhong Han<sup>♠</sup>, Zibo Meng, Yan Tong</span><span class="pb-v">IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2014)</span></div></li>
 <li class="pb-item" data-type="conference"><span class="pb-badge" style="background:#64748b">ICIP<em>2014</em></span><div class="pb-body"><span class="pb-t">Facial Grid Transformation: A Novel Face Registration Approach for Improving Facial Action Unit Recognition</span><span class="pb-a">Shizhong Han, Zibo Meng, <b>Ping Liu</b>, Yan Tong</span><span class="pb-v">IEEE International Conference on Image Processing (ICIP 2014)</span></div></li>
 </ul>
 <div class="pb-year" data-year="2013"><span>2013</span></div><ul class="pb-list">
