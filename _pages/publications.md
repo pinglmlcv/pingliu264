@@ -22,7 +22,7 @@ Representative work since 2024 as first or corresponding author.
 3. Yiwei Xie, **Ping Liu**<sup>†</sup>, Zheng Zhang<sup>†</sup>. "Where Concept Erasure Should Occur: Concept–Layer Alignment in Text-to-Video Diffusion Models". *International Conference on Machine Learning (ICML 2026)*.
 4. Chi Zhang, Jingpu Cheng, Zhixian Wang, **Ping Liu**<sup>†</sup>. "Closed-Form Concept Erasure via Double Projections". *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)*.
 5. **Ping Liu**, Chi Zhang. "ABCDE: Agentic-Based Controlled Dynamic Erasure for Intent-Aware Safety Reasoning". *Transactions on Machine Learning Research*.
-6. Siwei Meng, Yawei Luo<sup>†</sup>, **Ping Liu**<sup>†</sup>. "PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided LLM". *European Conference on Computer Vision (ECCV 2026)*.
+6. Siwei Meng, Yawei Luo<sup>†</sup>, **Ping Liu**<sup>†</sup>. "PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided VLM". *European Conference on Computer Vision (ECCV 2026)*.
 7. Siwei Meng, Yawei Luo, Shu Zhang, **Ping Liu**<sup>†</sup>. "When Physical Preferences Meet Semantic Constraints: Physical and Semantic Direct Preference Optimization for Text-to-Video Generation". *ACM International Conference on Multimedia (ACM MM 2026)* (Oral).
 8. Siwei Meng, Xuerou Cai, Rui Hu, **Ping Liu**<sup>†</sup>. "PhyMetric: Diagnosing Physical Plausibility in Text-to-Video Generation via Scene-Level QA". *Conference on Neural Information Processing Systems (NeurIPS 2026), Evaluations and Datasets Track*.
 9. **Ping Liu**, Yan Yan. "Calibrated Drift Control for Heterogeneous DPO". *Conference on Neural Information Processing Systems (NeurIPS 2026)*.
@@ -33,7 +33,7 @@ Conference Publications
 2. **Ping Liu**, Yan Yan. "Calibrated Drift Control for Heterogeneous DPO". *Conference on Neural Information Processing Systems (NeurIPS 2026)*.
 3. **Ping Liu**, Chi Zhang. "MUTE: Motion Concept Unlearning in Video Diffusion Models". *ACM International Conference on Multimedia (ACM MM 2026)*.
 4. Siwei Meng, Yawei Luo, Shu Zhang, **Ping Liu**<sup>†</sup>. "When Physical Preferences Meet Semantic Constraints: Physical and Semantic Direct Preference Optimization for Text-to-Video Generation". *ACM International Conference on Multimedia (ACM MM 2026)* (Oral).
-5. Siwei Meng, Yawei Luo<sup>†</sup>, **Ping Liu**<sup>†</sup>. "PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided LLM". *European Conference on Computer Vision (ECCV 2026)*.
+5. Siwei Meng, Yawei Luo<sup>†</sup>, **Ping Liu**<sup>†</sup>. "PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided VLM". *European Conference on Computer Vision (ECCV 2026)*.
 6. Siwei Meng, Xuerou Cai, Rui Hu, **Ping Liu**<sup>†</sup>. "PhyMetric: Diagnosing Physical Plausibility in Text-to-Video Generation via Scene-Level QA". *Conference on Neural Information Processing Systems (NeurIPS 2026), Evaluations and Datasets Track*.
 7. Yiwei Xie, **Ping Liu**<sup>†</sup>, Zheng Zhang<sup>†</sup>. "Where Concept Erasure Should Occur: Concept–Layer Alignment in Text-to-Video Diffusion Models". *International Conference on Machine Learning (ICML 2026)*.
 8. Chi Zhang, Jingpu Cheng, Zhixian Wang, **Ping Liu**<sup>†</sup>. "Closed-Form Concept Erasure via Double Projections". *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)*.

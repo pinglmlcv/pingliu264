@@ -32,7 +32,7 @@ News:
 * Aug 2026: Our work, “When Physical Preferences Meet Semantic Constraints: Physical and Semantic Direct Preference Optimization for Text-to-Video Generation,” has been accepted to ACM Multimedia 2026 and selected for an oral presentation! Congratulations to Siwei!
 * July 2026: We will organize workshop "MIRAI Driving: Multimodal Intelligence and Reasoning for Autonomous and Intelligent Driving" on ACCV 2026, Osaka, Japan.
 * June 2026: I am invited as a senior PC member for AAAI 2027.
-* June 2026: Our work: "PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided LLM" is accepted by ECCV 2026. Congratulations to Siwei!
+* June 2026: Our work: "PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided VLM" is accepted by ECCV 2026. Congratulations to Siwei!
 * June 2026: Our work: "RIGI: Rectifying Image-to-3D Generation Inconsistency via Uncertainty-aware Learning" is accepted by IEEE Transactions on Image Processing.
 * May 2026: Our work: "Closed-Form Linear-Probe Dataset Distillation for Pre-trained Vision Models" is posted [online](https://arxiv.org/abs/2605.07194).
 * May 2026: Our work: "Where Concept Erasure Should Occur: Concept–Layer Alignment in Text-to-Video Diffusion Models" is accepted by ICML 2026.
