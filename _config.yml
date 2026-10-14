@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Assistant Professor, Dr. Ping Liu"
+title                    : "Ping Liu"
 title_separator          : "-"
 name                     : &name "Ping Liu"
 description              : &description "Ping Liu, Assistant Professor of Computer Science and Engineering at the University of Nevada, Reno. Research on controllable, verifiable, and physically grounded generative AI."
