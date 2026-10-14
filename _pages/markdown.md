@@ -10,28 +10,39 @@ redirect_from:
 Advisees
 ======
 * Ph.D. Students
-    * **Siwei Meng** (Fall 2024–present)
+    * **Siwei Meng** (Fall 2024-present)
         * Prior education: Bachelor's degree, South China University of Technology; Master's degree, Shenzhen University.
-        * Selected publications: ECCV 2026; ACM Multimedia 2026 (Oral); IJCAI 2025 Survey Track.
+        * Selected publications: NeurIPS 2026; ECCV 2026; ACM Multimedia 2026 (Oral); IJCAI 2025 Survey Track.
     * **Xinyu Hu** (Fall 2026-present)
         * Prior education: Bachelor's degree, Duke Kunshan University.
-    
+
 Service
 ======
-* Workshop Organizer
-  * "Efficient Learning for Face Analysis" in WACV 2024
-  * "Learning with Limited Data for Face Analysis" in ACCV 2022
- 
+* Workshop and Challenge Organization
+  * Co-Organizer, "MIRAI: Multimodal Intelligence and Reasoning for Autonomous and Intelligent Driving," ACCV 2026 Workshop
+  * Co-Organizer, "SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems," SIGIR 2026 Workshop
+  * Co-Organizer, "Physics-Driven AIGC: Physically-Consistent Video, 4D Scene, and World Generation," ICME 2026 Workshop
+  * Program Committee, "DFX: Explainable Deepfake Detection Challenge," ACM Multimedia 2026 Grand Challenge
+  * Co-Organizer, "Efficient Learning for Face Analysis," WACV 2024 Workshop
+  * Co-Organizer, "Learning with Limited Data for Face Analysis," ACCV 2022 Workshop
+
 * Area Chair
+  * ACM Multimedia (MM) 2022-2026
+  * International Joint Conference on Neural Networks (IJCNN) 2026
   * International Joint Conference on Artificial Intelligence (IJCAI) 2025
-  * ACM Multimedia(MM) 2022-2026
   * IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR) 2022
   * Asian Conference on Machine Learning (ACML) 2021
 
-* Senior PC Member/Meta Reviewer:
-  * AAAI Conference on Artificial Intelligence (AAAI) 2021, 2023-2026
-  
-* PC Member/Reviewer:
+* Senior PC Member / Meta Reviewer
+  * International Joint Conference on Artificial Intelligence (IJCAI) 2026
+  * AAAI Conference on Artificial Intelligence (AAAI) 2021, 2023-2027
+
+* University Service, University of Nevada, Reno
+  * Graduate Committee, Department of Computer Science and Engineering (2025-present)
+  * Annual Evaluation Committee, Department of Computer Science and Engineering (2025-present)
+  * Ph.D. proposal defense committees: Khalid Rafiq (2026), Jiahao Xu (2026), Zikai Zhang (2025)
+
+* PC Member / Reviewer
   * IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019-2022,2024
   * International Conference on Computer Vision (ICCV) 2017-2023
   * European Conference on Computer Vision (ECCV) 2020-2024

@@ -10,11 +10,11 @@
 locale                   : "en-US"
 title                    : "Assistant Professor, Dr. Ping Liu"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://pinglmlcv.github.io/pingliu264/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+name                     : &name "Ping Liu"
+description              : &description "Ping Liu, Assistant Professor of Computer Science and Engineering at the University of Nevada, Reno. Research on controllable, verifiable, and physically grounded generative AI."
+url                      : "https://pinglmlcv.github.io" # the base hostname & protocol for your site
+baseurl                  : "/pingliu264" # the subpath of your site
+repository               : "pinglmlcv/pingliu264"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,12 +22,12 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : ""
+  name             : "Ping Liu"
   pronouns         : # example: "she/her"  
-  bio              : ""
-  location         : "US"
-  employer         : "University of Nevada Reno"
-  uri              : # URL
+  bio              : "Assistant Professor, Computer Science and Engineering"
+  location         : "Reno, NV, USA"
+  employer         : "University of Nevada, Reno"
+  uri              : "https://www.unr.edu/cse"
   email            : "pingl@unr.edu" 
 
   # Academic websites

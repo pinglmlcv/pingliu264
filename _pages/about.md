@@ -7,15 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-Dr. Ping LIU is a Tenure Track Assistant Professor in Department of Computer Science and Engineering, University of Nevada, Reno. From 2020 to 2024, Dr. Ping LIU was a senior research scientist, II, at Center for Frontier AI Research (CFAR), Agency for Science, Technology, and Research (ASTAR), Singapore. Before joining ASTAR, he was a research fellow and a contract lecturer at University of Technology Sydney (UTS), Sydney, AUS.  
+Ping Liu is a Tenure-Track Assistant Professor in the Department of Computer Science and Engineering at the University of Nevada, Reno (UNR), where he has been since March 2024. From 2020 to 2024 he was a Scientist and then Senior Scientist II at the Centre for Frontier AI Research (CFAR), Institute of High Performance Computing (IHPC), A\*STAR, Singapore. Before that, he was a Research Fellow and Lecturer at the University of Technology Sydney, a Research Scientist at the JD.com US Research Center, and a Senior Applied Research Engineer at the Sony US Research Center.
 
-He received his Ph.D degree from  Department of Computer Science and Engineering, University of South Carolina, Columbia, SC, US.  Before that, he was a research assistant in the Intelligent Systems and Biomedical Robotics Group (ISBRG), University of Portsmouth, UK.  He got his Master Degree from Huazhong University of Science and Technology (HUST), WuHan, China;  Bachelor Degree (EE) from Wuhan University of Technology (WUT), WuHan, China.
+He received his Ph.D. in Computer Science and Engineering from the University of South Carolina, his M.Eng. from Huazhong University of Science and Technology, and his B.Eng. from Wuhan University of Technology. He is an IEEE Senior Member, and his work has received over 9,000 citations on [Google Scholar](https://scholar.google.com/citations?user=KRz4JecAAAAJ&hl=en).
 
-
-Research Interest:
+Research
 ======
-AIGC
- 
+My research builds verifiable control and verification for generative AI systems: methods that diagnose what a model has learned, selectively intervene on it, and certify the result. Three thrusts share this methodology:
+
+* **Concept erasure and machine unlearning.** Principled, verifiable interventions on generative models, including theory on what erasure can and cannot guarantee.
+* **Physically grounded video generation and world models.** Verification as physical consistency, with structured verifiers used as reward signals for post-training.
+* **Alignment and agents.** Calibrated reward signals when scores and preferences conflict, and agents that verify their own perception and actions before acting.
+
+My research is supported by the National Science Foundation, including an NSF Major Research Instrumentation award for a large-scale GPU cluster for AI research at UNR.
+
 News:
 ======
 * Oct 2026: Gave an invited talk, "Intervene and Verify: Toward Controllable Generative Models and World Models," at UC Merced.
@@ -36,7 +41,7 @@ News:
 * Feb 2026: I am invited as Area Chair for ACM MM 2026.
 * Feb 2026: Our work "Closed-Form Concept Erasure via Double Projections" is accepted by CVPR 2026.
 * Feb 2026: Our work "Low-Rank Test-Time Training for Pre-Trained Point Cloud Models" is accepted by CVPR 2026.
-* Feb 2026: Our workshop proposal, SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems, has been accepted at SIGIR 2026! Looking forward to building this conversation with the research community — stay tuned for the CFP!
+* Feb 2026: Our workshop proposal, SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems, has been accepted at SIGIR 2026! Looking forward to building this conversation with the research community. Stay tuned for the CFP!
 * Jan 2026: Our work "Machine Unlearning under Retain–Forget Entanglement" is accepted by ICLR 2026.
 * Jan 2026: I am invited as a senior PC member for IJCAI 2026.
 
