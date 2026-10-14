@@ -10,11 +10,11 @@ redirect_from:
 Advisees
 ======
 * Ph.D. Students
-    * **Siwei Meng** (Fall 2024-present)
-        * Prior education: Bachelor's degree, South China University of Technology; Master's degree, Shenzhen University.
-        * Selected publications: NeurIPS 2026; ECCV 2026; ACM Multimedia 2026 (Oral); IJCAI 2025 Survey Track.
-    * **Xinyu Hu** (Fall 2026-present)
-        * Prior education: Bachelor's degree, Duke Kunshan University.
+  * **Siwei Meng** (Fall 2024-present)
+    * Prior education: Bachelor's degree, South China University of Technology; Master's degree, Shenzhen University.
+    * Selected publications: NeurIPS 2026; ECCV 2026; ACM Multimedia 2026 (Oral); IJCAI 2025 Survey Track.
+  * **Xinyu Hu** (Fall 2026-present)
+    * Prior education: Bachelor's degree, Duke Kunshan University.
 
 Service
 ======
