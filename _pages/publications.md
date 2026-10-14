@@ -45,13 +45,6 @@ author_profile: true
 </style>
 
 <div class="pb">
-<div class="pb-stats">
-<div class="pb-stat" style="background:linear-gradient(135deg,#4b4fc9,#6a6ee0)"><span class="n">41</span><span class="l">conference papers</span></div>
-<div class="pb-stat" style="background:linear-gradient(135deg,#0e8a83,#22b3a6)"><span class="n">20</span><span class="l">journal papers</span></div>
-<div class="pb-stat" style="background:linear-gradient(135deg,#d9822b,#eead4f)"><span class="n">32</span><span class="l">h-index</span></div>
-<a class="pb-stat" href="{{ site.author.googlescholar }}" style="background:linear-gradient(135deg,#b4381a,#dd6136)"><span class="n">9,000+</span><span class="l">citations on Google Scholar <i class="fas fa-external-link-alt"></i></span></a>
-</div>
-
 <div class="pb-sel">
 <div class="pb-h"><div class="ic" style="background:#4b4fc9"><i class="fas fa-star"></i></div><h2>Selected Publications</h2></div>
 <p>Representative work since 2024 as first or corresponding author.</p>
