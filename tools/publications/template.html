@@ -1,0 +1,82 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% include base_path %}
+
+<style>
+.pb { --ink:#1f2a44; --muted:#5b6478; --line:#e6e9f0; font-size:0.95em; line-height:1.6; color:var(--ink); }
+.pb * { box-sizing:border-box; }
+.pb-stats { display:grid; grid-template-columns:repeat(4,1fr); gap:0.9em; margin:0.4em 0 2.4em; }
+.pb-stat { border-radius:14px; padding:1.1em 1em; color:#fff !important; text-decoration:none !important; box-shadow:0 8px 22px rgba(31,42,68,0.12); display:block; }
+.pb-stat .n { font-size:2em; font-weight:800; line-height:1; display:block; }
+.pb-stat .l { font-size:0.8em; opacity:0.92; display:block; margin-top:0.45em; line-height:1.35; }
+.pb-h { display:flex; align-items:center; gap:0.7em; margin:0 0 1em; }
+.pb-h .ic { width:2.3em; height:2.3em; border-radius:10px; display:flex; align-items:center; justify-content:center; color:#fff; flex:none; }
+.pb-h h2 { margin:0; padding:0; border:0; font-size:1.3em; }
+.pb-sel { background:linear-gradient(180deg,#eef0ff 0%,#fff 260px); border:1px solid var(--line); border-top:5px solid #4b4fc9; border-radius:18px; padding:1.6em 1.6em 1.2em; margin:0 0 2.8em; }
+.pb-sel p { color:var(--muted); margin:-0.4em 0 1.1em; font-size:0.9em; }
+.pb-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:0.7em; }
+.pb-item { display:flex; gap:1em; align-items:flex-start; background:#fff; border:1px solid var(--line); border-radius:12px; padding:0.85em 1em; margin:0; transition:box-shadow .15s, transform .15s; }
+.pb-item:hover { box-shadow:0 6px 18px rgba(31,42,68,0.09); transform:translateY(-1px); }
+.pb-badge { flex:0 0 5.6em; text-align:center; color:#fff; border-radius:8px; padding:0.45em 0.3em; font-size:0.74em; font-weight:700; line-height:1.25; }
+.pb-badge em { display:block; font-style:normal; font-weight:500; opacity:0.9; font-size:0.92em; }
+.pb-body { min-width:0; }
+.pb-t { font-weight:600; line-height:1.4; }
+.pb-flag { display:inline-block; margin-left:0.5em; font-size:0.68em; font-weight:700; padding:0.1em 0.55em; border-radius:999px; background:#fde68a; color:#78350f; vertical-align:2px; }
+.pb-flag.gold { background:#fef3c7; color:#92400e; border:1px solid #f59e0b; }
+.pb-a { display:block; color:var(--muted); font-size:0.86em; margin-top:0.2em; }
+.pb-v { display:block; font-size:0.84em; font-style:italic; color:#475569; }
+.pb-links a { display:inline-block; margin:0.4em 0.4em 0 0; font-size:0.76em; padding:0.1em 0.75em; border-radius:999px; border:1px solid #4b4fc9; color:#4b4fc9 !important; text-decoration:none !important; }
+.pb-links a:hover { background:#4b4fc9; color:#fff !important; }
+.pb-bar { display:flex; flex-wrap:wrap; align-items:center; gap:0.5em; margin:0 0 1.4em; position:sticky; top:0; background:#fff; padding:0.6em 0; z-index:5; }
+.pb-btn { border:1px solid var(--line); background:#f3f5f9; color:var(--ink); border-radius:999px; padding:0.35em 1em; font-size:0.82em; cursor:pointer; }
+.pb-btn.on { background:#1f2a44; color:#fff; border-color:#1f2a44; }
+.pb-btn b { font-weight:700; margin-left:0.35em; opacity:0.7; }
+.pb-year { display:flex; align-items:center; gap:0.8em; margin:1.6em 0 0.8em; }
+.pb-year span { font-size:1.15em; font-weight:800; color:#4b4fc9; }
+.pb-year:after { content:""; flex:1; height:2px; background:linear-gradient(90deg,#c7cbf3,transparent); }
+.pb-note { color:var(--muted); font-size:0.85em; margin:0 0 1em; }
+.pb-hide { display:none !important; }
+@media (max-width: 760px) { .pb-stats { grid-template-columns:1fr 1fr; } .pb-item { flex-direction:column; gap:0.5em; } .pb-badge { flex:none; padding:0.3em 0.8em; } .pb-badge em { display:inline; margin-left:0.3em; } .pb-sel { padding:1.2em 1em; } }
+</style>
+
+<div class="pb">
+<div class="pb-sel">
+<div class="pb-h"><div class="ic" style="background:#4b4fc9"><i class="fas fa-star"></i></div><h2>Selected Publications</h2></div>
+<p>Representative work since 2024 as first or corresponding author.</p>
+<ul class="pb-list">
+%%SEL%%
+</ul>
+</div>
+
+<div class="pb-h"><div class="ic" style="background:#1f2a44"><i class="fas fa-book"></i></div><h2>All Publications</h2></div>
+<p class="pb-note"><sup>†</sup> corresponding or co-corresponding author; <sup>♠</sup> equal contribution.</p>
+<div class="pb-bar">
+<button class="pb-btn on" data-f="all">All</button>
+<button class="pb-btn" data-f="conference">Conference</button>
+<button class="pb-btn" data-f="journal">Journal</button>
+<button class="pb-btn" data-f="preprint">Preprint</button>
+</div>
+<div id="pb-all">
+%%ALL%%
+</div>
+<p class="pb-note" style="margin-top:2em">Ph.D. Thesis: <b>Ping Liu</b>. "Improving Feature Learning, Feature Selection, and Classification in Facial Expression Analysis". University of South Carolina, 2015.</p>
+</div>
+
+<script>
+(function(){
+  var btns=document.querySelectorAll('.pb-btn');
+  function apply(f){
+    document.querySelectorAll('#pb-all .pb-item').forEach(function(li){ li.classList.toggle('pb-hide', f!=='all' && li.getAttribute('data-type')!==f); });
+    document.querySelectorAll('#pb-all .pb-year').forEach(function(y){
+      var ul=y.nextElementSibling; var any=ul && ul.querySelector('.pb-item:not(.pb-hide)');
+      y.classList.toggle('pb-hide',!any); if(ul) ul.classList.toggle('pb-hide',!any);
+    });
+  }
+  btns.forEach(function(b){ b.addEventListener('click',function(){ btns.forEach(function(x){x.classList.remove('on');}); b.classList.add('on'); apply(b.getAttribute('data-f')); }); });
+})();
+</script>

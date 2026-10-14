@@ -1,0 +1,477 @@
+selected:
+- 'DOME: Drift-Adaptive On-Policy Motion Erasure in Video Diffusion Transformers'
+- 'MUTE: Motion Concept Unlearning in Video Diffusion Models'
+- 'Where Concept Erasure Should Occur: Concept–Layer Alignment in Text-to-Video Diffusion Models'
+- Closed-Form Concept Erasure via Double Projections
+- 'ABCDE: Agentic-Based Controlled Dynamic Erasure for Intent-Aware Safety Reasoning'
+- 'PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided VLM'
+- 'When Physical Preferences Meet Semantic Constraints: Physical and Semantic Direct Preference Optimization for Text-to-Video Generation'
+- 'PhyMetric: Diagnosing Physical Plausibility in Text-to-Video Generation via Scene-Level QA'
+- Calibrated Drift Control for Heterogeneous DPO
+publications:
+- title: 'DOME: Drift-Adaptive On-Policy Motion Erasure in Video Diffusion Transformers'
+  authors: <b>Ping Liu</b>, Chi Zhang, Meng Tang
+  venue: Conference on Neural Information Processing Systems (NeurIPS 2026)
+  year: 2026
+  type: conference
+  badge: NeurIPS
+- title: Calibrated Drift Control for Heterogeneous DPO
+  authors: <b>Ping Liu</b>, Yan Yan
+  venue: Conference on Neural Information Processing Systems (NeurIPS 2026)
+  year: 2026
+  type: conference
+  badge: NeurIPS
+- title: 'MUTE: Motion Concept Unlearning in Video Diffusion Models'
+  authors: <b>Ping Liu</b>, Chi Zhang
+  venue: ACM International Conference on Multimedia (ACM MM 2026)
+  year: 2026
+  type: conference
+  badge: ACM MM
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2609.36832
+- title: 'When Physical Preferences Meet Semantic Constraints: Physical and Semantic Direct Preference Optimization for Text-to-Video Generation'
+  authors: Siwei Meng, Yawei Luo, Shu Zhang, <b>Ping Liu</b><sup>†</sup>
+  venue: ACM International Conference on Multimedia (ACM MM 2026)
+  year: 2026
+  type: conference
+  badge: ACM MM
+  oral: true
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2607.16947
+- title: 'PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided VLM'
+  authors: Siwei Meng, Yawei Luo<sup>†</sup>, <b>Ping Liu</b><sup>†</sup>
+  venue: European Conference on Computer Vision (ECCV 2026)
+  year: 2026
+  type: conference
+  badge: ECCV
+  links:
+  - name: Project page
+    url: https://mengsiwei.github.io/MAGIC/
+- title: 'PhyMetric: Diagnosing Physical Plausibility in Text-to-Video Generation via Scene-Level QA'
+  authors: Siwei Meng, Xuerou Cai, Rui Hu, <b>Ping Liu</b><sup>†</sup>
+  venue: Conference on Neural Information Processing Systems (NeurIPS 2026), Evaluations and Datasets Track
+  year: 2026
+  type: conference
+  badge: NeurIPS
+  links:
+  - name: Project page
+    url: https://mengsiwei.github.io/PhyMetric/
+- title: 'Where Concept Erasure Should Occur: Concept–Layer Alignment in Text-to-Video Diffusion Models'
+  authors: Yiwei Xie, <b>Ping Liu</b><sup>†</sup>, Zheng Zhang<sup>†</sup>
+  venue: International Conference on Machine Learning (ICML 2026)
+  year: 2026
+  type: conference
+  badge: ICML
+- title: Closed-Form Concept Erasure via Double Projections
+  authors: Chi Zhang, Jingpu Cheng, Zhixian Wang, <b>Ping Liu</b><sup>†</sup>
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)
+  year: 2026
+  type: conference
+  badge: CVPR
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2604.10032
+- title: Low-Rank Test-Time Training for Pre-Trained Point Cloud Models
+  authors: Ouyangzi Ye, Feifei Shao, Kexin Li, Yawei Luo, Zikai Song, <b>Ping Liu</b>, Fengda Zhang, Hongwei Wang, Jun Xiao
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)
+  year: 2026
+  type: conference
+  badge: CVPR
+- title: Machine Unlearning under Retain–Forget Entanglement
+  authors: Jingpu Cheng, <b>Ping Liu</b>, Qianxiao Li, Chi Zhang
+  venue: International Conference on Learning Representations (ICLR 2026)
+  year: 2026
+  type: conference
+  badge: ICLR
+- title: Closed-Form Linear-Probe Dataset Distillation for Pre-trained Vision Models
+  authors: Bincheng Peng, Guang Li, <b>Ping Liu</b>, Takahiro Ogawa, Miki Haseyama
+  venue: Conference on Neural Information Processing Systems (NeurIPS 2026)
+  year: 2026
+  type: conference
+  badge: NeurIPS
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2605.07194
+- title: 'ABCDE: Agentic-Based Controlled Dynamic Erasure for Intent-Aware Safety Reasoning'
+  authors: <b>Ping Liu</b>, Chi Zhang
+  venue: Transactions on Machine Learning Research
+  year: 2026
+  type: journal
+  badge: TMLR
+- title: 'RIGI: Rectifying Image-to-3D Generation Inconsistency via Uncertainty-aware Learning'
+  authors: Jiacheng Wang, Zhedong Zheng, Wei Xu<sup>†</sup>, <b>Ping Liu</b><sup>†</sup>
+  venue: IEEE Transactions on Image Processing
+  year: 2026
+  type: journal
+  badge: TIP
+- title: 'PROBE: Diagnosing Residual Concept Capacity in Erased Text-to-Video Diffusion Models'
+  authors: Yiwei Xie, Zheng Zhang<sup>†</sup>, <b>Ping Liu</b><sup>†</sup>
+  venue: arXiv preprint
+  year: 2026
+  type: preprint
+  badge: arXiv
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2603.21547
+- title: 'Witness: Discovery, Deciphering, and Epiphany in Interactive Puzzle Environments'
+  authors: Guanghan Ning, <b>Ping Liu</b>, Linyi Li, Huangjie Zheng, Arjun Neervannan, Huu Nguyen, Michael Sklar, Deniz Zorlu, Nicolai Ouporov
+  venue: arXiv preprint
+  year: 2026
+  type: preprint
+  badge: arXiv
+- title: Agentic Relative Camera Pose Estimation via Learned Ranking and Verification
+  authors: Zhining Gu, Shangjie Du, Weimin Qiu, Carl Olsson, <b>Ping Liu</b>, Meng Tang
+  venue: arXiv preprint
+  year: 2026
+  type: preprint
+  badge: arXiv
+- title: 'ADD: An Automated Neural Architecture Search Baseline for Deepfake Detection'
+  authors: <b>Ping Liu</b>, Yuewei Lin, Jingen Liu, Yunchao Wei, Joey Tianyi Zhou
+  venue: IEEE International Workshop on Information Forensics and Security (WIFS 2025)
+  year: 2025
+  type: conference
+  badge: WIFS
+- title: 'MICAS: Multi-grained In-Context Adaptive Sampling for 3D Point Cloud Processing'
+  authors: Feifei Shao<sup>♠</sup>, <b>Ping Liu</b><sup>♠</sup>, Zhao Wang, Yawei Luo, Hongwei Wang, Jun Xiao
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2025)
+  year: 2025
+  type: conference
+  badge: CVPR
+- title: 'Grounding Creativity in Physics: A Brief Survey of Physical Priors in AIGC'
+  authors: Siwei Meng, Yawei Luo<sup>†</sup>, <b>Ping Liu</b><sup>†</sup>
+  venue: International Joint Conference on Artificial Intelligence (IJCAI 2025), Survey Track
+  year: 2025
+  type: conference
+  badge: IJCAI
+- title: 'Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator'
+  authors: Xin Zhang, Jiawei Du, <b>Ping Liu</b>, Joey Tianyi Zhou
+  venue: International Conference on Learning Representations (ICLR 2025)
+  year: 2025
+  type: conference
+  badge: ICLR
+- title: 'Fed-HeLLo: Efficient Federated Foundation Model Fine-Tuning with Heterogeneous LoRA Allocation'
+  authors: Zikai Zhang, <b>Ping Liu</b>, Jiahao Xu, Rui Hu
+  venue: IEEE Transactions on Neural Networks and Learning Systems
+  year: 2025
+  type: journal
+  badge: TNNLS
+- title: Mitigating Biased Activation in Weakly-supervised Object Localization via Counterfactual Learning
+  authors: Feifei Shao, Yawei Luo, Lei Chen, <b>Ping Liu</b>, Yi Yang, Jun Xiao
+  venue: IEEE Transactions on Multimedia
+  year: 2025
+  type: journal
+  badge: TMM
+- title: 'CLIP-SR: Collaborative Linguistic and Image Processing for Super-Resolution'
+  authors: Bingwen Hu, Heng Liu, Zhedong Zheng, <b>Ping Liu</b>
+  venue: IEEE Transactions on Multimedia
+  year: 2025
+  type: journal
+  badge: TMM
+- title: 'DD-RobustBench: An Adversarial Robustness Benchmark for Dataset Distillation'
+  authors: Yifan Wu, Jiawei Du<sup>♠</sup>, <b>Ping Liu</b><sup>♠</sup>, Yuewei Lin, Wenqing Chen, Wei Xu
+  venue: IEEE Transactions on Image Processing
+  year: 2025
+  type: journal
+  badge: TIP
+- title: 'Robust Deepfake Detection by Addressing Generalization and Trustworthiness Challenges: A Short Survey'
+  authors: <b>Ping Liu</b>, Qiqi Tao, Joey Tianyi Zhou
+  venue: ACM International Conference on Multimedia (ACM MM 2024) Workshop
+  year: 2024
+  type: conference
+  badge: ACM MM
+  award: Best Paper Award (Survey)
+- title: Unified Diffusion-Based Rigid and Non-Rigid Editing with Text and Image Guidance
+  authors: Jiacheng Wang<sup>♠</sup>, <b>Ping Liu</b><sup>♠</sup>, Wei Xu
+  venue: IEEE International Conference on Multimedia and Expo (ICME 2024)
+  year: 2024
+  type: conference
+  badge: ICME
+  oral: true
+- title: Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection
+  authors: Chuangchuang Tan, Yao Zhao, Shikui Wei, Guanghua Gu, <b>Ping Liu</b>, Yunchao Wei
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2024)
+  year: 2024
+  type: conference
+  badge: CVPR
+- title: 'Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Domain Learning'
+  authors: Chuangchuang Tan, Yao Zhao, Shikui Wei, Guanghua Gu, <b>Ping Liu</b>, Yunchao Wei
+  venue: AAAI Conference on Artificial Intelligence (AAAI 2024)
+  year: 2024
+  type: conference
+  badge: AAAI
+- title: 'Kill Two Birds with One Stone: Domain Generalization for Semantic Segmentation via Network Pruning'
+  authors: Yawei Luo, <b>Ping Liu</b>, Yi Yang
+  venue: International Journal of Computer Vision
+  year: 2024
+  type: journal
+  badge: IJCV
+- title: 'Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey'
+  authors: <b>Ping Liu</b>, Qiqi Tao, Joey Tianyi Zhou
+  venue: arXiv preprint
+  year: 2024
+  type: preprint
+  badge: arXiv
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2406.06965
+- title: 'Data-Independent Operator: A Training-Free Artifact Representation Extractor for Generalizable Deepfake Detection'
+  authors: Chuangchuang Tan, <b>Ping Liu</b>, Renshuai Tao, Huan Liu, Yao Zhao, Baoyuan Wu, Yunchao Wei
+  venue: arXiv preprint
+  year: 2024
+  type: preprint
+  badge: arXiv
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2403.06803
+- title: 'Two Trades is not Baffled: Condense Graph via Crafting Rational Gradient Matching'
+  authors: Tianle Zhang, Yuchen Zhang, Kun Wang, Kai Wang, Beining Yang, Kaipeng Zhang, Wenqi Shao, <b>Ping Liu</b>, Joey Tianyi Zhou, Yang You
+  venue: arXiv preprint
+  year: 2024
+  type: preprint
+  badge: arXiv
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2402.04924
+- title: Meta Knowledge Condensation for Federated Learning
+  authors: <b>Ping Liu</b><sup>♠</sup>, Xin Yu<sup>♠</sup>, Joey Tianyi Zhou
+  venue: International Conference on Learning Representations (ICLR 2023)
+  year: 2023
+  type: conference
+  badge: ICLR
+- title: Unsupervised Domain Adaptive Person Re-Identification with Adaptive Structure Learning
+  authors: Yang Peng<sup>♠</sup>, <b>Ping Liu</b><sup>♠</sup>, Xiyuan Yang, Pan Zhou, Yawei Luo, Jingen Liu
+  venue: IEEE International Conference on Image Processing (ICIP 2023)
+  year: 2023
+  type: conference
+  badge: ICIP
+- title: 'CLE Diffusion: Controllable Light Enhancement Diffusion Model'
+  authors: Yuyang Yin, Dejia Xu, Chuangchuang Tan, <b>Ping Liu</b>, Yao Zhao, Yunchao Wei
+  venue: ACM International Conference on Multimedia (ACM MM 2023)
+  year: 2023
+  type: conference
+  badge: ACM MM
+- title: Gradient Inversion via Over-parameterized Convolutional Network in Federated Learning
+  authors: Chi Zhang, Xiaoman Zhang, Ekanut Sotthiwat, Yanyu Xu, <b>Ping Liu</b>, Liangli Zhen, Yong Liu
+  venue: IEEE/CVF International Conference on Computer Vision (ICCV 2023)
+  year: 2023
+  type: conference
+  badge: ICCV
+- title: 'GlassesCLIP: Text-guided Eyeglasses Manipulation with Spatial Constraints'
+  authors: Jiacheng Wang, <b>Ping Liu</b><sup>†</sup>, Jingen Liu, Wei Xu<sup>†</sup>
+  venue: IEEE Transactions on Multimedia
+  year: 2023
+  type: journal
+  badge: TMM
+- title: Generating Reliable Pixel-Level Labels for Source Free Domain Adaptation
+  authors: Gabriel Tjio, <b>Ping Liu</b><sup>†</sup>, Yawei Luo, Chee-Keong Kwoh, Joey Tianyi Zhou
+  venue: arXiv preprint
+  year: 2023
+  type: preprint
+  badge: arXiv
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2307.00893
+- title: Dual Stage Stylization Modulation for Domain Generalized Semantic Segmentation
+  authors: Gabriel Tjio, <b>Ping Liu</b><sup>†</sup>, Chee-Keong Kwoh, Joey Tianyi Zhou
+  venue: arXiv preprint
+  year: 2023
+  type: preprint
+  badge: arXiv
+  links:
+  - name: arXiv
+    url: https://arxiv.org/abs/2304.09347
+- title: Active Learning for Point Cloud Semantic Segmentation via Spatial-Structural Diversity Reasoning
+  authors: Feifei Shao, Yawei Luo, <b>Ping Liu</b>, Jie Chen, Yi Yang, Yulei Lu, Jun Xiao
+  venue: ACM International Conference on Multimedia (ACM MM 2022)
+  year: 2022
+  type: conference
+  badge: ACM MM
+- title: Adversarial Semantic Hallucination for Domain Generalized Semantic Segmentation
+  authors: Gabriel Tjio, <b>Ping Liu</b><sup>†</sup>, Joey Tianyi Zhou, Rick Goh Siow Mong
+  venue: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2022)
+  year: 2022
+  type: conference
+  badge: WACV
+- title: 'Pro-UIGAN: Progressive Face Hallucination from Occluded Thumbnails'
+  authors: Yang Zhang, Xin Yu, Xiaobo Lu, <b>Ping Liu</b><sup>†</sup>
+  venue: IEEE Transactions on Image Processing
+  year: 2022
+  type: journal
+  badge: TIP
+- title: Filter Pruning by Switching to Neighboring CNNs with Good Attributes
+  authors: Yang He, <b>Ping Liu</b>, Linchao Zhu, Yi Yang
+  venue: IEEE Transactions on Neural Networks and Learning Systems
+  year: 2022
+  type: journal
+  badge: TNNLS
+- title: 'SPG-VTON: Semantic Prediction Guidance for Multi-pose Virtual Try-on'
+  authors: Bingwen Hu, <b>Ping Liu</b>, Zhedong Zheng, Mingyu Ren
+  venue: IEEE Transactions on Multimedia
+  year: 2022
+  type: journal
+  badge: TMM
+- title: 'Point Adversarial Self Mining: A Simple Method for Facial Expression Recognition'
+  authors: <b>Ping Liu</b>, Yuewei Lin, Zibo Meng, Lu Lu, Weihong Deng, Joey Tianyi Zhou, Yi Yang
+  venue: IEEE Transactions on Cybernetics
+  year: 2021
+  type: journal
+  badge: TCYB
+- title: Category-Level Adversarial Adaptation for Semantic Segmentation using Purified Features
+  authors: Yawei Luo, <b>Ping Liu</b>, Liang Zheng, Tao Guan, Junqing Yu, Yi Yang
+  venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  year: 2021
+  type: journal
+  badge: TPAMI
+- title: Unsupervised Visual Representation Learning via Instance Discrimination and Similarity
+  authors: Hehe Fan, <b>Ping Liu</b>, Mingliang Xu, Yi Yang
+  venue: IEEE Transactions on Cybernetics
+  year: 2021
+  type: journal
+  badge: TCYB
+- title: 'VividGAN: Face Hallucination with Finishing Touches'
+  authors: Yang Zhang, Ivor W. Tsang, Jun Li, <b>Ping Liu</b>, Xiaobo Lu, Xin Yu
+  venue: IEEE Transactions on Image Processing
+  year: 2021
+  type: journal
+  badge: TIP
+- title: Thorax Disease Classification via Discriminative Feature Learning
+  authors: Qingji Guan, Yaping Huang, Yawei Luo, <b>Ping Liu</b>, Yi Yang
+  venue: IEEE Transactions on Image Processing
+  year: 2021
+  type: journal
+  badge: TIP
+- title: 'UTSGAN: Unseen Transition Suss GAN for Transition-Aware Image-to-Image Translation'
+  authors: Yaxin Shi, Xiaowei Zhou, <b>Ping Liu</b>, Ivor Tsang
+  venue: arXiv preprint
+  year: 2021
+  type: preprint
+  badge: arXiv
+- title: Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation
+  authors: Yawei Luo, <b>Ping Liu</b>, Tao Guan, Junqing Yu, Yi Yang
+  venue: Conference on Neural Information Processing Systems (NeurIPS 2020)
+  year: 2020
+  type: conference
+  badge: NeurIPS
+- title: Federated Generative Adversarial Learning
+  authors: Chenyou Fan, <b>Ping Liu</b>
+  venue: Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2020)
+  year: 2020
+  type: conference
+  badge: PRCV
+- title: Learning Filter Pruning Criteria for Deep Convolutional Neural Networks Acceleration
+  authors: Yang He, Yuhang Ding, <b>Ping Liu</b>, Linchao Zhu, Hanwang Zhang, Yi Yang
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2020)
+  year: 2020
+  type: conference
+  badge: CVPR
+- title: Adversarial Localized Energy Networks for Structured Prediction
+  authors: Pingbo Pan, <b>Ping Liu</b>, Yan Yan, Tianbao Yang, Yi Yang
+  venue: AAAI Conference on Artificial Intelligence (AAAI 2020)
+  year: 2020
+  type: conference
+  badge: AAAI
+- title: Unsupervised Eyeglasses Removal in the Wild
+  authors: Bingwen Hu, Zhedong Zheng, <b>Ping Liu</b>, Wankou Yang, Mingwu Ren
+  venue: IEEE Transactions on Cybernetics
+  year: 2020
+  type: journal
+  badge: TCYB
+- title: 'Every Node Counts: Self-Ensembling Graph Convolutional Networks for Semi-Supervised Learning'
+  authors: Yawei Luo, Rongrong Ji, Tao Guan, Junqing Yu, <b>Ping Liu</b>, Yi Yang
+  venue: Pattern Recognition
+  year: 2020
+  type: journal
+  badge: PR
+- title: Multi-Granularity Temporal Modeling for Video-based Person Re-identification
+  authors: Peike Li, Pingbo Pan, <b>Ping Liu</b>, Yi Yang
+  venue: IEEE Transactions on Circuits and Systems for Video Technology
+  year: 2020
+  type: journal
+  badge: TCSVT
+- title: Omni-supervised Facial Expression Recognition via Distilled Data
+  authors: <b>Ping Liu</b>, Yunchao Wei, Zibo Meng, Weihong Deng, Joey Tianyi Zhou, Yi Yang
+  venue: arXiv preprint
+  year: 2020
+  type: preprint
+  badge: arXiv
+- title: Significance-aware Information Bottleneck for Domain Adaptive Semantic Segmentation
+  authors: Yawei Luo, <b>Ping Liu</b>, Tao Guan, Junqing Yu, Yi Yang
+  venue: IEEE/CVF International Conference on Computer Vision (ICCV 2019)
+  year: 2019
+  type: conference
+  badge: ICCV
+- title: Improving the Image Captioning Transformer with Entangled Attention
+  authors: Guang Li, Linchao Zhu, <b>Ping Liu</b>, Yi Yang
+  venue: IEEE/CVF International Conference on Computer Vision (ICCV 2019)
+  year: 2019
+  type: conference
+  badge: ICCV
+- title: Pose-Guided Feature Alignment for Occluded Person Re-identification
+  authors: Jiaxu Miao, Yu Wu, <b>Ping Liu</b>, Yuhang Ding, Yi Yang
+  venue: IEEE/CVF International Conference on Computer Vision (ICCV 2019)
+  year: 2019
+  type: conference
+  badge: ICCV
+- title: Very Long Image Prediction by Outpainting
+  authors: Zongxin Yang, Jian Dong, <b>Ping Liu</b>, Yi Yang, Shuicheng Yan
+  venue: IEEE/CVF International Conference on Computer Vision (ICCV 2019)
+  year: 2019
+  type: conference
+  badge: ICCV
+- title: Pruning Filter via Geometric Median for Deep Convolutional Neural Networks Acceleration
+  authors: Yang He, <b>Ping Liu</b>, Ziwei Wang, Zhilan Hu, Yi Yang
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2019)
+  year: 2019
+  type: conference
+  badge: CVPR
+  oral: true
+- title: Feature-level and Model-level Audiovisual Fusion for Emotion Recognition in the Wild
+  authors: Jie Cai, Zibo Meng, Ahmed-Shehab Khan, Zhiyuan Li, James O'Reilly, Shizhong Han, <b>Ping Liu</b>, Min Chen, Yan Tong
+  venue: IEEE Conference on Multimedia Information Processing and Retrieval (MIPR 2019)
+  year: 2019
+  type: conference
+  badge: MIPR
+- title: A Top-down Approach to Articulated Human Pose Estimation and Tracking
+  authors: Guanghan Ning, <b>Ping Liu</b>, Xiaochuan Fan, Chi Zhang
+  venue: European Conference on Computer Vision (ECCV 2018) Workshop
+  year: 2018
+  type: conference
+  badge: ECCV
+- title: Improving Speech Related Facial Action Unit Recognition by Audiovisual Information Fusion
+  authors: Zibo Meng, Shizhong Han, <b>Ping Liu</b>, Yan Tong
+  venue: IEEE Transactions on Cybernetics
+  year: 2018
+  type: journal
+  badge: TCYB
+- title: Identity-Aware Convolutional Neural Network for Facial Expression Recognition
+  authors: Zibo Meng<sup>♠</sup>, <b>Ping Liu</b><sup>♠</sup>, Jie Cai, Shizhong Han, Yan Tong
+  venue: IEEE International Conference on Automatic Face and Gesture Recognition (FG 2017)
+  year: 2017
+  type: conference
+  badge: FG
+- title: 'Feature Disentangling Machine: A Novel Approach of Feature Selection and Disentangling in Facial Expression Analysis'
+  authors: <b>Ping Liu</b>, Joey Tianyi Zhou, Ivor Tsang, Zibo Meng, Shizhong Han, Yan Tong
+  venue: European Conference on Computer Vision (ECCV 2014)
+  year: 2014
+  type: conference
+  badge: ECCV
+- title: Facial Expression Recognition via a Boosted Deep Belief Network
+  authors: <b>Ping Liu</b><sup>♠</sup>, Shizhong Han<sup>♠</sup>, Zibo Meng, Yan Tong
+  venue: IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2014)
+  year: 2014
+  type: conference
+  badge: CVPR
+- title: 'Facial Grid Transformation: A Novel Face Registration Approach for Improving Facial Action Unit Recognition'
+  authors: Shizhong Han, Zibo Meng, <b>Ping Liu</b>, Yan Tong
+  venue: IEEE International Conference on Image Processing (ICIP 2014)
+  year: 2014
+  type: conference
+  badge: ICIP
+- title: Improving Facial Expression Analysis using Histograms of Log-Transformed Nonnegative Sparse Representation with a Spatial Pyramid Structure
+  authors: <b>Ping Liu</b>, Shizhong Han, Yan Tong
+  venue: IEEE International Conference on Automatic Face and Gesture Recognition (FG 2013)
+  year: 2013
+  type: conference
+  badge: FG

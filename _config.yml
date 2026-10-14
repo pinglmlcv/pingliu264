@@ -175,6 +175,7 @@ exclude:
   - talkmap
   - talkmap.py
   - talkmap.ipynb
+  - tools
 keep_files:
   - .git
   - .svn
