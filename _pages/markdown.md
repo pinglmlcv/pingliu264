@@ -50,13 +50,6 @@ redirect_from:
 </style>
 
 <div class="sv">
-<div class="sv-stats">
-<div class="sv-stat" style="background:linear-gradient(135deg,#4b4fc9,#6a6ee0)"><span class="n">5</span><span class="l">workshops co-organized</span></div>
-<div class="sv-stat" style="background:linear-gradient(135deg,#0e8a83,#22b3a6)"><span class="n">5</span><span class="l">conferences served as Area Chair</span></div>
-<div class="sv-stat" style="background:linear-gradient(135deg,#d9822b,#eead4f)"><span class="n">6</span><span class="l">years as AAAI Senior PC</span></div>
-<div class="sv-stat" style="background:linear-gradient(135deg,#b4381a,#dd6136)"><span class="n">27</span><span class="l">conferences and journals reviewed for</span></div>
-</div>
-
 <div class="sv-sec">
 <div class="sv-h"><div class="ic" style="background:#4b4fc9"><i class="fas fa-user-graduate"></i></div><h2>Ph.D. Students</h2></div>
 <div class="sv-students">

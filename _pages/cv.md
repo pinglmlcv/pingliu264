@@ -50,9 +50,3 @@ Languages
 * English (C1)
 * Japanese (A2, in progress)
 * Korean (A1, in progress)
-
-Hobby
-=======
- * Video games: Halo, Call of Duty, ...
- * Fictions: Three Body, Sherlock Holmes, ...
- * Manga: ゴブリンスレイヤー, One-punch man, BLEACH, Guyver: The Bioboosted Armor, Rurouni Kenshin, ...
