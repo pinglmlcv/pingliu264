@@ -46,6 +46,11 @@ redirect_from:
 .hm-toggle { margin:0.9em 0 0 1.2em; border:1px solid var(--line); background:#f3f5f9; color:var(--ink); border-radius:999px; padding:0.35em 1.1em; font-size:0.82em; cursor:pointer; }
 @media (max-width: 900px) { .hm-dirs { grid-template-columns:1fr; } }
 @media (max-width: 760px) { .hm-hero { padding:1.5em 1.3em; } .hm-n { flex-wrap:wrap; gap:0.4em; } .hm-d { flex:none; } .hm-t { flex-basis:100%; } }
+.hm-open { background:linear-gradient(135deg,#fff8ec 0%,#fff 70%); border:1px solid #f3dcb5; border-left:5px solid #d9822b; border-radius:14px; padding:1.1em 1.3em; }
+.hm-open ul { list-style:none; margin:0; padding:0; }
+.hm-open li { display:flex; gap:0.75em; align-items:flex-start; margin:0 0 0.7em; font-size:0.93em; line-height:1.55; }
+.hm-open li:last-child { margin-bottom:0; }
+.hm-open li i { color:#d9822b; width:1.2em; text-align:center; margin-top:0.3em; flex:none; }
 </style>
 
 <div class="hm">
@@ -76,7 +81,16 @@ redirect_from:
 </div>
 
 <div class="hm-sec">
-<div class="hm-h"><div class="ic" style="background:#d9822b"><i class="fas fa-bullhorn"></i></div><h2>News</h2></div>
+<div class="hm-h"><div class="ic" style="background:#d9822b"><i class="fas fa-handshake"></i></div><h2>Collaboration and Openings</h2></div>
+<div class="hm-open"><ul>
+<li><i class="fas fa-handshake"></i><span>He welcomes research collaborations with academic and industry partners.</span></li>
+<li><i class="fas fa-user-graduate"></i><span>Prospective Ph.D. students are encouraged to apply to the UNR CSE Ph.D. program and mention his name.</span></li>
+<li><i class="fas fa-laptop-code"></i><span>Students interested in research internships, including remote internships, may contact him with a CV and a brief statement of research interests. Due to limited capacity, only candidates whose interests closely match ongoing projects will be contacted.</span></li>
+</ul></div>
+</div>
+
+<div class="hm-sec">
+<div class="hm-h"><div class="ic" style="background:#be185d"><i class="fas fa-bullhorn"></i></div><h2>News</h2></div>
 <ul class="hm-news" id="hm-news">
 <li class="hm-n"><span class="hm-d">Oct 2026</span><span class="hm-k" style="background:#0e8a83">Talk</span><span class="hm-t">Invited talk at UC Merced: "Intervene and Verify: Toward Controllable Generative Models and World Models."</span></li>
 <li class="hm-n"><span class="hm-d">Sep 2026</span><span class="hm-k" style="background:#4b4fc9">Paper</span><span class="hm-t">"PhyMetric: Diagnosing Physical Plausibility in Text-to-Video Generation via Scene-Level QA," led by Ph.D. student Siwei Meng, accepted to NeurIPS 2026, Evaluations and Datasets Track. <a class="hm-ln" href="https://mengsiwei.github.io/PhyMetric/">Project page</a></span></li>
