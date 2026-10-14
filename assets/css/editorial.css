@@ -100,3 +100,45 @@ html body .rs-card .rs-gh { background: none !important; color: var(--ed-accent)
 html body .rs-callout.ph-c a, html body .rs-callout.ph-c i, html body .rs-callout.df-c a, html body .rs-callout.df-c i { color: var(--ed-accent) !important; }
 html body .rs-callout.ph-c, html body .rs-callout.df-c { border-left-color: var(--ed-gold) !important; }
 html body .df .rs-q i, html body .ph .rs-q i, html body .er .rs-q i { color: var(--ed-accent) !important; }
+
+/* ---------- Publications page ---------- */
+html body .pb-sel { background: var(--ed-paper); border: 1px solid var(--ed-rule); border-top: 3px solid var(--ed-accent); border-radius: 4px; }
+html body .pb-item { border-radius: 4px; }
+html body .pb-item:hover { box-shadow: none; transform: none; border-color: #c9d2dc; }
+html body .pb-badge { background: #fff !important; color: var(--ed-accent); border: 1px solid var(--ed-accent); border-radius: 2px; font-weight: 600; }
+html body .pb-badge em { color: var(--ed-muted); }
+html body .pb-flag { background: none; color: var(--ed-gold); border: 1px solid var(--ed-gold); border-radius: 2px; font-variant: small-caps; }
+html body .pb-flag.gold { background: none; color: var(--ed-gold); border-color: var(--ed-gold); }
+html body .pb-btn { border-radius: 2px; background: #fff; border-color: var(--ed-rule); }
+html body .pb-btn.on { background: var(--ed-accent); border-color: var(--ed-accent); }
+html body .pb-year span { color: var(--ed-accent); font-weight: 600; }
+html body .pb-year:after { background: var(--ed-rule); height: 1px; }
+html body .pb-bar { border-bottom: 1px solid var(--ed-rule); }
+
+/* ---------- Teaching page ---------- */
+html body .tc-hero { background: var(--ed-paper); color: var(--ed-ink); border: 1px solid var(--ed-rule); border-top: 3px solid var(--ed-accent); border-radius: 4px; box-shadow: none; }
+html body .tc-hero h2 { color: var(--ed-ink); }
+html body .tc-hero .k { color: var(--ed-gold); opacity: 1; }
+html body .tc-hero p { color: var(--ed-muted); opacity: 1; }
+html body .tc-tl:before { background: var(--ed-rule); width: 1px; }
+html body .tc-term { color: var(--ed-gold); font-variant: small-caps; text-transform: none; letter-spacing: 0.08em; }
+html body .tc-term:before { border-color: var(--ed-accent); border-width: 2px; width: 0.8em; height: 0.8em; left: -1.78em; }
+html body .tc-c { border-radius: 4px; box-shadow: none; }
+html body .tc-side { background: var(--ed-paper) !important; color: var(--ed-ink); border-right: 1px solid var(--ed-rule); }
+html body .tc-code { color: var(--ed-accent); }
+html body .tc-lvl { color: var(--ed-muted); opacity: 1; font-variant: small-caps; text-transform: none; }
+html body .tc-new { background: none; color: var(--ed-gold); border: 1px solid var(--ed-gold); border-radius: 2px; font-variant: small-caps; }
+
+/* ---------- Service page ---------- */
+html body .sv-stu { border-radius: 4px; box-shadow: none; }
+html body .sv-av { background: var(--ed-paper) !important; color: var(--ed-accent); border: 1px solid var(--ed-rule); }
+html body .sv-chip { background: none; color: var(--ed-accent); border: 1px solid var(--ed-rule); border-radius: 2px; }
+html body .sv-tl:before { background: var(--ed-rule); width: 1px; }
+html body .sv-tl li { border-radius: 4px; }
+html body .sv-tl li:before { border-color: var(--ed-accent); border-width: 2px; width: 0.6em; height: 0.6em; left: -1.27em; }
+html body .sv-tl .yr { background: none; color: var(--ed-accent); border: 1px solid var(--ed-accent); border-radius: 2px; }
+html body .sv-tl .role { color: var(--ed-gold); font-variant: small-caps; text-transform: none; }
+html body .sv-box { border-radius: 4px; box-shadow: none; border-top: 2px solid var(--ed-accent) !important; }
+html body .sv-box h3 { color: var(--ed-gold) !important; font-variant: small-caps; text-transform: none; }
+html body .sv-tag { border-radius: 2px; background: #fff; }
+html body .sv-tag.conf { background: var(--ed-paper); color: var(--ed-accent); border-color: var(--ed-rule); }
