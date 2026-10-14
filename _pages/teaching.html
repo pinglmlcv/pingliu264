@@ -7,6 +7,55 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<style>
+.tc { --ink:#1f2a44; --muted:#5b6478; --line:#e6e9f0; font-size:0.95em; line-height:1.65; color:var(--ink); }
+.tc * { box-sizing:border-box; }
+.tc-hero { background:linear-gradient(120deg,#0e8a83 0%,#3a7bd5 60%,#4b4fc9 100%); color:#fff; border-radius:16px; padding:1.8em 2em; margin:0.4em 0 2.4em; box-shadow:0 10px 30px rgba(43,58,140,0.16); }
+.tc-hero .k { text-transform:uppercase; letter-spacing:0.14em; font-size:0.72em; opacity:0.85; margin:0 0 0.5em; }
+.tc-hero h2 { color:#fff; margin:0 0 0.4em; padding:0; border:0; font-size:1.4em; line-height:1.3; }
+.tc-hero p { margin:0; opacity:0.95; max-width:42em; }
+.tc-h { display:flex; align-items:center; gap:0.7em; margin:0 0 1.1em; }
+.tc-h .ic { width:2.3em; height:2.3em; border-radius:10px; display:flex; align-items:center; justify-content:center; color:#fff; flex:none; }
+.tc-h h2 { margin:0; padding:0; border:0; font-size:1.3em; }
+.tc-courses { display:grid; grid-template-columns:repeat(3,1fr); gap:1em; margin:0 0 2.8em; }
+.tc-c { position:relative; background:#fff; border:1px solid var(--line); border-radius:16px; overflow:hidden; box-shadow:0 6px 20px rgba(31,42,68,0.07); display:flex; flex-direction:column; }
+.tc-top { padding:1.2em 1.2em 1em; color:#fff; background:var(--g); }
+.tc-code { font-size:0.78em; font-weight:700; letter-spacing:0.08em; opacity:0.9; }
+.tc-name { display:block; font-size:1.12em; font-weight:700; line-height:1.3; margin-top:0.3em; }
+.tc-new { position:absolute; top:0.9em; right:0.9em; background:#fde68a; color:#78350f; font-size:0.68em; font-weight:800; padding:0.15em 0.6em; border-radius:999px; letter-spacing:0.05em; }
+.tc-bd { padding:1em 1.2em 1.2em; flex:1; display:flex; flex-direction:column; gap:0.6em; }
+.tc-meta { display:flex; flex-wrap:wrap; gap:0.4em; }
+.tc-pill { font-size:0.74em; padding:0.2em 0.7em; border-radius:999px; background:#f3f5f9; border:1px solid var(--line); color:var(--ink); }
+.tc-d { font-size:0.88em; color:var(--muted); margin:0; }
+.tc-ap { display:grid; grid-template-columns:1fr 1fr; gap:1em; }
+.tc-a { background:#fff; border:1px solid var(--line); border-radius:14px; padding:1.1em 1.2em; border-left:5px solid var(--k); }
+.tc-a i { color:var(--k); font-size:1.2em; margin-bottom:0.4em; display:block; }
+.tc-a b { display:block; margin-bottom:0.2em; }
+.tc-a span { font-size:0.88em; color:var(--muted); line-height:1.55; }
+@media (max-width: 900px) { .tc-courses { grid-template-columns:1fr; } }
+@media (max-width: 760px) { .tc-ap { grid-template-columns:1fr; } .tc-hero { padding:1.4em 1.2em; } }
+</style>
+
+<div class="tc">
+<div class="tc-hero">
+<p class="k">Department of Computer Science and Engineering, University of Nevada, Reno</p>
+<h2>From computer vision foundations to generative AI</h2>
+<p>I teach graduate and undergraduate courses in computer vision and generative models, including a new graduate course on image and video generation that I developed at UNR.</p>
+</div>
+
+<div class="tc-h"><div class="ic" style="background:#3a7bd5"><i class="fas fa-chalkboard-teacher"></i></div><h2>Courses</h2></div>
+<div class="tc-courses">
+<div class="tc-c"><span class="tc-new">NEW COURSE</span><div class="tc-top" style="--g:linear-gradient(135deg,#4b4fc9,#7c3aed)"><span class="tc-code">CSE 791</span><span class="tc-name">GenAI: From Images to Videos</span></div>
+<div class="tc-bd"><div class="tc-meta"><span class="tc-pill">Spring 2026</span><span class="tc-pill">Graduate</span></div><p class="tc-d">A new graduate-level course I developed and taught, covering generative models for images and videos.</p></div></div>
+<div class="tc-c"><div class="tc-top" style="--g:linear-gradient(135deg,#0e8a83,#22b3a6)"><span class="tc-code">CSE 485/685</span><span class="tc-name">Computer Vision</span></div>
+<div class="tc-bd"><div class="tc-meta"><span class="tc-pill">Spring 2026</span><span class="tc-pill">Undergraduate / Graduate</span></div><p class="tc-d">Cross-listed undergraduate and graduate course in computer vision.</p></div></div>
+<div class="tc-c"><div class="tc-top" style="--g:linear-gradient(135deg,#d9822b,#c2410c)"><span class="tc-code">CSE 786</span><span class="tc-name">Advanced Computer Vision</span></div>
+<div class="tc-bd"><div class="tc-meta"><span class="tc-pill">Spring 2025</span><span class="tc-pill">Graduate</span></div><p class="tc-d">Graduate-level course on advanced topics in computer vision.</p></div></div>
+</div>
+
+<div class="tc-h"><div class="ic" style="background:#0e8a83"><i class="fas fa-lightbulb"></i></div><h2>Teaching Approach</h2></div>
+<div class="tc-ap">
+<div class="tc-a" style="--k:#4b4fc9"><i class="fas fa-sync-alt"></i><b>Current material</b><span>Lecture materials are updated every year so that students learn the latest advances in a fast-moving field.</span></div>
+<div class="tc-a" style="--k:#0e8a83"><i class="fas fa-film"></i><b>Visual intuition</b><span>Animations and demos make difficult ideas concrete, for example the difference between flow matching and diffusion models.</span></div>
+</div>
+</div>
