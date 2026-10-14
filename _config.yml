@@ -21,7 +21,7 @@ repository               : "pinglmlcv/pingliu264"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile-photo.png"
   name             : "Ping Liu"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor, Computer Science and Engineering"
