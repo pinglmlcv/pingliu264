@@ -107,17 +107,6 @@ Preprints
 9. Yaxin Shi, Xiaowei Zhou, **Ping Liu**, Ivor Tsang. "UTSGAN: Unseen Transition Suss GAN for Transition-Aware Image-to-Image Translation". arXiv preprint, 2021.
 10. **Ping Liu**, Yunchao Wei, Zibo Meng, Weihong Deng, Joey Tianyi Zhou, Yi Yang. "Omni-supervised Facial Expression Recognition via Distilled Data". arXiv preprint, 2020.
 
-Other Publications
-======
-1. Boshen Zhang, Yang Xiao, Fu Xiong, Cunlin Wu, Zhiguo Cao, **Ping Liu**, Joey Tianyi Zhou. "3D Human Pose Estimation with Cross-modality CNN Training and Multi-scale Local Refinement". *Applied Soft Computing*, 2022.
-2. Jing Pu, Joey Tianyi Zhou, **Ping Liu**, Fei Yu, Xiaoyang He, Lu Lu, Shibo Jiang. "Viral Entry Inhibitors Targeting Six-Helical Bundle Core Against Highly Pathogenic Enveloped Viruses with Class I Fusion Proteins". *Current Medicinal Chemistry*, 2021.
-3. Jin Wang, **Ping Liu**, Mary F.H. She, Saeid Nahavandi, Abbas Kouzani. "Biomedical Time Series Clustering based on Non-Negative Sparse Coding and Probabilistic Topic Model". *Computer Methods and Programs in Biomedicine*, 2013.
-4. Jin Wang, **Ping Liu**, Mary F.H. She, Saeid Nahavandi, Abbas Kouzani. "Bag-of-Words Representation for Biomedical Time Series Classification". *Biomedical Signal Processing and Control*, 2013.
-5. Jin Wang, Xiangping Sun, **Ping Liu**, Mary F.H. She, Lingxue Kong. "Sparse Representation of Local Spatial-Temporal Features with Dimensionality Reduction for Motion Recognition". *Neurocomputing*, 2013.
-6. Jin Wang, **Ping Liu**, Mary F.H. She, Abbas Kouzani, Saeid Nahavandi. "Supervised Learning Probabilistic Latent Semantic Analysis for Human Motion Analysis". *Neurocomputing*, 2013.
-7. Jin Wang, **Ping Liu**, Mary F.H. She, Abbas Kouzani, Saeid Nahavandi. "Human Action Recognition based on Pyramid Histogram of Oriented Gradients". *IEEE International Conference on Systems, Man, and Cybernetics (SMC 2011)*.
-8. **Ping Liu**, Jin Wang, Mary F.H. She, Honghai Liu. "Human Action Recognition based on 3D SIFT and LDA model". *IEEE Workshop on Robotic Intelligence in Informationally Structured Space (RiiSS 2011)*.
-
 Ph.D. Thesis
 ======
 1. **Ping Liu**. "Improving Feature Learning, Feature Selection, and Classification in Facial Expression Analysis". Ph.D. Thesis, University of South Carolina, 2015.
