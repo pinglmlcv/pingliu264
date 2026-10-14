@@ -9,7 +9,7 @@ redirect_from:
 
 Ping Liu is a Tenure-Track Assistant Professor in the Department of Computer Science and Engineering at the University of Nevada, Reno (UNR), where he has been since March 2024. From 2020 to 2024 he was a Scientist and then Senior Scientist II at the Centre for Frontier AI Research (CFAR), Institute of High Performance Computing (IHPC), A\*STAR, Singapore. Before that, he was a Research Fellow and Lecturer at the University of Technology Sydney, a Research Scientist at the JD.com US Research Center, and a Senior Applied Research Engineer at the Sony US Research Center.
 
-He received his Ph.D. in Computer Science and Engineering from the University of South Carolina, his M.Eng. from Huazhong University of Science and Technology, and his B.Eng. from Wuhan University of Technology. He is an IEEE Senior Member, and his work has received over 9,000 citations on [Google Scholar](https://scholar.google.com/citations?user=KRz4JecAAAAJ&hl=en).
+He received his Ph.D. in Computer Science and Engineering from the University of South Carolina, his M.Eng. from Huazhong University of Science and Technology, and his B.Eng. from Wuhan University of Technology. He is an IEEE Senior Member.
 
 Research
 ======
