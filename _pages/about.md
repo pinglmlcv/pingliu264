@@ -13,13 +13,13 @@ He received his Ph.D. in Computer Science and Engineering from the University of
 
 Research
 ======
-My research builds verifiable control and verification for generative AI systems: methods that diagnose what a model has learned, selectively intervene on it, and certify the result. Three thrusts share this methodology:
+His research builds verifiable control and verification for generative AI systems: methods that diagnose what a model has learned, selectively intervene on it, and certify the result. Three thrusts share this methodology:
 
 * **Concept erasure and machine unlearning.** Principled, verifiable interventions on generative models, including theory on what erasure can and cannot guarantee.
 * **Physically grounded video generation and world models.** Verification as physical consistency, with structured verifiers used as reward signals for post-training.
 * **Alignment and agents.** Calibrated reward signals when scores and preferences conflict, and agents that verify their own perception and actions before acting.
 
-My research is supported by the National Science Foundation, including an NSF Major Research Instrumentation award for a large-scale GPU cluster for AI research at UNR.
+His research is supported by the National Science Foundation, including an NSF Major Research Instrumentation award for a large-scale GPU cluster for AI research at UNR.
 
 News:
 ======
