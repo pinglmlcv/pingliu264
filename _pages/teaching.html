@@ -7,6 +7,44 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<style>
+.tc { --ink:#1f2a44; --muted:#5b6478; --line:#e6e9f0; line-height:1.65; color:var(--ink); }
+.tc * { box-sizing:border-box; }
+.tc-hero { background:linear-gradient(120deg,#0e8a83 0%,#3a7bd5 60%,#4b4fc9 100%); color:#fff; border-radius:16px; padding:1.8em 2em; margin:0.3em 0 2.4em; box-shadow:0 10px 30px rgba(43,58,140,0.16); }
+.tc-hero .k { text-transform:uppercase; letter-spacing:0.14em; font-size:0.7em; opacity:0.85; margin:0 0 0.5em; }
+.tc-hero h2 { color:#fff; margin:0 0 0.4em; padding:0; border:0; font-size:1.45em; line-height:1.3; }
+.tc-hero p { margin:0; opacity:0.95; max-width:42em; }
+.tc-h { display:flex; align-items:center; gap:0.7em; margin:0 0 1.2em; }
+.tc-h .ic { width:2.2em; height:2.2em; border-radius:10px; display:flex; align-items:center; justify-content:center; color:#fff; flex:none; }
+.tc-h h2 { margin:0; padding:0; border:0; font-size:1.3em; }
+.tc-tl { position:relative; margin:0; padding:0 0 0 2.2em; list-style:none; }
+.tc-tl:before { content:""; position:absolute; left:0.75em; top:0.6em; bottom:0.6em; width:3px; border-radius:3px; background:linear-gradient(180deg,#d9822b,#0e8a83,#4b4fc9); }
+.tc-term { position:relative; margin:0 0 0.8em; font-weight:700; font-size:0.95em; color:var(--muted); letter-spacing:0.06em; text-transform:uppercase; }
+.tc-term:before { content:""; position:absolute; left:-1.86em; top:0.28em; width:1em; height:1em; border-radius:50%; background:#fff; border:4px solid var(--c); }
+.tc-c { position:relative; display:flex; background:#fff; border:1px solid var(--line); border-radius:16px; overflow:hidden; box-shadow:0 6px 20px rgba(31,42,68,0.07); margin:0 0 1.6em; }
+.tc-side { flex:0 0 9.5em; background:var(--g); color:#fff; padding:1.1em 1em; display:flex; flex-direction:column; justify-content:center; }
+.tc-code { font-size:1.15em; font-weight:700; line-height:1.2; }
+.tc-lvl { font-size:0.74em; opacity:0.9; margin-top:0.35em; text-transform:uppercase; letter-spacing:0.08em; }
+.tc-bd { padding:1.1em 1.3em; flex:1; }
+.tc-name { display:block; font-size:1.18em; font-weight:700; line-height:1.3; margin-bottom:0.35em; }
+.tc-d { font-size:0.9em; color:var(--muted); margin:0; }
+.tc-new { display:inline-block; margin-left:0.5em; background:#fde68a; color:#78350f; font-size:0.62em; font-weight:800; padding:0.15em 0.6em; border-radius:999px; letter-spacing:0.05em; vertical-align:3px; }
+@media (max-width: 760px) { .tc-hero { padding:1.4em 1.2em; } .tc-c { flex-direction:column; } .tc-side { flex:none; } }
+</style>
+
+<div class="tc">
+<div class="tc-hero">
+<p class="k">Department of Computer Science and Engineering, University of Nevada, Reno</p>
+<h2>From computer vision foundations to generative AI</h2>
+<p>Graduate and undergraduate courses in computer vision and generative models, including a new graduate course on image and video generation developed at UNR.</p>
+</div>
+
+<div class="tc-h"><div class="ic" style="background:#3a7bd5"><i class="fas fa-chalkboard-teacher"></i></div><h2>Courses</h2></div>
+<ul class="tc-tl">
+<li class="tc-term" style="--c:#d9822b">Spring 2025</li>
+<li class="tc-c"><div class="tc-side" style="--g:linear-gradient(160deg,#d9822b,#c2410c)"><span class="tc-code">CSE 786</span><span class="tc-lvl">Graduate</span></div><div class="tc-bd"><span class="tc-name">Advanced Computer Vision</span><p class="tc-d">Graduate-level course on advanced topics in computer vision.</p></div></li>
+<li class="tc-term" style="--c:#0e8a83">Spring 2026</li>
+<li class="tc-c"><div class="tc-side" style="--g:linear-gradient(160deg,#0e8a83,#22b3a6)"><span class="tc-code">CSE 485/685</span><span class="tc-lvl">Undergraduate / Graduate</span></div><div class="tc-bd"><span class="tc-name">Computer Vision</span><p class="tc-d">Cross-listed undergraduate and graduate course in computer vision.</p></div></li>
+<li class="tc-c"><div class="tc-side" style="--g:linear-gradient(160deg,#4b4fc9,#7c3aed)"><span class="tc-code">CSE 791</span><span class="tc-lvl">Graduate</span></div><div class="tc-bd"><span class="tc-name">GenAI: From Images to Videos<span class="tc-new">NEW COURSE</span></span><p class="tc-d">A new graduate-level course developed and taught at UNR, covering generative models for images and videos.</p></div></li>
+</ul>
+</div>
