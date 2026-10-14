@@ -85,7 +85,6 @@ redirect_from:
 <div class="hm-open"><ul>
 <li><i class="fas fa-handshake"></i><span>He welcomes research collaborations with academic and industry partners.</span></li>
 <li><i class="fas fa-user-graduate"></i><span>Prospective Ph.D. students are encouraged to apply to the UNR CSE Ph.D. program and mention his name.</span></li>
-<li><i class="fas fa-laptop-code"></i><span>Students interested in research internships, including remote internships, may contact him with a CV and a brief statement of research interests. Due to limited capacity, only candidates whose interests closely match ongoing projects will be contacted.</span></li>
 </ul></div>
 </div>
 
