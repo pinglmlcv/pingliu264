@@ -56,6 +56,17 @@ author_profile: true
   .rs-flow { flex-direction:column; } .rs-arrow { justify-content:center; transform:rotate(90deg); }
   .rs-qs { grid-template-columns:1fr; } .rs-pub { flex-direction:column; gap:0.5em; } .rs-venue { flex:none; align-self:flex-start; padding:0.3em 0.8em; }
 }
+.rs-res { display:grid; grid-template-columns:1fr 1fr; gap:1.1em; margin:0 0 2.4em; }
+.rs-card { display:flex; flex-direction:column; background:#fff; border:1px solid var(--line); border-radius:14px; padding:1.3em 1.3em 1.1em; box-shadow:0 4px 18px rgba(31,42,68,0.06); border-left:5px solid var(--c); }
+.rs-card .rs-ic { width:2.4em; height:2.4em; border-radius:10px; display:flex; align-items:center; justify-content:center; color:#fff; background:var(--c); margin-bottom:0.8em; }
+.rs-card b { font-size:1.02em; line-height:1.35; }
+.rs-card span { color:var(--muted); font-size:0.87em; line-height:1.55; margin:0.45em 0 0.9em; flex:1; }
+.rs-card .rs-gh { align-self:flex-start; display:inline-flex; align-items:center; gap:0.45em; font-size:0.8em; padding:0.3em 0.9em; border-radius:999px; background:var(--c); color:#fff !important; text-decoration:none !important; }
+.rs-card .rs-meta { display:flex; align-items:center; gap:0.7em; flex-wrap:wrap; }
+.rs-callout { display:flex; align-items:center; gap:0.8em; background:#fff; border:1px dashed var(--er); border-radius:12px; padding:0.8em 1em; margin:0 0 2em; font-size:0.88em; }
+.rs-callout i { color:var(--er); font-size:1.2em; }
+.rs-callout a { color:var(--er) !important; font-weight:600; }
+@media (max-width: 760px) { .rs-res { grid-template-columns:1fr; } }
 </style>
 
 <div class="rs">
@@ -83,6 +94,7 @@ author_profile: true
 <div class="rs-q"><i class="fas fa-layer-group"></i>Where inside the network should erasure happen, and how does this differ for motion in video models?</div>
 <div class="rs-q"><i class="fas fa-redo-alt"></i>After erasure, how much of the concept can still be recovered, and how do we measure it?</div>
 </div>
+<div class="rs-callout"><i class="fab fa-github"></i><div>We maintain <a href="https://github.com/pinglmlcv/Awesome-Concept-Erasure">Awesome-Concept-Erasure</a>, a curated and continuously updated list of papers on concept erasure and unlearning in generative models.</div></div>
 <figure class="rs-fig"><img src="{{ base_path }}/images/research/dp.jpg" alt="Concept erasure via Double Projections"><figcaption><b>Double Projections (CVPR 2026).</b> Closed-form erasure of "Cassette Player": the target concept disappears while nine other concepts are preserved.</figcaption></figure>
 <figure class="rs-fig"><img src="{{ base_path }}/images/research/mute.jpg" alt="Overview of MUTE"><figcaption><b>MUTE (ACM MM 2026).</b> Erasing a motion concept such as "kicking" from a video diffusion transformer at inference time, without retraining and without an external detector.</figcaption></figure>
 <h3 class="rs-h3">Representative papers</h3>
@@ -114,6 +126,12 @@ author_profile: true
 <li class="rs-pub"><span class="rs-venue v-neurips">NeurIPS 2026</span><div><span class="t">PhyMetric: Diagnosing Physical Plausibility in Text-to-Video Generation via Scene-Level QA</span><span class="a">Siwei Meng, Xuerou Cai, Rui Hu, <b>Ping Liu</b><sup>†</sup> · Evaluations and Datasets Track</span><span class="l"><a href="https://mengsiwei.github.io/PhyMetric/">Project page</a></span></div></li>
 <li class="rs-pub"><span class="rs-venue v-ijcai">IJCAI 2025</span><div><span class="t">Grounding Creativity in Physics: A Brief Survey of Physical Priors in AIGC</span><span class="a">Siwei Meng, Yawei Luo<sup>†</sup>, <b>Ping Liu</b><sup>†</sup> · Survey Track</span></div></li>
 </ul>
+</div>
+
+<h3 class="rs-h3">Open resources</h3>
+<div class="rs-res">
+<div class="rs-card" style="--c:#4b4fc9"><div class="rs-ic"><i class="fas fa-eraser"></i></div><b>Awesome-Concept-Erasure</b><span>A curated list of papers on concept erasure and machine unlearning for text-to-image and text-to-video generative models, maintained by our group.</span><div class="rs-meta"><a class="rs-gh" href="https://github.com/pinglmlcv/Awesome-Concept-Erasure"><i class="fab fa-github"></i> GitHub</a></div></div>
+<div class="rs-card" style="--c:#c2410c"><div class="rs-ic"><i class="fas fa-user-secret"></i></div><b>Awesome-Comprehensive-Deepfake-Detection</b><span>A curated list of deepfake detection papers and datasets, the companion repository to our survey on facial deepfake detection (<a href="https://arxiv.org/abs/2406.06965">arXiv:2406.06965</a>). Maintained by Ping Liu.</span><div class="rs-meta"><a class="rs-gh" href="https://github.com/qiqitao77/Awesome-Comprehensive-Deepfake-Detection"><i class="fab fa-github"></i> GitHub</a><img src="https://img.shields.io/github/stars/qiqitao77/Awesome-Comprehensive-Deepfake-Detection?style=social" alt="GitHub stars"></div></div>
 </div>
 
 <p class="rs-note"><sup>†</sup> corresponding or co-corresponding author. The full list is on the <a href="{{ base_path }}/publications/">Publications</a> page.</p>
