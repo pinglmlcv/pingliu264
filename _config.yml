@@ -27,7 +27,7 @@ author:
   bio              : "Assistant Professor, Computer Science and Engineering"
   location         : "Reno, NV, USA"
   employer         : "University of Nevada, Reno"
-  uri              : "https://www.unr.edu/cse"
+  uri              : # URL
   email            : "pingl@unr.edu" 
 
   # Academic websites
