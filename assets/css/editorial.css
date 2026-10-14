@@ -1,0 +1,102 @@
+/* Editorial theme: one accent (deep ink blue), one secondary (celadon gray),
+   flat surfaces, thin rules, small radii. Overrides the page-level styles. */
+:root {
+  --ed-ink: #1e2633;
+  --ed-muted: #5c6773;
+  --ed-rule: #dfe4ea;
+  --ed-paper: #f5f7f9;
+  --ed-accent: #2a3d5c;
+  --ed-accent-soft: #eef2f6;
+  --ed-gold: #5f8389;
+}
+html body { color: var(--ed-ink); background: #fff; }
+html body a { color: var(--ed-accent); }
+
+/* Masthead */
+html body .masthead { border-bottom: 1px solid var(--ed-rule); background: #fff; }
+html body .masthead__menu-item a { color: var(--ed-muted); letter-spacing: 0.04em; }
+html body .masthead__menu-item a:hover { color: var(--ed-accent); }
+html body .masthead__menu-item--lg a { color: var(--ed-ink); font-weight: 600; letter-spacing: 0; }
+html body .greedy-nav .visible-links a:before { background: var(--ed-gold); height: 2px; }
+
+/* Sidebar */
+html body .author__avatar img { border: 1px solid var(--ed-rule); padding: 3px; }
+html body .author__name { color: var(--ed-ink); }
+html body .author__bio { color: var(--ed-muted); font-style: italic; }
+html body .author__urls { color: var(--ed-muted); }
+html body .author__urls a { color: var(--ed-ink); }
+html body .author__urls i, html body .author__urls .fas, html body .author__urls .fab, html body .author__urls .ai { color: var(--ed-accent); }
+
+/* Footer */
+html body .page__footer { background: #fff; border-top: 1px solid var(--ed-rule); color: var(--ed-muted); }
+html body .page__footer a { color: var(--ed-muted); }
+
+/* Page title */
+html body .page__title { font-weight: 600; letter-spacing: -0.005em; }
+
+/* ---------- Shared section heading treatment ---------- */
+html body .hm-h, html body .rs-h3, html body .tc-h, html body .sv-h, html body .pb-h { border-bottom: 1px solid var(--ed-rule); padding-bottom: 0.35em; }
+html body .hm-h .ic, html body .tc-h .ic, html body .sv-h .ic, html body .pb-h .ic { display: none; }
+html body .hm-h h2, html body .tc-h h2, html body .sv-h h2, html body .pb-h h2 { font-variant: small-caps; letter-spacing: 0.06em; font-size: 1.25em; color: var(--ed-ink); font-weight: 600; }
+html body .rs-h3 { color: var(--ed-gold) !important; font-variant: small-caps; text-transform: none !important; letter-spacing: 0.08em !important; font-size: 1.05em !important; }
+
+/* ---------- Homepage ---------- */
+html body .hm-hero { background: var(--ed-paper); color: var(--ed-ink); border: 1px solid var(--ed-rule); border-top: 3px solid var(--ed-accent); border-radius: 4px; box-shadow: none; padding: 1.8em 2em 1.6em; }
+html body .hm-hero h1 { color: var(--ed-ink); font-weight: 600; }
+html body .hm-hero .role { color: var(--ed-muted); opacity: 1; }
+html body .hm-hero .tag { color: var(--ed-accent); opacity: 1; }
+html body .hm-btns { gap: 0.4em 1.4em; border-top: 1px solid var(--ed-rule); padding-top: 0.9em; }
+html body .hm-btns a { color: var(--ed-accent) !important; background: none; border: 0; border-radius: 0; padding: 0; font-variant: small-caps; letter-spacing: 0.06em; font-size: 0.95em; }
+html body .hm-btns a:hover { background: none; text-decoration: underline !important; }
+html body .hm-about { background: none; border: 0; box-shadow: none; padding: 0; }
+html body .hm-dirs { counter-reset: dir; }
+html body .hm-dir { background: #fff !important; border: 1px solid var(--ed-rule); border-top: 2px solid var(--ed-accent); border-radius: 4px; box-shadow: none; transform: none !important; }
+html body .hm-dir:hover { border-color: var(--ed-accent); box-shadow: none; }
+html body .hm-dir i { display: none; }
+html body .hm-dir b:before { counter-increment: dir; content: counter(dir, upper-roman) "."; display: block; color: var(--ed-gold); font-size: 0.9em; margin-bottom: 0.2em; letter-spacing: 0.05em; }
+html body .hm-open { background: var(--ed-paper); border: 1px solid var(--ed-rule); border-left: 3px solid var(--ed-gold); border-radius: 4px; }
+html body .hm-open li i { color: var(--ed-gold); }
+html body .hm-news { border-left: 1px solid var(--ed-rule); }
+html body .hm-n:before { border-color: var(--ed-accent); border-width: 1.5px; width: 0.6em; height: 0.6em; left: -0.32em; }
+html body .hm-d { color: var(--ed-accent); }
+html body .hm-k { background: none !important; color: var(--ed-gold); border: 1px solid var(--ed-rule); border-radius: 2px; font-variant: small-caps; text-transform: none; letter-spacing: 0.06em; font-size: 0.72em; }
+html body .hm-ln, html body .pb-links a, html body .rs-pub .l a { border-radius: 2px !important; border-color: var(--ed-rule) !important; color: var(--ed-accent) !important; }
+html body .hm-toggle { border-radius: 2px; background: #fff; border-color: var(--ed-rule); color: var(--ed-accent); }
+
+/* ---------- Research page ---------- */
+html body .rs-hero { background: var(--ed-paper); color: var(--ed-ink); border: 1px solid var(--ed-rule); border-top: 3px solid var(--ed-accent); border-radius: 4px; box-shadow: none; }
+html body .rs-hero h2 { color: var(--ed-ink); }
+html body .rs-hero .rs-kicker { color: var(--ed-gold); opacity: 1; }
+html body .rs-hero p { color: var(--ed-muted); opacity: 1; }
+html body .rs-jump { gap: 0.4em 1.4em; }
+html body .rs-jump a { color: var(--ed-accent) !important; background: none; border: 0; border-radius: 0; padding: 0; font-variant: small-caps; letter-spacing: 0.06em; font-size: 0.95em; }
+html body .rs-jump a:hover { background: none; text-decoration: underline !important; }
+html body .rs-step { border-radius: 4px; box-shadow: none; }
+html body .rs-step .rs-ic { background: none !important; color: var(--ed-accent); width: auto; height: auto; justify-content: flex-start; font-size: 1.2em; }
+html body .rs-arrow { color: var(--ed-rule); }
+html body .rs-sec, html body .rs-sec.er, html body .rs-sec.ph, html body .rs-sec.df { background: #fff; border: 0; border-top: 1px solid var(--ed-rule); border-radius: 0; padding: 1.8em 0 0.6em; }
+html body .rs-num { color: var(--ed-gold) !important; opacity: 1; font-weight: 400; font-size: 1.9em; }
+html body .rs-accent { color: var(--ed-gold) !important; }
+html body .rs-q { border-radius: 4px; background: var(--ed-paper); }
+html body .rs-q i { color: var(--ed-accent) !important; }
+html body .rs-callout { border-radius: 4px; border: 1px solid var(--ed-rule) !important; border-left: 3px solid var(--ed-gold) !important; background: var(--ed-paper); }
+html body .rs-callout i, html body .rs-callout a { color: var(--ed-accent) !important; }
+html body .rs-fig { border-radius: 4px; box-shadow: none; border-left-width: 3px !important; }
+html body .rs-fig.f-dp { background: #f3f6f9; border-color: #dde4ec; border-left-color: #2a3d5c; }
+html body .rs-fig.f-mute { background: #f4f5f9; border-color: #e0e2ec; border-left-color: #4e5b7c; }
+html body .rs-fig.f-magic { background: #f2f7f7; border-color: #d9e6e6; border-left-color: #4f7a7c; }
+html body .rs-fig.f-psdpo { background: #f3f6f4; border-color: #dbe5df; border-left-color: #6d8c7c; }
+html body .rs-fig.f-deepfake { background: #f5f5f8; border-color: #e1e1ea; border-left-color: #5d5875; }
+html body .rs-fig.f-npr { background: #f4f6f8; border-color: #dfe3e8; border-left-color: #6b7a8c; }
+html body .rs-fig figcaption b { color: var(--ed-ink) !important; }
+html body .rs-pub { border-radius: 4px; }
+html body .rs-venue { background: #fff !important; color: var(--ed-accent) !important; border: 1px solid var(--ed-accent); border-radius: 2px; font-weight: 600; }
+html body .rs-ob { border-radius: 4px; background: var(--ed-paper); border-top: 2px solid var(--ed-gold) !important; }
+html body .rs-ob .sub, html body .rs-ob h3 i { color: var(--ed-gold) !important; }
+html body .rs-ob li .vn { background: none !important; color: var(--ed-accent); border: 1px solid var(--ed-accent); border-radius: 2px; }
+html body .rs-card { border-radius: 4px; box-shadow: none; border-left: 3px solid var(--ed-accent) !important; }
+html body .rs-card .rs-ic { background: none !important; color: var(--ed-accent); width: auto; height: auto; justify-content: flex-start; font-size: 1.3em; }
+html body .rs-card .rs-gh { background: none !important; color: var(--ed-accent) !important; border: 1px solid var(--ed-accent); border-radius: 2px; }
+html body .rs-callout.ph-c a, html body .rs-callout.ph-c i, html body .rs-callout.df-c a, html body .rs-callout.df-c i { color: var(--ed-accent) !important; }
+html body .rs-callout.ph-c, html body .rs-callout.df-c { border-left-color: var(--ed-gold) !important; }
+html body .df .rs-q i, html body .ph .rs-q i, html body .er .rs-q i { color: var(--ed-accent) !important; }
