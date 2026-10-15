@@ -133,3 +133,4 @@ html body .sv-tag { border-radius: 2px; background: #fff; }
 html body .sv-tag.conf { background: var(--ed-paper); color: var(--ed-accent); border-color: var(--ed-rule); }
 html body .rs-callout a { color: var(--ed-accent) !important; }
 html body .rs-ob .sub { color: var(--ed-gold) !important; }
+html body .rs-fig.f-phymetric { background: #f2f5f8; border-color: #dbe2ea; border-left-color: #5a7088; }
