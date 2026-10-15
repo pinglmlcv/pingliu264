@@ -58,6 +58,8 @@ publications:
   links:
   - name: Project page
     url: https://mengsiwei.github.io/PhyMetric/
+  - name: Code
+    url: https://github.com/mengsiwei/PhyMetric/tree/phymetric
 - title: 'Where Concept Erasure Should Occur: Concept–Layer Alignment in Text-to-Video Diffusion Models'
   authors: Yiwei Xie, <b>Ping Liu</b><sup>†</sup>, Zheng Zhang<sup>†</sup>
   venue: International Conference on Machine Learning (ICML 2026)
