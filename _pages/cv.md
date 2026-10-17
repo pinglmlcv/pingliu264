@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+{% include base_path %}
+
 <style>
 .cv { --ink:#1e2633; --muted:#5c6773; --line:#dfe4ea; --paper:#f5f7f9; --acc:#2a3d5c; --cel:#5f8389; line-height:1.6; color:var(--ink); }
 .cv * { box-sizing:border-box; }
@@ -37,6 +39,14 @@ redirect_from:
 .cv-row { display:flex; justify-content:space-between; gap:1em; padding:0.35em 0; border-bottom:1px solid var(--line); }
 .cv-row:last-child { border-bottom:0; }
 .cv-row .lv { color:var(--muted); font-size:0.9em; white-space:nowrap; }
+.cv-rs { background:#fff; border:1px solid var(--line); border-left:3px solid var(--cel); border-radius:4px; padding:1.1em 1.4em 1em; margin:-1.2em 0 2.6em; }
+.cv-rs h3 { margin:0 0 0.5em; padding:0; border:0; font-size:1em; font-variant:small-caps; letter-spacing:0.08em; color:var(--cel); font-weight:600; display:flex; align-items:center; gap:0.5em; }
+.cv-rs p { margin:0 0 0.6em; }
+.cv-rs ul { margin:0 0 0.7em; padding:0; list-style:none; }
+.cv-rs li { margin:0; padding:0.15em 0 0.15em 1.1em; position:relative; }
+.cv-rs li:before { content:""; position:absolute; left:0.1em; top:0.75em; width:0.4em; height:0.4em; border:1.5px solid var(--acc); border-radius:50%; }
+.cv-rs li span { color:var(--muted); font-size:0.92em; }
+.cv-rs .more { font-variant:small-caps; letter-spacing:0.06em; }
 @media (max-width: 760px) { .cv-hero { padding:1.3em 1.2em; } .cv-list li { grid-template-columns:1fr; gap:0.15em; } .cv-grid2 { grid-template-columns:1fr; } .cv-f { grid-template-columns:1fr; } .cv-f .cv-amt, .cv-f .cv-yy { text-align:left; } }
 </style>
 
@@ -45,6 +55,17 @@ redirect_from:
 <p class="k">Department of Computer Science and Engineering</p>
 <h2>Ping Liu</h2>
 <p>Tenure-Track Assistant Professor, University of Nevada, Reno</p>
+</div>
+
+<div class="cv-rs">
+<h3><i class="fas fa-flask" style="color:#4b4fc9"></i>Research</h3>
+<p>His research develops methods that diagnose what a generative model has learned, intervene on it selectively, and verify the result. Current work follows three directions:</p>
+<ul>
+<li><b>Concept erasure and machine unlearning:</b> <span>removing targeted concepts, including motion, from image and video generative models.</span></li>
+<li><b>Physically grounded text-to-video generation:</b> <span>making generated motion physically consistent while faithful to the prompt.</span></li>
+<li><b>Deepfake detection and media forensics:</b> <span>detecting forgeries that generalize to unseen generators and modalities.</span></li>
+</ul>
+<a class="more" href="{{ base_path }}/research/">Read more on the Research page &rarr;</a>
 </div>
 
 <div class="cv-sec">
