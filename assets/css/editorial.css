@@ -134,3 +134,95 @@ html body .sv-tag.conf { background: var(--ed-paper); color: var(--ed-accent); b
 html body .rs-callout a { color: var(--ed-accent) !important; }
 html body .rs-ob .sub { color: var(--ed-gold) !important; }
 html body .rs-fig.f-phymetric { background: #f2f5f8; border-color: #dbe2ea; border-left-color: #5a7088; }
+
+/* =========================================================
+   Pastel palette layer (Oct 2026). Light tints from the
+   reference palette for surfaces; text stays ink for contrast.
+   ========================================================= */
+:root {
+  --p-ice: #EDF4FC; --p-sky: #CBE6F5; --p-blue: #DAE3F3; --p-peri: #B4C7E7; --p-lblue: #B1D0ED;
+  --p-mint: #B2E9DA; --p-sage: #D8E3D0; --p-green: #C5E0B4;
+  --p-blush: #FBEEED; --p-pink: #FFE2E4; --p-rose: #F5B9C4; --p-salmon: #FFA4A3;
+  --p-cream: #F8E6C6; --p-peach: #FBE5D6; --p-apricot: #F4B592; --p-butter: #FFD966;
+  --p-lav: #DED6E5;
+  --ed-paper: var(--p-ice);
+  --ed-rule: #d6e0ec;
+}
+/* Heroes */
+html body .hm-hero, html body .rs-hero, html body .tc-hero, html body .cv-hero { background: var(--p-ice); border-color: var(--p-peri); border-top: 3px solid var(--p-peri); }
+html body .pb-sel { background: var(--p-ice); border-color: var(--p-peri); border-top: 3px solid var(--p-peri); }
+
+/* Homepage direction cards: blue / green / pink families */
+html body .hm-dir { border-color: transparent; }
+html body .hm-dir:nth-child(1) { background: var(--p-blue) !important; border-top: 3px solid var(--p-peri); }
+html body .hm-dir:nth-child(2) { background: var(--p-sage) !important; border-top: 3px solid var(--p-green); }
+html body .hm-dir:nth-child(3) { background: var(--p-pink) !important; border-top: 3px solid var(--p-rose); }
+html body .hm-dir:hover { border-color: transparent; filter: brightness(0.98); }
+html body .hm-open { background: var(--p-cream); border-color: #eedcb8; border-left: 3px solid var(--p-butter); }
+html body .hm-k { background: var(--p-peach) !important; border-color: transparent; color: #8a5a3c; }
+html body .hm-ln, html body .pb-links a, html body .rs-pub .l a { background: var(--p-ice); border-color: var(--p-peri) !important; }
+html body .hm-toggle { background: var(--p-ice); border-color: var(--p-peri); }
+
+/* Research page */
+html body .rs-step:nth-of-type(1) { background: var(--p-blue); border-color: transparent; }
+html body .rs-step:nth-of-type(3) { background: var(--p-sky); border-color: transparent; }
+html body .rs-step:nth-of-type(5) { background: var(--p-mint); border-color: transparent; }
+html body .rs-sec.er .rs-q { background: var(--p-blue); border-color: transparent; }
+html body .rs-sec.ph .rs-q { background: var(--p-sage); border-color: transparent; }
+html body .rs-sec.df .rs-q { background: var(--p-pink); border-color: transparent; }
+html body .rs-callout { background: var(--p-ice); border-color: var(--p-peri) !important; border-left: 3px solid var(--p-peri) !important; }
+html body .rs-callout.ph-c { background: #eef4ea; border-color: var(--p-green) !important; border-left-color: var(--p-green) !important; }
+html body .rs-callout.df-c { background: var(--p-blush); border-color: var(--p-rose) !important; border-left-color: var(--p-rose) !important; }
+html body .rs-fig.f-dp { background: var(--p-blue); border-color: var(--p-peri); border-left-color: var(--p-peri); }
+html body .rs-fig.f-mute { background: #ece7f1; border-color: var(--p-lav); border-left-color: #b9abc9; }
+html body .rs-fig.f-magic { background: #e4f4fb; border-color: var(--p-sky); border-left-color: var(--p-lblue); }
+html body .rs-fig.f-psdpo { background: var(--p-sage); border-color: var(--p-green); border-left-color: var(--p-green); }
+html body .rs-fig.f-phymetric { background: #e6f7f1; border-color: var(--p-mint); border-left-color: var(--p-mint); }
+html body .rs-fig.f-deepfake { background: var(--p-pink); border-color: var(--p-rose); border-left-color: var(--p-rose); }
+html body .rs-fig.f-npr { background: var(--p-peach); border-color: var(--p-apricot); border-left-color: var(--p-apricot); }
+html body .rs-pub { background: #fff; }
+html body .rs-sec.er .rs-pub { border-left: 3px solid var(--p-peri); }
+html body .rs-sec.ph .rs-pub { border-left: 3px solid var(--p-green); }
+html body .rs-sec.df .rs-pub { border-left: 3px solid var(--p-rose); }
+html body .rs-ob:nth-of-type(1) { background: var(--p-cream); border-top: 2px solid var(--p-butter) !important; }
+html body .rs-ob:nth-of-type(2) { background: var(--p-lav); border-top: 2px solid #b9abc9 !important; }
+html body .rs-card { border-color: transparent; }
+html body .rs-card:nth-of-type(1) { background: var(--p-blue); border-left: 3px solid var(--p-peri) !important; }
+html body .rs-card:nth-of-type(2) { background: var(--p-sage); border-left: 3px solid var(--p-green) !important; }
+html body .rs-card:nth-of-type(3) { background: var(--p-pink); border-left: 3px solid var(--p-rose) !important; }
+html body .rs-card .rs-gh { background: #fff !important; }
+
+/* Publications: badge tint by type */
+html body .pb-item[data-type="conference"] .pb-badge { background: var(--p-blue) !important; border-color: var(--p-peri); }
+html body .pb-item[data-type="journal"] .pb-badge { background: var(--p-sage) !important; border-color: var(--p-green); }
+html body .pb-item[data-type="preprint"] .pb-badge { background: var(--p-peach) !important; border-color: var(--p-apricot); }
+html body .pb-item[data-type="selected"] .pb-badge { background: var(--p-cream) !important; border-color: var(--p-butter); }
+html body .pb-btn { background: var(--p-ice); border-color: var(--p-peri); }
+html body .pb-flag, html body .pb-flag.gold { background: var(--p-cream); border-color: var(--p-butter); color: #8a6a1c; }
+
+/* Teaching */
+html body .tc-c:nth-child(2) .tc-side { background: var(--p-blue) !important; }
+html body .tc-c:nth-child(3) .tc-side { background: var(--p-sage) !important; }
+html body .tc-c:nth-child(5) .tc-side { background: var(--p-peach) !important; }
+html body .tc-new { background: var(--p-cream); border-color: var(--p-butter); color: #8a6a1c; }
+
+/* Service */
+html body .sv-stu:nth-child(1) .sv-av { background: var(--p-blue) !important; border-color: var(--p-peri); }
+html body .sv-stu:nth-child(2) .sv-av { background: var(--p-peach) !important; border-color: var(--p-apricot); }
+html body .sv-chip { background: var(--p-ice); border-color: var(--p-peri); }
+html body .sv-tl li { background: #fff; }
+html body .sv-tl .yr { background: var(--p-ice); border-color: var(--p-peri); }
+html body .sv-tag { background: var(--p-blush); border-color: var(--p-pink); }
+html body .sv-tag.conf { background: var(--p-sky); border-color: var(--p-lblue); }
+
+/* CV */
+html body .cv-rs { background: var(--p-blush); border-color: var(--p-pink); border-left: 3px solid var(--p-rose); }
+html body .cv-f { background: var(--p-ice); border-color: var(--p-blue); border-left: 3px solid var(--p-peri); }
+html body .cv-f.past { background: var(--p-cream); border-color: #eedcb8; border-left-color: var(--p-butter); }
+html body .cv-now { background: var(--p-mint); border-color: var(--p-mint); color: #2c5d50; }
+html body .cv-grid2 .cv-box:nth-child(1) { background: var(--p-lav); border-top: 2px solid #b9abc9; border-color: var(--p-lav); }
+html body .cv-grid2 .cv-box:nth-child(2) { background: var(--p-sage); border-top: 2px solid var(--p-green); border-color: var(--p-sage); }
+html body .sv-box[style*="#4b4fc9"] { background: var(--p-blue); border-color: var(--p-blue); border-top: 2px solid var(--p-peri) !important; }
+html body .sv-box[style*="#0e8a83"] { background: #e6f7f1; border-color: #e6f7f1; border-top: 2px solid var(--p-mint) !important; }
+html body .sv-box[style*="#c2410c"] { background: var(--p-blush); border-color: var(--p-blush); border-top: 2px solid var(--p-rose) !important; }
+html body .sv-box[style*="#d9822b"] { background: var(--p-cream); border-color: var(--p-cream); border-top: 2px solid var(--p-butter) !important; }
