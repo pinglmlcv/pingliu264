@@ -69,7 +69,7 @@ redirect_from:
 </div>
 
 <div class="cv-sec">
-<div class="cv-h"><div class="ic" style="background:#3a7bd5"><i class="fas fa-briefcase"></i></div><h2>Academic Positions</h2></div>
+<div class="cv-h"><div class="ic" style="background:#3a7bd5"><i class="fas fa-briefcase"></i></div><h2>Academic and Industry Positions</h2></div>
 <ul class="cv-list">
 <li class="now"><span class="cv-y">2024 to present</span><div><span class="cv-t">Tenure-Track Assistant Professor<span class="cv-now">current</span></span><span class="cv-o">Department of Computer Science and Engineering, University of Nevada, Reno, NV, USA</span></div></li>
 <li><span class="cv-y">2022 to 2024</span><div><span class="cv-t">Senior Scientist II</span><span class="cv-o">Centre for Frontier AI Research (CFAR), Institute of High Performance Computing (IHPC), A*STAR, Singapore</span></div></li>
