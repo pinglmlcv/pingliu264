@@ -136,93 +136,90 @@ html body .rs-ob .sub { color: var(--ed-gold) !important; }
 html body .rs-fig.f-phymetric { background: #f2f5f8; border-color: #dbe2ea; border-left-color: #5a7088; }
 
 /* =========================================================
-   Pastel palette layer (Oct 2026). Light tints from the
-   reference palette for surfaces; text stays ink for contrast.
+   Palette layer (Oct 2026), refined: white or near-white surfaces,
+   reference-palette colors used only as faint tints and thin rules.
    ========================================================= */
 :root {
-  --p-ice: #EDF4FC; --p-sky: #CBE6F5; --p-blue: #DAE3F3; --p-peri: #B4C7E7; --p-lblue: #B1D0ED;
-  --p-mint: #B2E9DA; --p-sage: #D8E3D0; --p-green: #C5E0B4;
-  --p-blush: #FBEEED; --p-pink: #FFE2E4; --p-rose: #F5B9C4; --p-salmon: #FFA4A3;
-  --p-cream: #F8E6C6; --p-peach: #FBE5D6; --p-apricot: #F4B592; --p-butter: #FFD966;
-  --p-lav: #DED6E5;
-  --ed-paper: var(--p-ice);
-  --ed-rule: #d6e0ec;
+  --c-blue: #B4C7E7; --c-lblue: #B1D0ED; --c-sky: #CBE6F5; --c-mint: #B2E9DA;
+  --c-green: #C5E0B4; --c-lav: #DED6E5; --c-lav-d: #b9abc9; --c-butter: #FFD966;
+  --t-blue: color-mix(in srgb, #DAE3F3 45%, white);
+  --t-sky: color-mix(in srgb, #CBE6F5 35%, white);
+  --t-mint: color-mix(in srgb, #B2E9DA 30%, white);
+  --t-green: color-mix(in srgb, #D8E3D0 45%, white);
+  --t-lav: color-mix(in srgb, #DED6E5 45%, white);
+  --ed-paper: color-mix(in srgb, #EDF4FC 70%, white);
+  --ed-rule: #e2e8f0;
 }
-/* Heroes */
-html body .hm-hero, html body .rs-hero, html body .tc-hero, html body .cv-hero { background: var(--p-ice); border-color: var(--p-peri); border-top: 3px solid var(--p-peri); }
-html body .pb-sel { background: var(--p-ice); border-color: var(--p-peri); border-top: 3px solid var(--p-peri); }
+/* Heroes: near-white with a thin palette rule */
+html body .hm-hero, html body .rs-hero, html body .tc-hero, html body .cv-hero, html body .pb-sel { background: var(--ed-paper); border-color: var(--ed-rule); border-top: 3px solid var(--c-blue); }
 
-/* Homepage direction cards: blue / green / pink families */
-html body .hm-dir { border-color: transparent; }
-html body .hm-dir:nth-child(1) { background: var(--p-blue) !important; border-top: 3px solid var(--p-peri); }
-html body .hm-dir:nth-child(2) { background: var(--p-sage) !important; border-top: 3px solid var(--p-green); }
-html body .hm-dir:nth-child(3) { background: var(--p-lav) !important; border-top: 3px solid #b9abc9; }
-html body .hm-dir:hover { border-color: transparent; filter: brightness(0.98); }
-html body .hm-open { background: var(--p-sky); border-color: #b9dbee; border-left: 3px solid var(--p-lblue); }
-html body .hm-k { background: var(--p-mint) !important; border-color: transparent; color: #2c5d50; }
-html body .hm-ln, html body .pb-links a, html body .rs-pub .l a { background: var(--p-ice); border-color: var(--p-peri) !important; }
-html body .hm-toggle { background: var(--p-ice); border-color: var(--p-peri); }
+/* Homepage direction cards: white, colored top rule, faint tint */
+html body .hm-dir { border: 1px solid var(--ed-rule); }
+html body .hm-dir:nth-child(1) { background: var(--t-blue) !important; border-top: 3px solid var(--c-blue); }
+html body .hm-dir:nth-child(2) { background: var(--t-mint) !important; border-top: 3px solid var(--c-mint); }
+html body .hm-dir:nth-child(3) { background: var(--t-lav) !important; border-top: 3px solid var(--c-lav-d); }
+html body .hm-dir:hover { border-color: var(--ed-rule); box-shadow: 0 2px 10px rgba(30,38,51,0.06); }
+html body .hm-open { background: #fff; border-color: var(--ed-rule); border-left: 3px solid var(--c-sky); }
+html body .hm-k { background: #fff !important; border: 1px solid var(--c-mint); color: #3c6e62; }
 
-/* Research page */
-html body .rs-step:nth-of-type(1) { background: var(--p-blue); border-color: transparent; }
-html body .rs-step:nth-of-type(3) { background: var(--p-sky); border-color: transparent; }
-html body .rs-step:nth-of-type(5) { background: var(--p-mint); border-color: transparent; }
-html body .rs-sec.er .rs-q { background: var(--p-blue); border-color: transparent; }
-html body .rs-sec.ph .rs-q { background: var(--p-sage); border-color: transparent; }
-html body .rs-sec.df .rs-q { background: var(--p-lav); border-color: transparent; }
-html body .rs-callout { background: var(--p-ice); border-color: var(--p-peri) !important; border-left: 3px solid var(--p-peri) !important; }
-html body .rs-callout.ph-c { background: #eef4ea; border-color: var(--p-green) !important; border-left-color: var(--p-green) !important; }
-html body .rs-callout.df-c { background: #f1edf5; border-color: var(--p-lav) !important; border-left-color: #b9abc9 !important; }
-html body .rs-fig.f-dp { background: var(--p-blue); border-color: var(--p-peri); border-left-color: var(--p-peri); }
-html body .rs-fig.f-mute { background: var(--p-ice); border-color: #d3e3f3; border-left-color: var(--p-lblue); }
-html body .rs-fig.f-magic { background: #e6f7f1; border-color: var(--p-mint); border-left-color: var(--p-mint); }
-html body .rs-fig.f-psdpo { background: var(--p-sage); border-color: var(--p-green); border-left-color: var(--p-green); }
-html body .rs-fig.f-phymetric { background: #e4f4fb; border-color: var(--p-sky); border-left-color: var(--p-lblue); }
-html body .rs-fig.f-deepfake { background: var(--p-lav); border-color: #cfc4da; border-left-color: #b9abc9; }
-html body .rs-fig.f-npr { background: #f1edf5; border-color: var(--p-lav); border-left-color: var(--p-lav); }
-html body .rs-pub { background: #fff; }
-html body .rs-sec.er .rs-pub { border-left: 3px solid var(--p-peri); }
-html body .rs-sec.ph .rs-pub { border-left: 3px solid var(--p-green); }
-html body .rs-sec.df .rs-pub { border-left: 3px solid #b9abc9; }
-html body .rs-ob:nth-of-type(1) { background: var(--p-sky); border-top: 2px solid var(--p-lblue) !important; }
-html body .rs-ob:nth-of-type(2) { background: var(--p-lav); border-top: 2px solid #b9abc9 !important; }
-html body .rs-card { border-color: transparent; }
-html body .rs-card:nth-of-type(1) { background: var(--p-blue); border-left: 3px solid var(--p-peri) !important; }
-html body .rs-card:nth-of-type(2) { background: var(--p-sage); border-left: 3px solid var(--p-green) !important; }
-html body .rs-card:nth-of-type(3) { background: var(--p-lav); border-left: 3px solid #b9abc9 !important; }
-html body .rs-card .rs-gh { background: #fff !important; }
+/* Research */
+html body .rs-step { background: #fff; }
+html body .rs-step:nth-of-type(1) { border-top: 3px solid var(--c-blue); }
+html body .rs-step:nth-of-type(3) { border-top: 3px solid var(--c-lblue); }
+html body .rs-step:nth-of-type(5) { border-top: 3px solid var(--c-mint); }
+html body .rs-q { border-color: var(--ed-rule); }
+html body .rs-sec.er .rs-q { background: var(--t-blue); }
+html body .rs-sec.ph .rs-q { background: var(--t-mint); }
+html body .rs-sec.df .rs-q { background: var(--t-lav); }
+html body .rs-callout { background: #fff; border-color: var(--ed-rule) !important; border-left: 3px solid var(--c-blue) !important; }
+html body .rs-callout.ph-c { border-left-color: var(--c-mint) !important; }
+html body .rs-callout.df-c { border-left-color: var(--c-lav-d) !important; }
+html body .rs-fig { background: #fff; border-color: var(--ed-rule); }
+html body .rs-fig.f-dp { border-left-color: var(--c-blue); }
+html body .rs-fig.f-mute { border-left-color: var(--c-lblue); }
+html body .rs-fig.f-magic { border-left-color: var(--c-mint); }
+html body .rs-fig.f-psdpo { border-left-color: var(--c-green); }
+html body .rs-fig.f-phymetric { border-left-color: var(--c-sky); }
+html body .rs-fig.f-deepfake { border-left-color: var(--c-lav-d); }
+html body .rs-fig.f-npr { border-left-color: var(--c-lav); }
+html body .rs-sec.er .rs-pub { border-left: 3px solid var(--c-blue); }
+html body .rs-sec.ph .rs-pub { border-left: 3px solid var(--c-mint); }
+html body .rs-sec.df .rs-pub { border-left: 3px solid var(--c-lav-d); }
+html body .rs-ob { background: #fff; }
+html body .rs-ob:nth-of-type(1) { border-top: 2px solid var(--c-sky) !important; }
+html body .rs-ob:nth-of-type(2) { border-top: 2px solid var(--c-lav-d) !important; }
+html body .rs-card { background: #fff; border-color: var(--ed-rule); }
+html body .rs-card:nth-of-type(1) { border-left: 3px solid var(--c-blue) !important; }
+html body .rs-card:nth-of-type(2) { border-left: 3px solid var(--c-mint) !important; }
+html body .rs-card:nth-of-type(3) { border-left: 3px solid var(--c-lav-d) !important; }
 
-/* Publications: badge tint by type */
-html body .pb-item[data-type="conference"] .pb-badge { background: var(--p-blue) !important; border-color: var(--p-peri); }
-html body .pb-item[data-type="journal"] .pb-badge { background: var(--p-sage) !important; border-color: var(--p-green); }
-html body .pb-item[data-type="preprint"] .pb-badge { background: #e3eef8 !important; border-color: var(--p-lblue); }
-html body .pb-item[data-type="selected"] .pb-badge { background: var(--p-blue) !important; border-color: var(--p-peri); }
-html body .pb-btn { background: var(--p-ice); border-color: var(--p-peri); }
-html body .pb-flag, html body .pb-flag.gold { background: var(--p-butter); border-color: var(--p-butter); color: #5e4a10; }
+/* Publications: thin palette edge on badges by type */
+html body .pb-item .pb-badge { background: #fff !important; }
+html body .pb-item[data-type="conference"] .pb-badge, html body .pb-item[data-type="selected"] .pb-badge { box-shadow: inset 3px 0 0 var(--c-blue); }
+html body .pb-item[data-type="journal"] .pb-badge { box-shadow: inset 3px 0 0 var(--c-mint); }
+html body .pb-item[data-type="preprint"] .pb-badge { box-shadow: inset 3px 0 0 var(--c-lav-d); }
+html body .pb-flag, html body .pb-flag.gold { background: #fff; border-color: var(--c-butter); color: #7a6214; }
 
 /* Teaching */
-html body .tc-c:nth-child(2) .tc-side { background: var(--p-blue) !important; }
-html body .tc-c:nth-child(3) .tc-side { background: var(--p-sage) !important; }
-html body .tc-c:nth-child(5) .tc-side { background: var(--p-sky) !important; }
-html body .tc-new { background: var(--p-butter); border-color: var(--p-butter); color: #5e4a10; }
+html body .tc-side { background: var(--ed-paper) !important; }
+html body .tc-c:nth-child(2) { border-left: 3px solid var(--c-blue); }
+html body .tc-c:nth-child(3) { border-left: 3px solid var(--c-mint); }
+html body .tc-c:nth-child(5) { border-left: 3px solid var(--c-lblue); }
+html body .tc-new { background: #fff; border-color: var(--c-butter); color: #7a6214; }
 
 /* Service */
-html body .sv-stu:nth-child(1) .sv-av { background: var(--p-blue) !important; border-color: var(--p-peri); }
-html body .sv-stu:nth-child(2) .sv-av { background: var(--p-mint) !important; border-color: var(--p-mint); }
-html body .sv-chip { background: var(--p-ice); border-color: var(--p-peri); }
-html body .sv-tl li { background: #fff; }
-html body .sv-tl .yr { background: var(--p-ice); border-color: var(--p-peri); }
-html body .sv-tag { background: var(--p-ice); border-color: var(--p-blue); }
-html body .sv-tag.conf { background: var(--p-sky); border-color: var(--p-lblue); }
+html body .sv-box { background: #fff; }
+html body .sv-box[style*="#4b4fc9"] { border-top: 2px solid var(--c-blue) !important; }
+html body .sv-box[style*="#0e8a83"] { border-top: 2px solid var(--c-mint) !important; }
+html body .sv-box[style*="#c2410c"] { border-top: 2px solid var(--c-lav-d) !important; }
+html body .sv-box[style*="#d9822b"] { border-top: 2px solid var(--c-green) !important; }
+html body .sv-tag.conf { background: var(--ed-paper); }
 
 /* CV */
-html body .cv-rs { background: var(--p-blue); border-color: var(--p-blue); border-left: 3px solid var(--p-peri); }
-html body .cv-f { background: var(--p-ice); border-color: var(--p-blue); border-left: 3px solid var(--p-peri); }
-html body .cv-f.past { background: var(--p-sage); border-color: var(--p-sage); border-left-color: var(--p-green); }
-html body .cv-now { background: var(--p-butter); border-color: var(--p-butter); color: #5e4a10; }
-html body .cv-grid2 .cv-box:nth-child(1) { background: var(--p-lav); border-top: 2px solid #b9abc9; border-color: var(--p-lav); }
-html body .cv-grid2 .cv-box:nth-child(2) { background: var(--p-sage); border-top: 2px solid var(--p-green); border-color: var(--p-sage); }
-html body .sv-box[style*="#4b4fc9"] { background: var(--p-blue); border-color: var(--p-blue); border-top: 2px solid var(--p-peri) !important; }
-html body .sv-box[style*="#0e8a83"] { background: #e6f7f1; border-color: #e6f7f1; border-top: 2px solid var(--p-mint) !important; }
-html body .sv-box[style*="#c2410c"] { background: var(--p-lav); border-color: var(--p-lav); border-top: 2px solid #b9abc9 !important; }
-html body .sv-box[style*="#d9822b"] { background: var(--p-sage); border-color: var(--p-sage); border-top: 2px solid var(--p-green) !important; }
+html body .cv-rs { background: #fff; border-color: var(--ed-rule); border-left: 3px solid var(--c-blue); }
+html body .cv-f { background: #fff; border-color: var(--ed-rule); border-left: 3px solid var(--c-blue); }
+html body .cv-f.past { border-left-color: var(--c-mint); }
+html body .cv-now { background: #fff; border-color: var(--c-butter); color: #7a6214; }
+html body .cv-box { background: var(--ed-paper); }
+html body .cv-grid2 .cv-box:nth-child(1) { border-top: 2px solid var(--c-lav-d); }
+html body .cv-grid2 .cv-box:nth-child(2) { border-top: 2px solid var(--c-mint); }
