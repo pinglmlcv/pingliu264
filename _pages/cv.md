@@ -101,8 +101,6 @@ redirect_from:
 <div class="cv-box"><h3><i class="fas fa-language" style="color:#14a098"></i>Languages</h3>
 <div class="cv-row"><span>Mandarin</span><span class="lv">Native</span></div>
 <div class="cv-row"><span>English</span><span class="lv">C1</span></div>
-<div class="cv-row"><span>Japanese</span><span class="lv">A2, in progress</span></div>
-<div class="cv-row"><span>Korean</span><span class="lv">A1, in progress</span></div>
-</div>
+<div class="cv-row"><span>Japanese</span><span class="lv">A2, in progress</span></div></div>
 </div>
 </div>
