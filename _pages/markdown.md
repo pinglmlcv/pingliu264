@@ -8,6 +8,8 @@ redirect_from:
   - /markdown.html
 ---
 
+{% include base_path %}
+
 <style>
 .sv { --ink:#1f2a44; --muted:#5b6478; --line:#e6e9f0; --a:#4b4fc9; --b:#0e8a83; font-size:0.95em; line-height:1.65; color:var(--ink); }
 .sv * { box-sizing:border-box; }
@@ -46,6 +48,18 @@ redirect_from:
 .sv-tag.conf { background:#e5f6f4; border-color:#bfe7e2; color:#0b5f5a; font-weight:600; }
 .sv-tag small { color:var(--muted); font-weight:400; margin-left:0.4em; }
 .sv-sub { font-size:0.8em; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin:1.2em 0 0.6em; }
+.sv-ws { border:1px solid #e2e8f0; border-left:3px solid #B4C7E7; border-radius:4px; background:#fff; margin:0 0 1.4em; overflow:hidden; }
+.sv-ws-top { display:grid; grid-template-columns:150px 1fr; gap:1.2em; padding:1.1em 1.2em; background:color-mix(in srgb, #DAE3F3 45%, white); align-items:center; }
+.sv-ws-top img { width:100%; border-radius:3px; border:1px solid #e2e8f0; background:#fff; display:block; }
+.sv-ws-tag { display:inline-block; font-size:0.75em; font-variant:small-caps; letter-spacing:0.06em; color:#7a6214; border:1px solid #FFD966; border-radius:2px; padding:0 0.5em; margin-bottom:0.35em; background:#fff; }
+.sv-ws-top b.tt { display:block; font-size:1.05em; line-height:1.35; margin-bottom:0.3em; }
+.sv-ws-top .m { display:block; color:var(--muted); font-size:0.88em; line-height:1.5; }
+.sv-ws-links { margin-top:0.55em; display:flex; flex-wrap:wrap; gap:0.45em; }
+.sv-ws-links a { font-size:0.8em; border:1px solid #B4C7E7; border-radius:2px; padding:0.1em 0.75em; text-decoration:none !important; background:#fff; }
+.sv-ws-body { padding:0.9em 1.2em 1em; font-size:0.9em; }
+.sv-ws-body p { margin:0 0 0.6em; }
+.sv-ws-body .k { font-variant:small-caps; letter-spacing:0.06em; color:#5f8389; font-weight:600; margin-right:0.4em; }
+@media (max-width: 760px) { .sv-ws-top { grid-template-columns:1fr; } .sv-ws-top img { max-width:160px; } }
 @media (max-width: 760px) { .sv-stats { grid-template-columns:1fr 1fr; } .sv-students, .sv-grid2 { grid-template-columns:1fr; } }
 </style>
 
@@ -60,8 +74,23 @@ redirect_from:
 
 <div class="sv-sec">
 <div class="sv-h"><div class="ic" style="background:#0e8a83"><i class="fas fa-users"></i></div><h2>Workshop and Challenge Organization</h2></div>
+<div class="sv-ws">
+<div class="sv-ws-top">
+<img src="{{ base_path }}/images/workshops-mirai-logo.jpg" alt="MIRAI Driving workshop logo">
+<div>
+<span class="sv-ws-tag">Upcoming · Co-Organizer</span>
+<b class="tt">MIRAI Driving: Multimodal Intelligence and Reasoning for Autonomous and Intelligent Driving</b>
+<span class="m">ACCV 2026 Workshop · Monday, 15 December 2026, afternoon</span>
+<span class="m">Grand Cube Osaka (Osaka International Convention Center), Room 1007, Osaka, Japan</span>
+<div class="sv-ws-links"><a href="https://mengsiwei.github.io/MIRAI_ACCV_Workshop/">Workshop website</a><a href="https://accv2026.org/workshops/">ACCV 2026 workshops</a></div>
+</div>
+</div>
+<div class="sv-ws-body">
+<p>An invited half-day workshop on multimodal perception, foundation models, and world models for autonomous driving, with keynotes, invited talks, and a panel bringing together academia and industry.</p>
+<p><span class="k">Keynotes</span>Ziran Wang (Purdue University), Runsheng Xu (Waymo), Heye Huang (KAIST), Takahiro Ogawa (Hokkaido University)</p>
+</div>
+</div>
 <ul class="sv-tl">
-<li><span class="yr">2026</span><span class="role">Co-Organizer</span><span class="t">MIRAI: Multimodal Intelligence and Reasoning for Autonomous and Intelligent Driving</span><span class="v">ACCV 2026 Workshop, Osaka, Japan</span></li>
 <li><span class="yr">2026</span><span class="role">Co-Organizer</span><span class="t">SynthIR: The First Workshop on Synthetic Content in Information Retrieval Ecosystems</span><span class="v">SIGIR 2026 Workshop</span></li>
 <li><span class="yr">2026</span><span class="role">Co-Organizer</span><span class="t">Physics-Driven AIGC: Physically-Consistent Video, 4D Scene, and World Generation</span><span class="v">ICME 2026 Workshop</span></li>
 <li><span class="yr">2026</span><span class="role">Program Committee</span><span class="t">DFX: Explainable Deepfake Detection Challenge</span><span class="v">ACM Multimedia 2026 Grand Challenge</span></li>
