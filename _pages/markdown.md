@@ -111,7 +111,7 @@ redirect_from:
 </div>
 <div class="sv-box" style="--k:#0e8a83"><h3>Senior PC Member / Meta Reviewer</h3>
 <div class="sv-row"><span>AAAI Conference on Artificial Intelligence</span><span class="y">2021, 2023-2027</span></div>
-<div class="sv-row"><span>International Joint Conference on Artificial Intelligence (IJCAI)</span><span class="y">2026</span></div>
+<div class="sv-row"><span>International Joint Conference on Artificial Intelligence (IJCAI)</span><span class="y">2026, 2027</span></div>
 </div>
 </div>
 </div>
