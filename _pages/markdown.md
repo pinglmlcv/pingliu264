@@ -143,6 +143,10 @@ redirect_from:
 <span class="sv-tag conf">ICLR<small>2018, 2020-2025, 2027</small></span>
 <span class="sv-tag conf">AAAI<small>2017-2018, 2020</small></span>
 </div>
+<div class="sv-sub">Workshops</div>
+<div class="sv-tags">
+<span class="sv-tag">NeurIPS 2026 Workshop AI4DD</span>
+</div>
 <div class="sv-sub">Journals</div>
 <div class="sv-tags">
 <span class="sv-tag">IJCV</span><span class="sv-tag">IEEE TPAMI</span><span class="sv-tag">IEEE TIP</span><span class="sv-tag">IEEE TMM</span><span class="sv-tag">IEEE TCSVT</span><span class="sv-tag">IEEE TNNLS</span><span class="sv-tag">IEEE TAFFC</span><span class="sv-tag">IEEE TCYB</span><span class="sv-tag">IEEE TAI</span><span class="sv-tag">IEEE TIE</span><span class="sv-tag">IEEE TCE</span><span class="sv-tag">IEEE TETCI</span><span class="sv-tag">IEEE SPL</span><span class="sv-tag">Artificial Intelligence</span><span class="sv-tag">Neural Networks</span><span class="sv-tag">Machine Learning</span><span class="sv-tag">Pattern Recognition</span><span class="sv-tag">Pattern Recognition Letters</span><span class="sv-tag">Image and Vision Computing</span><span class="sv-tag">Knowledge-Based Systems</span>
