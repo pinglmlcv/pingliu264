@@ -189,6 +189,7 @@ author_profile: true
 <p>We also study dataset distillation, which compresses a large training set into a small synthetic one that preserves what models learn from it, with attention to efficiency, robustness, and pre-trained vision models.</p>
 <ul>
 <li><span class="vn">NeurIPS 2026</span><span class="tt">Closed-Form Linear-Probe Dataset Distillation for Pre-trained Vision Models</span> <a href="https://arxiv.org/abs/2605.07194">[arXiv]</a><span class="au">Bincheng Peng, Guang Li, <b>Ping Liu</b>, Takahiro Ogawa, Miki Haseyama</span></li>
+<li><span class="vn">arXiv 2025</span><span class="tt">The Evolution of Dataset Distillation: Toward Scalable and Generalizable Solutions</span> <a href="https://arxiv.org/abs/2502.05673">[arXiv]</a><span class="au"><b>Ping Liu</b>, Jiawei Du</span></li>
 <li><span class="vn">ICLR 2025</span><span class="tt">Breaking Class Barriers: Efficient Dataset Distillation via Inter-Class Feature Compensator</span><span class="au">Xin Zhang, Jiawei Du, <b>Ping Liu</b>, Joey Tianyi Zhou</span></li>
 <li><span class="vn">TIP 2025</span><span class="tt">DD-RobustBench: An Adversarial Robustness Benchmark for Dataset Distillation</span><span class="au">Yifan Wu, Jiawei Du<sup>♠</sup>, <b>Ping Liu</b><sup>♠</sup>, Yuewei Lin, Wenqing Chen, Wei Xu</span></li>
 <li><span class="vn">ICLR 2023</span><span class="tt">Meta Knowledge Condensation for Federated Learning</span><span class="au"><b>Ping Liu</b><sup>♠</sup>, Xin Yu<sup>♠</sup>, Joey Tianyi Zhou</span></li>
