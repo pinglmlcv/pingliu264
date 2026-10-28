@@ -57,7 +57,7 @@ redirect_from:
 <div class="hm-hero">
 <h1>Ping Liu</h1>
 <p class="role">Assistant Professor, Department of Computer Science and Engineering, University of Nevada, Reno</p>
-<p class="tag">Controllable, verifiable, and physically grounded generative AI.</p>
+<p class="tag">Verifiable control of generative models, world models, and agents.</p>
 <div class="hm-btns"><a href="{{ base_path }}/research/"><i class="fas fa-flask"></i>&nbsp; Research</a><a href="{{ base_path }}/publications/"><i class="fas fa-book"></i>&nbsp; Publications</a><a href="{{ base_path }}/cv/"><i class="fas fa-id-card"></i>&nbsp; CV</a><a href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar"></i>&nbsp; Google Scholar</a><a href="mailto:pingl@unr.edu"><i class="fas fa-envelope"></i>&nbsp; Email</a></div>
 </div>
 
@@ -65,17 +65,17 @@ redirect_from:
 <div class="hm-h"><div class="ic" style="background:#3a7bd5"><i class="fas fa-user"></i></div><h2>About</h2></div>
 <div class="hm-about">
 <p>Ping Liu is a Tenure-Track Assistant Professor in the Department of Computer Science and Engineering at the University of Nevada, Reno (UNR), where he has been since March 2024. From 2020 to 2024 he was a Scientist and then Senior Scientist II at the Centre for Frontier AI Research (CFAR), Institute of High Performance Computing (IHPC), A*STAR, Singapore. Before that, he was a Research Fellow and Lecturer at the University of Technology Sydney, a Research Scientist at the JD.com US Research Center, and a Senior Applied Research Engineer at the Sony US Research Center.</p>
-<p>He received his Ph.D. in Computer Science and Engineering from the University of South Carolina, his M.Eng. from Huazhong University of Science and Technology, and his B.Eng. from Wuhan University of Technology. He is an IEEE Senior Member.</p>
+<p>He received his Ph.D. in Computer Science and Engineering from the University of South Carolina, his M.Eng. from Huazhong University of Science and Technology, and his B.Eng. from Wuhan University of Technology. His early research, beginning with his Ph.D. work, focused on facial expression analysis. He is an IEEE Senior Member.</p>
 </div>
 </div>
 
 <div class="hm-sec">
 <div class="hm-h"><div class="ic" style="background:#4b4fc9"><i class="fas fa-flask"></i></div><h2>Research</h2></div>
-<p style="margin:0 0 1em">His research develops methods that diagnose what a generative model has learned, intervene on it selectively, and verify the result. Current work follows three directions.</p>
+<p style="margin:0 0 1em">His research develops methods that diagnose what a generative AI system has learned, intervene on it selectively, and verify the result. Current work applies this approach in three settings.</p>
 <div class="hm-dirs">
 <a class="hm-dir" href="{{ base_path }}/research/#erasure" style="--c:#4b4fc9;--bg:#f5f6ff"><i class="fas fa-eraser"></i><b>Concept Erasure and Machine Unlearning</b><span>Removing targeted concepts, including motion, from image and video generative models.</span></a>
-<a class="hm-dir" href="{{ base_path }}/research/#physics" style="--c:#0e8a83;--bg:#f1faf9"><i class="fas fa-atom"></i><b>Physically Grounded Text-to-Video Generation</b><span>Making generated motion physically consistent while faithful to the prompt.</span></a>
-<a class="hm-dir" href="{{ base_path }}/research/#deepfake" style="--c:#be185d;--bg:#fdf4f8"><i class="fas fa-user-secret"></i><b>Deepfake Detection and Media Forensics</b><span>Detecting forgeries that generalize to unseen generators and modalities.</span></a>
+<a class="hm-dir" href="{{ base_path }}/research/#physics" style="--c:#0e8a83;--bg:#f1faf9"><i class="fas fa-atom"></i><b>Physically Grounded Video Generation and World Models</b><span>Verifying that generated dynamics obey physics, and using those verifiers as rewards.</span></a>
+<a class="hm-dir" href="{{ base_path }}/research/#alignment" style="--c:#5b4fc9;--bg:#f5f3ff"><i class="fas fa-check-double"></i><b>Verifiable Rewards, Alignment, and Agents</b><span>Calibrating reward signals for alignment, and agents that check their own perception before acting.</span></a>
 </div>
 <p class="hm-note">His research is supported by the National Science Foundation, including an NSF Major Research Instrumentation award for a large-scale GPU cluster for AI research at UNR. <a href="{{ base_path }}/research/">Read more about his research &rarr;</a></p>
 </div>

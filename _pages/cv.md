@@ -59,11 +59,11 @@ redirect_from:
 
 <div class="cv-rs">
 <h3><i class="fas fa-flask" style="color:#4b4fc9"></i>Research</h3>
-<p>His research develops methods that diagnose what a generative model has learned, intervene on it selectively, and verify the result. Current work follows three directions:</p>
+<p>His research develops methods that diagnose what a generative AI system has learned, intervene on it selectively, and verify the result. Current work applies this approach in three settings:</p>
 <ul>
 <li><b>Concept erasure and machine unlearning:</b> <span>removing targeted concepts, including motion, from image and video generative models.</span></li>
-<li><b>Physically grounded text-to-video generation:</b> <span>making generated motion physically consistent while faithful to the prompt.</span></li>
-<li><b>Deepfake detection and media forensics:</b> <span>detecting forgeries that generalize to unseen generators and modalities.</span></li>
+<li><b>Physically grounded video generation and world models:</b> <span>verifying that generated dynamics obey physics, and using those verifiers as rewards.</span></li>
+<li><b>Verifiable rewards, alignment, and agents:</b> <span>calibrating reward signals for alignment, and agents that check their own perception before acting.</span></li>
 </ul>
 <a class="more" href="{{ base_path }}/research/">Read more on the Research page &rarr;</a>
 </div>

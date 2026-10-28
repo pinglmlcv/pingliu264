@@ -69,7 +69,7 @@ html body .rs-jump a { color: var(--ed-accent) !important; background: none; bor
 html body .rs-jump a:hover { background: none; text-decoration: underline !important; }
 html body .rs-step { border-radius: 4px; box-shadow: none; }
 html body .rs-arrow { color: var(--ed-rule); }
-html body .rs-sec, html body .rs-sec.er, html body .rs-sec.ph, html body .rs-sec.df { background: #fff; border: 0; border-top: 1px solid var(--ed-rule); border-radius: 0; padding: 1.8em 0 0.6em; }
+html body .rs-sec, html body .rs-sec.er, html body .rs-sec.ph, html body .rs-sec.df, html body .rs-sec.al { background: #fff; border: 0; border-top: 1px solid var(--ed-rule); border-radius: 0; padding: 1.8em 0 0.6em; }
 html body .rs-num { color: var(--ed-gold) !important; opacity: 1; font-weight: 400; font-size: 1.9em; }
 html body .rs-accent { color: var(--ed-gold) !important; }
 html body .rs-q { border-radius: 4px; background: var(--ed-paper); }
@@ -170,7 +170,7 @@ html body .rs-step:nth-of-type(5) { border-top: 3px solid var(--c-mint); }
 html body .rs-q { border-color: var(--ed-rule); }
 html body .rs-sec.er .rs-q { background: var(--t-blue); }
 html body .rs-sec.ph .rs-q { background: var(--t-mint); }
-html body .rs-sec.df .rs-q { background: var(--t-lav); }
+html body .rs-sec.df .rs-q, html body .rs-sec.al .rs-q { background: var(--t-lav); }
 html body .rs-callout { background: #fff; border-color: var(--ed-rule) !important; border-left: 3px solid var(--c-blue) !important; }
 html body .rs-callout.ph-c { border-left-color: var(--c-mint) !important; }
 html body .rs-callout.df-c { border-left-color: var(--c-lav-d) !important; }
@@ -184,7 +184,7 @@ html body .rs-fig.f-deepfake { border-left-color: var(--c-lav-d); }
 html body .rs-fig.f-npr { border-left-color: var(--c-lav); }
 html body .rs-sec.er .rs-pub { border-left: 3px solid var(--c-blue); }
 html body .rs-sec.ph .rs-pub { border-left: 3px solid var(--c-mint); }
-html body .rs-sec.df .rs-pub { border-left: 3px solid var(--c-lav-d); }
+html body .rs-sec.df .rs-pub, html body .rs-sec.al .rs-pub { border-left: 3px solid var(--c-lav-d); }
 html body .rs-ob { background: #fff; }
 html body .rs-ob:nth-of-type(1) { border-top: 2px solid var(--c-sky) !important; }
 html body .rs-ob:nth-of-type(2) { border-top: 2px solid var(--c-lav-d) !important; }

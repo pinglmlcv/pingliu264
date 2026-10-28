@@ -78,6 +78,9 @@ author_profile: true
 .rs-sec.df { background:linear-gradient(180deg,#fdf2f6 0%,#fff 220px); border-top:5px solid #be185d; }
 .df .rs-num, .df .rs-accent { color:#be185d; }
 .df .rs-q i { color:#be185d; } .df .rs-pub .l a { color:#be185d; }
+.rs-sec.al { background:linear-gradient(180deg,#f2efff 0%,#fff 220px); border-top:5px solid #5b4fc9; }
+.al .rs-num, .al .rs-accent { color:#5b4fc9; }
+.al .rs-q i { color:#5b4fc9; } .al .rs-pub .l a { color:#5b4fc9; }
 .rs-callout.ph-c { border-color:#0e8a83; } .rs-callout.ph-c i, .rs-callout.ph-c a { color:#0e8a83 !important; }
 .rs-callout.df-c { border-color:#be185d; } .rs-callout.df-c i, .rs-callout.df-c a { color:#be185d !important; }
 .rs-fig.f-deepfake { background:#fdf2f6; border-color:#f6c9d9; border-left:5px solid #be185d; }
@@ -104,9 +107,9 @@ author_profile: true
 <div class="rs">
 <div class="rs-hero">
 <p class="rs-kicker">Research · University of Nevada, Reno</p>
-<h2>Controllable, verifiable, and physically grounded generative AI</h2>
-<p>Generative models can now produce realistic images and videos, but we still have limited ability to remove what they should not generate or to make what they generate obey the physical world, and forged media are increasingly hard to tell apart from real content. Our group develops methods that diagnose what a model has learned, intervene on it selectively, and verify the result.</p>
-<div class="rs-jump"><a href="#erasure"><i class="fas fa-eraser"></i>&nbsp; Concept Erasure</a><a href="#physics"><i class="fas fa-atom"></i>&nbsp; Physics-Aware Video Generation</a><a href="#deepfake"><i class="fas fa-user-secret"></i>&nbsp; Deepfake Detection</a></div>
+<h2>Verifiable control of generative models, world models, and agents</h2>
+<p>Generative AI systems now write, draw, simulate the physical world, and act on their own, yet we have few reliable ways to change what they have learned or to confirm that a change actually holds. Our group develops methods that diagnose what a model has learned, intervene on it selectively, and verify the result. The same question runs through three settings: removing concepts from image and video generators, making video generators and world models obey physics, and turning verification into reward signals for aligning models and agents.</p>
+<div class="rs-jump"><a href="#erasure"><i class="fas fa-eraser"></i>&nbsp; Concept Erasure</a><a href="#physics"><i class="fas fa-atom"></i>&nbsp; World Models and Physics</a><a href="#alignment"><i class="fas fa-check-double"></i>&nbsp; Alignment and Agents</a></div>
 </div>
 
 <h3 class="rs-h3">Our approach</h3>
@@ -115,12 +118,12 @@ author_profile: true
 <div class="rs-arrow"><i class="fas fa-chevron-right"></i></div>
 <div class="rs-step"><div class="rs-ic" style="background:#3a7bd5"><i class="fas fa-sliders-h"></i></div><b>Intervene</b><span>Edit the model or its sampling with closed-form, training-free, or preference-based updates that change only what is targeted.</span></div>
 <div class="rs-arrow"><i class="fas fa-chevron-right"></i></div>
-<div class="rs-step"><div class="rs-ic" style="background:#0e8a83"><i class="fas fa-check-double"></i></div><b>Verify</b><span>Test whether the change holds: probe for residual concepts and score physical plausibility at the scene level.</span></div>
+<div class="rs-step"><div class="rs-ic" style="background:#0e8a83"><i class="fas fa-check-double"></i></div><b>Verify</b><span>Test whether the change holds: probe for residual concepts, score physical plausibility at the scene level, and feed the verdict back as a reward.</span></div>
 </div>
 
 <div class="rs-sec er" id="erasure">
 <div class="rs-head"><div class="rs-num">01</div><h2><span class="rs-tag rs-accent">Direction one</span>Concept Erasure and Machine Unlearning</h2></div>
-<p class="rs-lead">Text-to-image and text-to-video models can generate content that should be removed after deployment, such as copyrighted styles, specific objects, or violent actions. Concept erasure removes a target concept from a pretrained model while leaving everything else intact. We extend erasure from static concepts in images to motion concepts in videos.</p>
+<p class="rs-lead">Text-to-image and text-to-video models can generate content that should be removed after deployment, such as copyrighted styles, specific objects, or violent actions. Concept erasure is a targeted intervention on a pretrained model: it removes one concept while leaving everything else intact. We extend erasure from static concepts in images to motion concepts in videos, and we ask what erasure can and cannot guarantee, including whether an erased concept is truly gone or only dormant.</p>
 <div class="rs-qs">
 <div class="rs-q"><i class="fas fa-calculator"></i>Can erasure be done in closed form or at inference time, without retraining the model?</div>
 <div class="rs-q"><i class="fas fa-layer-group"></i>Where inside the network should erasure happen, and how does this differ for motion in video models?</div>
@@ -136,14 +139,13 @@ author_profile: true
 <li class="rs-pub"><span class="rs-venue v-icml">ICML 2026</span><div><span class="t">Where Concept Erasure Should Occur: Concept–Layer Alignment in Text-to-Video Diffusion Models</span><span class="a">Yiwei Xie, <b>Ping Liu</b><sup>†</sup>, Zheng Zhang<sup>†</sup></span></div></li>
 <li class="rs-pub"><span class="rs-venue v-mm">ACM MM 2026</span><div><span class="t">MUTE: Motion Concept Unlearning in Video Diffusion Models</span><span class="a"><b>Ping Liu</b>, Chi Zhang</span><span class="l"><a href="https://arxiv.org/abs/2609.36832">arXiv</a></span></div></li>
 <li class="rs-pub"><span class="rs-venue v-neurips">NeurIPS 2026</span><div><span class="t">DOME: Drift-Adaptive On-Policy Motion Erasure in Video Diffusion Transformers</span><span class="a"><b>Ping Liu</b>, Chi Zhang, Meng Tang</span></div></li>
-<li class="rs-pub"><span class="rs-venue v-tmlr">TMLR 2026</span><div><span class="t">ABCDE: Agentic-Based Controlled Dynamic Erasure for Intent-Aware Safety Reasoning</span><span class="a"><b>Ping Liu</b>, Chi Zhang</span></div></li>
 <li class="rs-pub"><span class="rs-venue v-arxiv">arXiv 2026</span><div><span class="t">PROBE: Diagnosing Residual Concept Capacity in Erased Text-to-Video Diffusion Models</span><span class="a">Yiwei Xie, Zheng Zhang<sup>†</sup>, <b>Ping Liu</b><sup>†</sup></span><span class="l"><a href="https://arxiv.org/abs/2603.21547">arXiv</a></span></div></li>
 </ul>
 </div>
 
 <div class="rs-sec ph" id="physics">
-<div class="rs-head"><div class="rs-num">02</div><h2><span class="rs-tag rs-accent">Direction two</span>Physically Grounded Text-to-Video Generation</h2></div>
-<p class="rs-lead">Current video generators produce visually realistic results that often violate basic physics: objects pass through one another, motion ignores mass and material, and dynamics drift over time. We work on making generated motion physically consistent while keeping it faithful to the prompt.</p>
+<div class="rs-head"><div class="rs-num">02</div><h2><span class="rs-tag rs-accent">Direction two</span>Physically Grounded Video Generation and World Models</h2></div>
+<p class="rs-lead">Video generators are increasingly used as world models, yet their output often violates basic physics: objects pass through one another, motion ignores mass and material, and dynamics drift over time. Here verification takes the form of physical consistency. We build verifiers that diagnose which physical laws a generated scene breaks, and we use those verifiers as reward and preference signals to make generated motion physically consistent while keeping it faithful to the prompt.</p>
 <div class="rs-qs">
 <div class="rs-q"><i class="fas fa-cube"></i>How can a model infer physical properties, such as mass and material, that a single image does not reveal?</div>
 <div class="rs-q"><i class="fas fa-balance-scale"></i>How do we align video generators with physical commonsense without sacrificing semantic fidelity?</div>
@@ -162,24 +164,20 @@ author_profile: true
 </ul>
 </div>
 
-<div class="rs-sec df" id="deepfake">
-<div class="rs-head"><div class="rs-num">03</div><h2><span class="rs-tag rs-accent">Direction three</span>Deepfake Detection and Media Forensics</h2></div>
-<p class="rs-lead">The same generative models also make it easy to forge faces, voices, and text-guided edits. We build detectors that generalize to forgeries from generators never seen during training, by targeting the traces that generators leave behind, and we study how detection is moving from single-modal to multi-modal settings.</p>
+<div class="rs-sec al" id="alignment">
+<div class="rs-head"><div class="rs-num">03</div><h2><span class="rs-tag rs-accent">Direction three</span>Verifiable Rewards, Alignment, and Agents</h2></div>
+<p class="rs-lead">Post-training shapes what generative models and agents actually do, and it is only as good as the signals it optimizes. When scores and preferences conflict, reward signals drift, and agents act on perceptions they never check. We extend verification to this setting: calibrating reward and preference signals so that alignment stays stable, and building agents that verify their own perception and intent before they act.</p>
 <div class="rs-qs">
-<div class="rs-q"><i class="fas fa-random"></i>How can a detector recognize forgeries from generators it has never seen during training?</div>
-<div class="rs-q"><i class="fas fa-wave-square"></i>Which traces do generators leave behind, in the frequency domain and in their up-sampling layers?</div>
-<div class="rs-q"><i class="fas fa-photo-video"></i>How should detection extend from images to audio-visual and text-visual deepfakes?</div>
+<div class="rs-q"><i class="fas fa-balance-scale-right"></i>How should preference optimization behave when reward scores and human preferences disagree?</div>
+<div class="rs-q"><i class="fas fa-clipboard-check"></i>How can an agent rank and verify its own candidate solutions before committing to one?</div>
+<div class="rs-q"><i class="fas fa-robot"></i>How can an agent check its own perception and the intent behind a request before acting?</div>
 </div>
-<div class="rs-callout df-c"><i class="fab fa-github"></i><div>Our group maintains <a href="https://github.com/qiqitao77/Awesome-Comprehensive-Deepfake-Detection">Awesome-Comprehensive-Deepfake-Detection</a>, a curated list of deepfake detection papers and datasets, companion to our survey.</div></div>
-<figure class="rs-fig f-deepfake"><img src="{{ base_path }}/images/research/deepfake.jpg" alt="Overview of deepfake detection research"><figcaption><b>Overview.</b> Forgeries from face swapping, GAN and diffusion synthesis, audio-visual and text-guided manipulation leave traces in spatial, frequency, up-sampling, and cross-modal cues, which detectors exploit to decide real or fake.</figcaption></figure>
-<figure class="rs-fig f-npr"><img src="{{ base_path }}/images/research/npr.jpg" alt="Neighboring Pixel Relationships for deepfake detection"><figcaption><b>Neighboring Pixel Relationships (CVPR 2024).</b> Up-sampling layers in GAN and diffusion generators leave local correlations between neighboring pixels, which a classifier uses to detect images from unseen generators.</figcaption></figure>
 <h3 class="rs-h3">Representative papers</h3>
 <ul class="rs-pubs">
-<li class="rs-pub"><span class="rs-venue v-wifs">WIFS 2025</span><div><span class="t">ADD: An Automated Neural Architecture Search Baseline for Deepfake Detection</span><span class="a"><b>Ping Liu</b>, Yuewei Lin, Jingen Liu, Yunchao Wei, Joey Tianyi Zhou</span></div></li>
-<li class="rs-pub"><span class="rs-venue v-mmw">ACM MM 2024<br>Workshop</span><div><span class="t">Robust Deepfake Detection by Addressing Generalization and Trustworthiness Challenges: A Short Survey</span><span class="a"><b>Ping Liu</b>, Qiqi Tao, Joey Tianyi Zhou · Best Paper Award (Survey)</span></div></li>
-<li class="rs-pub"><span class="rs-venue v-cvpr">CVPR 2024</span><div><span class="t">Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection</span><span class="a">Chuangchuang Tan, Yao Zhao, Shikui Wei, Guanghua Gu, <b>Ping Liu</b>, Yunchao Wei</span><span class="l"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Tan_Rethinking_the_Up-Sampling_Operations_in_CNN-based_Generative_Network_for_Generalizable_CVPR_2024_paper.html">Paper</a></span></div></li>
-<li class="rs-pub"><span class="rs-venue v-aaai">AAAI 2024</span><div><span class="t">Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Domain Learning</span><span class="a">Chuangchuang Tan, Yao Zhao, Shikui Wei, Guanghua Gu, <b>Ping Liu</b>, Yunchao Wei</span></div></li>
-<li class="rs-pub"><span class="rs-venue v-arxiv">arXiv 2024</span><div><span class="t">Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey</span><span class="a"><b>Ping Liu</b>, Qiqi Tao, Joey Tianyi Zhou</span><span class="l"><a href="https://arxiv.org/abs/2406.06965">arXiv</a></span></div></li>
+<li class="rs-pub"><span class="rs-venue v-neurips">NeurIPS 2026</span><div><span class="t">Calibrated Drift Control for Heterogeneous DPO</span><span class="a"><b>Ping Liu</b>, Yan Yan</span></div></li>
+<li class="rs-pub"><span class="rs-venue v-tmlr">TMLR 2026</span><div><span class="t">ABCDE: Agentic-Based Controlled Dynamic Erasure for Intent-Aware Safety Reasoning</span><span class="a"><b>Ping Liu</b>, Chi Zhang</span></div></li>
+<li class="rs-pub"><span class="rs-venue v-arxiv">arXiv 2026</span><div><span class="t">Agentic Relative Camera Pose Estimation via Learned Ranking and Verification</span><span class="a">Zhining Gu, Shangjie Du, Weimin Qiu, Carl Olsson, <b>Ping Liu</b>, Meng Tang</span></div></li>
+<li class="rs-pub"><span class="rs-venue v-arxiv">arXiv 2026</span><div><span class="t">Witness: Discovery, Deciphering, and Epiphany in Interactive Puzzle Environments</span><span class="a">Guanghan Ning, <b>Ping Liu</b>, Linyi Li, Huangjie Zheng, Arjun Neervannan, Huu Nguyen, Michael Sklar, Deniz Zorlu, Nicolai Ouporov</span></div></li>
 </ul>
 </div>
 
@@ -196,15 +194,16 @@ author_profile: true
 <li><span class="vn">ICLR 2023</span><span class="tt">Meta Knowledge Condensation for Federated Learning</span><span class="au"><b>Ping Liu</b><sup>♠</sup>, Xin Yu<sup>♠</sup>, Joey Tianyi Zhou</span></li>
 </ul>
 </div>
-<div class="rs-ob" style="--k:#8b5e34">
-<span class="sub">Earlier work</span>
-<h3><i class="fas fa-smile"></i>Facial Expression Analysis</h3>
-<p>Earlier work, beginning with Ping Liu's Ph.D. research, developed deep and sparse representation methods for facial expression recognition and facial action analysis.</p>
+<div class="rs-ob" style="--k:#be185d">
+<span class="sub">Trustworthy media</span>
+<h3><i class="fas fa-fingerprint"></i>Provenance of AI-Generated Media</h3>
+<p>The same generators make forged faces, voices, and edits easy to produce. We study how to tell AI-generated content from real content, with detectors that generalize to generators never seen in training. We maintain <a href="https://github.com/qiqitao77/Awesome-Comprehensive-Deepfake-Detection">Awesome-Comprehensive-Deepfake-Detection</a>.</p>
 <ul>
-<li><span class="vn">CVPR 2014</span><span class="tt">Facial Expression Recognition via a Boosted Deep Belief Network</span><span class="au"><b>Ping Liu</b><sup>♠</sup>, Shizhong Han<sup>♠</sup>, Zibo Meng, Yan Tong</span></li>
-<li><span class="vn">ECCV 2014</span><span class="tt">Feature Disentangling Machine: A Novel Approach of Feature Selection and Disentangling in Facial Expression Analysis</span><span class="au"><b>Ping Liu</b>, Joey Tianyi Zhou, Ivor Tsang, Zibo Meng, Shizhong Han, Yan Tong</span></li>
-<li><span class="vn">FG 2017</span><span class="tt">Identity-Aware Convolutional Neural Network for Facial Expression Recognition</span><span class="au">Zibo Meng<sup>♠</sup>, <b>Ping Liu</b><sup>♠</sup>, Jie Cai, Shizhong Han, Yan Tong</span></li>
-<li><span class="vn">TCYB 2021</span><span class="tt">Point Adversarial Self Mining: A Simple Method for Facial Expression Recognition</span><span class="au"><b>Ping Liu</b>, Yuewei Lin, Zibo Meng, Lu Lu, Weihong Deng, Joey Tianyi Zhou, Yi Yang</span></li>
+<li><span class="vn">WIFS 2025</span><span class="tt">ADD: An Automated Neural Architecture Search Baseline for Deepfake Detection</span><span class="au"><b>Ping Liu</b>, Yuewei Lin, Jingen Liu, Yunchao Wei, Joey Tianyi Zhou</span></li>
+<li><span class="vn">arXiv 2024</span><span class="tt">Evolving from Single-modal to Multi-modal Facial Deepfake Detection: A Survey</span> <a href="https://arxiv.org/abs/2406.06965">[arXiv]</a><span class="au"><b>Ping Liu</b>, Qiqi Tao, Joey Tianyi Zhou</span></li>
+<li><span class="vn">MM 2024 W</span><span class="tt">Robust Deepfake Detection by Addressing Generalization and Trustworthiness Challenges: A Short Survey</span><span class="au"><b>Ping Liu</b>, Qiqi Tao, Joey Tianyi Zhou · Best Paper Award (Survey)</span></li>
+<li><span class="vn">CVPR 2024</span><span class="tt">Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection</span> <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Tan_Rethinking_the_Up-Sampling_Operations_in_CNN-based_Generative_Network_for_Generalizable_CVPR_2024_paper.html">[Paper]</a><span class="au">Chuangchuang Tan, Yao Zhao, Shikui Wei, Guanghua Gu, <b>Ping Liu</b>, Yunchao Wei</span></li>
+<li><span class="vn">AAAI 2024</span><span class="tt">Frequency-Aware Deepfake Detection: Improving Generalizability through Frequency Space Domain Learning</span><span class="au">Chuangchuang Tan, Yao Zhao, Shikui Wei, Guanghua Gu, <b>Ping Liu</b>, Yunchao Wei</span></li>
 </ul>
 </div>
 </div>
