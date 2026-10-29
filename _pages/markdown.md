@@ -27,6 +27,10 @@ redirect_from:
 .sv-stu b { font-size:1.05em; display:block; }
 .sv-stu .yr { font-size:0.8em; color:var(--muted); display:block; margin-bottom:0.5em; }
 .sv-stu .ed { font-size:0.86em; color:var(--muted); display:block; line-height:1.5; }
+.sv-stu .sv-lbl { display:block; font-size:0.72em; font-variant:small-caps; letter-spacing:0.08em; color:var(--muted); margin:0.75em 0 0.3em; }
+.sv-stu .sv-lbl + .sv-chips { margin-top:0; }
+.sv-stu .sv-int { display:flex; align-items:center; gap:0.45em; font-size:0.86em; }
+.sv-stu .sv-int i { color:#5f8389; font-size:0.9em; }
 .sv-chips { display:flex; flex-wrap:wrap; gap:0.4em; margin-top:0.6em; }
 .sv-chip { font-size:0.74em; padding:0.2em 0.65em; border-radius:999px; background:#eef0ff; color:#3b3fb5; font-weight:600; white-space:nowrap; }
 .sv-tl { position:relative; margin:0; padding:0 0 0 1.4em; list-style:none; }
@@ -67,7 +71,7 @@ redirect_from:
 <div class="sv-sec">
 <div class="sv-h"><div class="ic" style="background:#4b4fc9"><i class="fas fa-user-graduate"></i></div><h2>Ph.D. Students</h2></div>
 <div class="sv-students">
-<div class="sv-stu"><div class="sv-av" style="background:linear-gradient(135deg,#4b4fc9,#14a098)">SM</div><div><b>Siwei Meng</b><span class="yr">Ph.D. student, Fall 2024 to present</span><span class="ed">Bachelor's degree, South China University of Technology; Master's degree, Shenzhen University</span><div class="sv-chips"><span class="sv-chip">NeurIPS 2026</span><span class="sv-chip">ECCV 2026</span><span class="sv-chip">ACM MM 2026 Oral</span><span class="sv-chip">IJCAI 2025</span></div></div></div>
+<div class="sv-stu"><div class="sv-av" style="background:linear-gradient(135deg,#4b4fc9,#14a098)">SM</div><div><b>Siwei Meng</b><span class="yr">Ph.D. student, Fall 2024 to present</span><span class="ed">Bachelor's degree, South China University of Technology; Master's degree, Shenzhen University</span><span class="sv-lbl">First-author papers</span><div class="sv-chips"><span class="sv-chip">NeurIPS 2026</span><span class="sv-chip">ECCV 2026</span><span class="sv-chip">ACM MM 2026 Oral</span><span class="sv-chip">IJCAI 2025</span></div><span class="sv-lbl">Industry experience</span><span class="sv-int"><i class="fas fa-briefcase"></i>Research Intern, Pixocial, Summer to Fall 2026</span></div></div>
 <div class="sv-stu"><div class="sv-av" style="background:linear-gradient(135deg,#d9822b,#c2410c)">XH</div><div><b>Xinyu Hu</b><span class="yr">Ph.D. student, Fall 2026 to present</span><span class="ed">Bachelor's degree, Duke Kunshan University</span></div></div>
 </div>
 </div>
