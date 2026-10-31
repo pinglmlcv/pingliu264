@@ -84,7 +84,6 @@ redirect_from:
 <div class="hm-h"><div class="ic" style="background:#d9822b"><i class="fas fa-handshake"></i></div><h2>Collaboration and Openings</h2></div>
 <div class="hm-open"><ul>
 <li><i class="fas fa-handshake"></i><span>He welcomes research collaborations with academic and industry partners.</span></li>
-<li><i class="fas fa-user-graduate"></i><span>Prospective Ph.D. students are encouraged to apply to the UNR CSE Ph.D. program and mention his name.</span></li>
 </ul></div>
 </div>
 
