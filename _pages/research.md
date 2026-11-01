@@ -86,7 +86,7 @@ author_profile: true
 .rs-fig.f-deepfake { background:#fdf2f6; border-color:#f6c9d9; border-left:5px solid #be185d; }
 .rs-fig.f-npr { background:#f3efff; border-color:#ddd2fb; border-left:5px solid #6d28d9; }
 .rs-fig.f-deepfake figcaption b { color:#9d174d; } .rs-fig.f-npr figcaption b { color:#5b21b6; }
-.v-aaai{background:#b45309;} .v-wifs{background:#64748b;} .v-mmw{background:#0f766e;}
+.v-aaai{background:#b45309;} .v-tpami{background:#9f1239;} .v-wifs{background:#64748b;} .v-mmw{background:#0f766e;}
 .rs-res { grid-template-columns:1fr 1fr; }
 @media (max-width: 900px) { .rs-res { grid-template-columns:1fr; } }
 .rs-other { display:grid; grid-template-columns:1fr 1fr; gap:1.1em; margin:0 0 2.8em; }
@@ -160,6 +160,7 @@ author_profile: true
 <li class="rs-pub"><span class="rs-venue v-eccv">ECCV 2026</span><div><span class="t">PhyMAGIC: Physical Motion-Aware Generative Inference with Confidence-Guided VLM</span><span class="a">Siwei Meng, Yawei Luo<sup>†</sup>, <b>Ping Liu</b><sup>†</sup></span><span class="l"><a href="https://mengsiwei.github.io/MAGIC/">Project page</a></span></div></li>
 <li class="rs-pub"><span class="rs-venue v-mm">ACM MM 2026<br>Oral</span><div><span class="t">When Physical Preferences Meet Semantic Constraints: Physical and Semantic Direct Preference Optimization for Text-to-Video Generation</span><span class="a">Siwei Meng, Yawei Luo, Shu Zhang, <b>Ping Liu</b><sup>†</sup></span><span class="l"><a href="https://arxiv.org/abs/2607.16947">arXiv</a></span></div></li>
 <li class="rs-pub"><span class="rs-venue v-neurips">NeurIPS 2026</span><div><span class="t">PhyMetric: Diagnosing Physical Plausibility in Text-to-Video Generation via Scene-Level QA</span><span class="a">Siwei Meng, Xuerou Cai, Rui Hu, <b>Ping Liu</b><sup>†</sup> · Evaluations and Datasets Track</span><span class="l"><a href="https://mengsiwei.github.io/PhyMetric/">Project page</a> <a href="https://github.com/mengsiwei/PhyMetric/tree/phymetric">Code</a></span></div></li>
+<li class="rs-pub"><span class="rs-venue v-tpami">TPAMI 2026</span><div><span class="t">Advances in 4D Generation: Techniques, Challenges, and Future Directions</span><span class="a">Qiaowei Miao, Kehan Li, Jinsheng Quan, Zhiyuan Min, Shaojie Ma, Yichao Xu, Yi Yang, <b>Ping Liu</b><sup>†</sup>, Yawei Luo<sup>†</sup> · Survey</span><span class="l"><a href="https://arxiv.org/abs/2503.14501">arXiv</a></span></div></li>
 <li class="rs-pub"><span class="rs-venue v-ijcai">IJCAI 2025</span><div><span class="t">Grounding Creativity in Physics: A Brief Survey of Physical Priors in AIGC</span><span class="a">Siwei Meng, Yawei Luo<sup>†</sup>, <b>Ping Liu</b><sup>†</sup> · Survey Track</span><span class="l"><a href="https://arxiv.org/abs/2502.07007">arXiv</a></span></div></li>
 </ul>
 </div>
