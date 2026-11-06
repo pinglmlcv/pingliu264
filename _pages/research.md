@@ -175,7 +175,7 @@ author_profile: true
 </div>
 <h3 class="rs-h3">Representative papers</h3>
 <ul class="rs-pubs">
-<li class="rs-pub"><span class="rs-venue v-neurips">NeurIPS 2026</span><div><span class="t">Calibrated Drift Control for Heterogeneous DPO</span><span class="a"><b>Ping Liu</b>, Yan Yan</span></div></li>
+<li class="rs-pub"><span class="rs-venue v-neurips">NeurIPS 2026</span><div><span class="t">When Scores Conflict with Preferences: Pre-Alignment Diagnosis and Adaptive Correction of Constraint Drift in DPO</span><span class="a"><b>Ping Liu</b>, Yan Yan</span><span class="l"><a href="https://arxiv.org/abs/2611.07375">arXiv</a><a href="https://openreview.net/forum?id=bFc8A2Irjf">OpenReview</a></span></div></li>
 <li class="rs-pub"><span class="rs-venue v-tmlr">TMLR 2026</span><div><span class="t">ABCDE: Agentic-Based Controlled Dynamic Erasure for Intent-Aware Safety Reasoning</span><span class="a"><b>Ping Liu</b>, Chi Zhang</span></div></li>
 <li class="rs-pub"><span class="rs-venue v-arxiv">arXiv 2026</span><div><span class="t">Agentic Relative Camera Pose Estimation via Learned Ranking and Verification</span><span class="a">Zhining Gu, Shangjie Du, Weimin Qiu, Carl Olsson, <b>Ping Liu</b>, Meng Tang</span></div></li>
 <li class="rs-pub"><span class="rs-venue v-arxiv">arXiv 2026</span><div><span class="t">Witness: Discovery, Deciphering, and Epiphany in Interactive Puzzle Environments</span><span class="a">Guanghan Ning, <b>Ping Liu</b>, Linyi Li, Huangjie Zheng, Arjun Neervannan, Huu Nguyen, Michael Sklar, Deniz Zorlu, Nicolai Ouporov</span></div></li>
