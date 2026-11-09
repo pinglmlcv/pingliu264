@@ -119,6 +119,6 @@ redirect_from:
 (function(){var b=document.getElementById('hm-toggle'),l=document.getElementById('hm-news');if(!b||!l)return;b.addEventListener('click',function(){var o=l.classList.toggle('open');b.textContent=o?'Show fewer':'Show all news';});})();
 </script>
 
-<div id="clustrmaps-widget">
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=oXRv4M63JdtwBIkQ5oKu8c-q64iduHv6EuXiZlADu50&cl=ffffff&w=a"></script>
+<div id="visitor-map-widget">
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=hFR-3g6IlDmVRlfxWEb6vhuPb0Q0_JWj4gEV0TPY-MA&cl=ffffff&w=a"></script>
 </div>
