@@ -119,6 +119,6 @@ redirect_from:
 (function(){var b=document.getElementById('hm-toggle'),l=document.getElementById('hm-news');if(!b||!l)return;b.addEventListener('click',function(){var o=l.classList.toggle('open');b.textContent=o?'Show fewer':'Show all news';});})();
 </script>
 
-<div id="visitor-map-widget" style="max-width:488px;margin:0 auto;">
+<div id="visitor-map-widget" style="max-width:244px;margin:0 auto;">
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=hFR-3g6IlDmVRlfxWEb6vhuPb0Q0_JWj4gEV0TPY-MA&cl=ffffff&w=a"></script>
 </div>
