@@ -79,15 +79,15 @@ author_profile: true
 
 <div class="pc-hero">
 <p class="k">Research note · Verifiable Rewards, Alignment, and Agents</p>
-<h2>Two papers, one problem: PSDPO and CoDPO</h2>
-<p>Preference optimization learns from pairwise judgments: of two outputs, which one is better. The same models are also judged by pointwise criteria: is this video faithful to its prompt, is this answer correct, is it safe. Two of our papers study what happens when these two signals point in opposite directions. PSDPO addresses it in text-to-video generation, where physical preferences conflict with prompt fidelity. CoDPO analyzes it for direct preference optimization in general and asks whether the conflict will hurt before training starts.</p>
-<div class="pc-jump"><a href="#problem"><i class="fas fa-random"></i>&nbsp; The shared problem</a><a href="#psdpo"><i class="fas fa-film"></i>&nbsp; PSDPO</a><a href="#codpo"><i class="fas fa-chart-line"></i>&nbsp; CoDPO</a><a href="#compare"><i class="fas fa-columns"></i>&nbsp; How they relate</a></div>
+<h2>From PSDPO to CoDPO: preference optimization under conflicting signals</h2>
+<p>Preference optimization learns from pairwise judgments: of two outputs, which one is better. The same models are also judged by pointwise criteria: is this video faithful to its prompt, is this answer correct, is it safe. This line of work began with PSDPO, which found that in text-to-video generation the physically preferred video is often the one less faithful to the prompt, and proposed a way to train on such data. CoDPO followed and asked the same question for direct preference optimization in general: when do conflicting pairs make training drift, and can we tell before training starts?</p>
+<div class="pc-jump"><a href="#psdpo"><i class="fas fa-film"></i>&nbsp; PSDPO: where it started</a><a href="#codpo"><i class="fas fa-chart-line"></i>&nbsp; CoDPO: the general problem</a><a href="#compare"><i class="fas fa-columns"></i>&nbsp; How they relate</a></div>
 </div>
 
-<div class="pc-sec al" id="problem">
-<div class="pc-head"><div class="pc-num">01</div><h2><span class="pc-tag">The shared problem</span>Pairwise preferences and pointwise scores</h2></div>
-<p>Direct preference optimization (DPO) trains on pairs. For a prompt <i>x</i>, one output <i>y</i><sub>w</sub> is preferred over another output <i>y</i><sub>l</sub>, and the update raises the likelihood of <i>y</i><sub>w</sub> relative to <i>y</i><sub>l</sub>. Separately, each output can be scored on its own by a pointwise criterion <i>s</i>(<i>y</i>): semantic agreement with the prompt, length, correctness, or safety.</p>
-<p>The two signals usually agree, but not always. We call a pair a <b>matching pair</b> when the preferred output also scores at least as well, <i>s</i>(<i>y</i><sub>w</sub>) &ge; <i>s</i>(<i>y</i><sub>l</sub>), and a <b>conflict pair</b> when the preferred output scores worse. Standard DPO applies the same update to both kinds. On a conflict pair, that update raises the likelihood of the lower-scoring output, so it moves the model toward outputs that score worse on the criterion. When conflict pairs make up a large share of the data, these updates accumulate, and the pointwise criterion can degrade even while the model fits the preferences better.</p>
+<div class="pc-sec ps" id="psdpo">
+<div class="pc-head"><div class="pc-num">01</div><h2><span class="pc-tag">Where it started · Text-to-video generation · ACM MM 2026, Oral</span>PSDPO: physical preferences meet semantic constraints</h2></div>
+<p>Preference optimization can make generated videos more physically plausible, but it often makes them less faithful to the prompt. PSDPO traces this to how the two signals are obtained. Physical plausibility is judged by comparing the dynamics of two videos, so it is a pairwise signal. Prompt fidelity is checked one video at a time against its prompt, so it is a pointwise signal. In our training data, the physically preferred video was the less faithful one in 51.5% of pairs. A typical case: the prompt asks for a lemon slice, and the physically more convincing video shows a whole lemon. Training on such a pair rewards the model for drifting away from the prompt.</p>
+<p>Direct preference optimization (DPO) trains on pairs. For a prompt <i>x</i>, one output <i>y</i><sub>w</sub> is preferred over another output <i>y</i><sub>l</sub>, and the update raises the likelihood of <i>y</i><sub>w</sub> relative to <i>y</i><sub>l</sub>. PSDPO separates two kinds of pairs. In a <b>matching pair</b>, the physically preferred video is also at least as faithful to the prompt. In a <b>conflict pair</b>, it is less faithful. Standard DPO applies the same update to both kinds, so on a conflict pair it raises the likelihood of the less faithful video and moves the model away from the prompt. With conflict pairs making up about half of the data, these updates accumulate, which explains why prompt fidelity drops even as physical plausibility improves.</p>
 
 <figure class="pc-fig">
 <div class="pc-pair"><svg viewBox="0 0 360 230" role="img" aria-label="Matching pair">
@@ -99,7 +99,7 @@ author_profile: true
 <rect x="265" y="70" width="50" height="40" rx="8" fill="#9aa3b8"/><text x="290" y="96" text-anchor="middle" font-size="13" fill="#fff">y<tspan baseline-shift="sub" font-size="10">l</tspan></text>
 <line x1="92" y1="90" x2="255" y2="90" stroke="#5b4fc9" stroke-width="2"/><polygon points="92,90 102,85 102,95" fill="#5b4fc9"/>
 <text x="175" y="83" text-anchor="middle" font-size="12" fill="#5b4fc9">preferred</text>
-<text x="180" y="140" text-anchor="middle" font-size="12" fill="#5b6478">pointwise score s(y)</text>
+<text x="180" y="140" text-anchor="middle" font-size="12" fill="#5b6478">prompt-fidelity score</text>
 <rect x="35" y="150" width="240" height="16" rx="4" fill="#e6e9f0"/><rect x="35" y="150" width="201" height="16" rx="4" fill="#0e8a83"/>
 <rect x="35" y="174" width="240" height="16" rx="4" fill="#e6e9f0"/><rect x="35" y="174" width="120" height="16" rx="4" fill="#9aa3b8"/>
 <text x="285" y="163" font-size="12" fill="#1f2a44">y<tspan baseline-shift="sub" font-size="10">w</tspan></text><text x="285" y="187" font-size="12" fill="#1f2a44">y<tspan baseline-shift="sub" font-size="10">l</tspan></text>
@@ -113,20 +113,14 @@ author_profile: true
 <rect x="265" y="70" width="50" height="40" rx="8" fill="#9aa3b8"/><text x="290" y="96" text-anchor="middle" font-size="13" fill="#fff">y<tspan baseline-shift="sub" font-size="10">l</tspan></text>
 <line x1="92" y1="90" x2="255" y2="90" stroke="#5b4fc9" stroke-width="2"/><polygon points="92,90 102,85 102,95" fill="#5b4fc9"/>
 <text x="175" y="83" text-anchor="middle" font-size="12" fill="#5b4fc9">preferred</text>
-<text x="180" y="140" text-anchor="middle" font-size="12" fill="#5b6478">pointwise score s(y)</text>
+<text x="180" y="140" text-anchor="middle" font-size="12" fill="#5b6478">prompt-fidelity score</text>
 <rect x="35" y="150" width="240" height="16" rx="4" fill="#e6e9f0"/><rect x="35" y="150" width="105" height="16" rx="4" fill="#c2410c"/>
 <rect x="35" y="174" width="240" height="16" rx="4" fill="#e6e9f0"/><rect x="35" y="174" width="206" height="16" rx="4" fill="#9aa3b8"/>
 <text x="285" y="163" font-size="12" fill="#1f2a44">y<tspan baseline-shift="sub" font-size="10">w</tspan></text><text x="285" y="187" font-size="12" fill="#1f2a44">y<tspan baseline-shift="sub" font-size="10">l</tspan></text>
 <text x="180" y="215" text-anchor="middle" font-size="12.5" fill="#c2410c">DPO pushes toward the lower score</text>
 </svg></div>
-<figcaption><b>Two kinds of preference pairs.</b> In both pairs the preferred output is <i>y</i><sub>w</sub>, so standard DPO raises its likelihood. In a matching pair this also favors the output with the higher pointwise score. In a conflict pair it favors the output with the lower score, which is the source of the degradation both papers address.</figcaption>
+<figcaption><b>Two kinds of preference pairs.</b> In both pairs <i>y</i><sub>w</sub> is the physically preferred video, so standard DPO raises its likelihood. In a matching pair this also favors the video that follows the prompt better. In a conflict pair it favors the video that follows the prompt worse. CoDPO later studies the same picture with any pointwise criterion in place of prompt fidelity.</figcaption>
 </figure>
-</div>
-
-<div class="pc-sec ps" id="psdpo">
-<div class="pc-head"><div class="pc-num">02</div><h2><span class="pc-tag">Text-to-video generation · ACM MM 2026, Oral</span>PSDPO: physical preferences meet semantic constraints</h2></div>
-<p>Preference optimization can make generated videos more physically plausible, but it often makes them less faithful to the prompt. PSDPO traces this to how the two signals are obtained. Physical plausibility is judged by comparing the dynamics of two videos, so it is a pairwise signal. Prompt fidelity is checked one video at a time against its prompt, so it is a pointwise signal. In our training data, the physically preferred video was the less faithful one in 51.5% of pairs. A typical case: the prompt asks for a lemon slice, and the physically more convincing video shows a whole lemon. Training on such a pair rewards the model for drifting away from the prompt.</p>
-
 <figure class="pc-fig"><img src="{{ base_path }}/images/research/psdpo.jpg" alt="Comparison between vanilla DPO and PSDPO"><figcaption><b>Vanilla DPO versus PSDPO.</b> Adding semantic feasibility to physical preference optimization preserves prompt semantics and stabilizes preference learning.</figcaption></figure>
 
 <h3>Method</h3>
@@ -150,8 +144,8 @@ The temperature &tau; sets how strongly conflicts are discounted. As &tau; appro
 </div>
 
 <div class="pc-sec co" id="codpo">
-<div class="pc-head"><div class="pc-num">03</div><h2><span class="pc-tag">Direct preference optimization · NeurIPS 2026</span>CoDPO: diagnosing and correcting constraint drift</h2></div>
-<p>CoDPO studies the same tension without tying it to one domain. Preference data is routinely paired with pointwise criteria such as response length, correctness, or safety scores, and standard DPO does not distinguish pairs that help a criterion from pairs that hurt it. We call the resulting failure <b>constraint drift</b>. Conflict pairs push the criterion's cost up and matching pairs push it down, so whether a training run drifts depends on the balance between the two groups.</p>
+<div class="pc-head"><div class="pc-num">02</div><h2><span class="pc-tag">The general problem · Direct preference optimization · NeurIPS 2026</span>CoDPO: diagnosing and correcting constraint drift</h2></div>
+<p>PSDPO showed that conflict pairs can quietly undo a criterion that preference optimization is supposed to respect. CoDPO takes the question beyond video. Preference data is routinely paired with pointwise criteria such as response length, correctness, or safety scores, and standard DPO does not distinguish pairs that help a criterion from pairs that hurt it. We call the resulting failure <b>constraint drift</b>. Conflict pairs push the criterion's cost up and matching pairs push it down, so whether a training run drifts depends on the balance between the two groups. In PSDPO, how strongly conflict pairs are discounted is chosen empirically, through a temperature and a training schedule. CoDPO sets the strength of the correction from a quantity computed on the dataset before training.</p>
 
 <h3>Method</h3>
 <ol class="pc-steps">
@@ -173,8 +167,8 @@ The temperature &tau; sets how strongly conflicts are discounted. As &tau; appro
 </div>
 
 <div class="pc-sec al" id="compare">
-<div class="pc-head"><div class="pc-num">04</div><h2><span class="pc-tag">Connection and difference</span>How the two papers relate</h2></div>
-<p>Both papers start from the same observation: a preference pair is not equally trustworthy when a pointwise criterion disagrees with it, and treating all pairs alike lets that disagreement leak into the trained model. They differ in scope and in how the correction is set. PSDPO is a method for one important setting, physically plausible video generation, where the conflict rate is high and the semantic signal is available for every video. CoDPO steps back to direct preference optimization in general, explains when conflict pairs cause drift, and uses that explanation to decide in advance how much correction a dataset needs.</p>
+<div class="pc-head"><div class="pc-num">03</div><h2><span class="pc-tag">Connection and difference</span>How the two papers relate</h2></div>
+<p>PSDPO came first and CoDPO grew out of it. Both rest on the same observation: a preference pair is not equally trustworthy when a pointwise criterion disagrees with it, and treating all pairs alike lets that disagreement leak into the trained model. PSDPO turned this observation into a working method for physically plausible video generation, where the conflict rate is high and a semantic score is available for every video. CoDPO generalized it to direct preference optimization across domains, explained when conflict pairs cause drift, and used that explanation to decide in advance how much correction a dataset needs.</p>
 <div class="pc-tw">
 <table class="pc-tbl">
 <thead><tr><th></th><th class="ps">PSDPO</th><th class="co">CoDPO</th></tr></thead>
