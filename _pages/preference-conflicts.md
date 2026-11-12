@@ -67,10 +67,22 @@ author_profile: true
 .pc-card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:1em 1em 0.9em; font-size:0.9em; line-height:1.55; }
 .pc-card i { color:var(--al); font-size:1.15em; display:block; margin-bottom:0.45em; }
 .pc-card b { display:block; margin-bottom:0.25em; }
+.co .pc-eq { border-left-color:var(--co); }
+.pc-evo { position:relative; margin:1.2em 0 0.4em; padding-left:2.6em; }
+.pc-evo::before { content:""; position:absolute; left:0.95em; top:1em; bottom:1em; width:3px; border-radius:2px; background:linear-gradient(180deg,var(--ps) 0%,var(--co) 30%,var(--co) 85%,#9aa3b8 100%); }
+.pc-step { position:relative; background:#fff; border:1px solid var(--line); border-radius:12px; padding:0.85em 1.1em 0.3em; box-shadow:0 3px 12px rgba(31,42,68,0.05); }
+.pc-step::before { content:""; position:absolute; left:-2.15em; top:1em; width:1.15em; height:1.15em; border-radius:50%; background:var(--dot); border:3px solid #fff; box-shadow:0 0 0 1px var(--dot); }
+.pc-step.s-ps { --dot:var(--ps); border-left:4px solid var(--ps); } .pc-step.s-co { --dot:var(--co); border-left:4px solid var(--co); } .pc-step.s-next { --dot:#9aa3b8; border-left:4px solid #9aa3b8; border-style:dashed solid dashed solid; }
+.pc-step .who { display:inline-block; font-size:0.68em; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--dot); }
+.pc-step h4 { margin:0.1em 0 0.4em; font-size:1.02em; border:0; padding:0; }
+.pc-step p { margin:0 0 0.7em; font-size:0.95em; }
+.pc-q { margin:0.55em 0 0.55em; font-style:italic; color:var(--al); font-weight:600; font-size:0.92em; }
+.pc-q i { font-style:normal; margin-right:0.35em; opacity:0.8; }
 .pc-back { font-size:0.88em; margin:0 0 2em; }
 @media (max-width: 760px) {
   .pc-hero { padding:1.6em 1.3em; } .pc-sec { padding:1.4em 1.1em; }
   .pc-res, .pc-take { grid-template-columns:1fr; }
+  .pc-evo { padding-left:1.9em; } .pc-evo::before { left:0.6em; } .pc-step::before { left:-1.75em; } .pc-step { padding:0.8em 0.9em 0.2em; }
   .pc-paper { flex-direction:column; gap:0.5em; } .pc-venue { flex:none; padding:0.3em 0.8em; }
 }
 </style>
@@ -81,7 +93,7 @@ author_profile: true
 <p class="k">Research note · Verifiable Rewards, Alignment, and Agents</p>
 <h2>From PSDPO to CoDPO: preference optimization under conflicting signals</h2>
 <p>Preference optimization learns from pairwise judgments: of two outputs, which one is better. The same models are also judged by pointwise criteria: is this video faithful to its prompt, is this answer correct, is it safe. This line of work began with PSDPO, which found that in text-to-video generation the physically preferred video is often the one less faithful to the prompt, and proposed a way to train on such data. CoDPO followed and asked the same question for direct preference optimization in general: when do conflicting pairs make training drift, and can we tell before training starts?</p>
-<div class="pc-jump"><a href="#psdpo"><i class="fas fa-film"></i>&nbsp; PSDPO: where it started</a><a href="#codpo"><i class="fas fa-chart-line"></i>&nbsp; CoDPO: the general problem</a><a href="#compare"><i class="fas fa-columns"></i>&nbsp; How they relate</a></div>
+<div class="pc-jump"><a href="#psdpo"><i class="fas fa-film"></i>&nbsp; PSDPO: where it started</a><a href="#codpo"><i class="fas fa-chart-line"></i>&nbsp; CoDPO: the general problem</a><a href="#compare"><i class="fas fa-route"></i>&nbsp; How one led to the other</a></div>
 </div>
 
 <div class="pc-sec ps" id="psdpo">
@@ -145,51 +157,62 @@ The temperature &tau; sets how strongly conflicts are discounted. As &tau; appro
 
 <div class="pc-sec co" id="codpo">
 <div class="pc-head"><div class="pc-num">02</div><h2><span class="pc-tag">The general problem · Direct preference optimization · NeurIPS 2026</span>CoDPO: diagnosing and correcting constraint drift</h2></div>
-<p>PSDPO showed that conflict pairs can quietly undo a criterion that preference optimization is supposed to respect. CoDPO takes the question beyond video. Preference data is routinely paired with pointwise criteria such as response length, correctness, or safety scores, and standard DPO does not distinguish pairs that help a criterion from pairs that hurt it. We call the resulting failure <b>constraint drift</b>. Conflict pairs push the criterion's cost up and matching pairs push it down, so whether a training run drifts depends on the balance between the two groups. In PSDPO, how strongly conflict pairs are discounted is chosen empirically, through a temperature and a training schedule. CoDPO sets the strength of the correction from a quantity computed on the dataset before training.</p>
+<p>CoDPO studies direct preference optimization in general, wherever pairwise preferences come together with a pointwise criterion such as response length, answer correctness, or a safety score. Following PSDPO, a pair is a conflict pair when the preferred output scores worse on the criterion. Such pairs are common: the preferred response is the longer one in 57% of HelpSteer2 pairs, and it is the incorrect one in 71% of GSM8K pairs and 58% of ARC pairs. Training on them raises the expected cost on the criterion. We call this <b>constraint drift</b>; it is the general counterpart of the semantic drift that PSDPO found in video.</p>
 
-<h3>Method</h3>
+<h3>Drift as a balance</h3>
+<p>For small updates, the change in expected constraint cost at each DPO step is a balance between two groups of pairs. Conflict pairs push the cost up and matching pairs pull it down. At the start of training this balance can be estimated from the cost gaps in the data alone, which gives a pre-alignment diagnostic:</p>
+<div class="pc-eq"><div class="row">&rho;*<sub>eq</sub> = (1 &minus; <i>p</i><sub>c</sub>) &middot; mean |&Delta;<i>c</i>| over matching pairs &nbsp;/&nbsp; ( <i>p</i><sub>c</sub> &middot; mean &Delta;<i>c</i> over conflict pairs )</div></div>
+<p>Here <i>p</i><sub>c</sub> is the conflict rate and &Delta;<i>c</i> is the cost of the preferred output minus the cost of the rejected one. The numerator is the total cost reduction across matching pairs, and the denominator is the total cost increase across conflict pairs. A value of at least 1 says the dataset corrects itself, and CoDPO then reduces to plain DPO. A value below 1 says the dataset needs intervention. The estimate assumes that, per unit of cost gap, learning a conflict pair moves the expected cost about as much as learning a matching pair.</p>
+
+<h3>Method: two levels of control</h3>
 <ol class="pc-steps">
-<li><b>Diagnose before training.</b> A first-order analysis of DPO's updates yields a closed-form quantity, &rho;*<sub>eq</sub>, computed from dataset statistics. It indicates whether a dataset will correct itself during training or needs intervention, so the decision can be made before any compute is spent on alignment.</li>
-<li><b>Down-weight conflict pairs.</b> Conflict pairs receive a per-sample control whose strength is set from the diagnostic. This control carries the main part of the drift regulation.</li>
-<li><b>Correct the residual.</b> An adaptive margin shift during training corrects the residual drift that the per-sample control does not cover.</li>
+<li><b>Coarse level: set the weights before training.</b> Matching pairs keep weight 1. A conflict pair with score gap &Delta;<i>s</i> &lt; 0 receives
+<div class="pc-eq"><div class="row"><i>w</i>(&Delta;<i>s</i>) = exp( &minus;( |&Delta;<i>s</i>| / &tau; )<sup><i>p</i></sup> )</div></div>
+With <i>p</i> = 1 this is PSDPO's weight. CoDPO uses <i>p</i> = 8, so the weight stays high for mild conflicts and drops sharply for severe ones. The temperature &tau; is not tuned: it is found by bisection so that the average weight on conflict pairs equals &rho;*<sub>eq</sub>, the point at which conflict-side pressure no longer exceeds matching-side repair to first order. This step uses dataset statistics only and needs no gradient computation.</li>
+<li><b>Fine level: shift the margin during training.</b> The balance moves as the model leaves the reference model, so some drift can remain under fixed weights. CoDPO adds &lambda;&Delta;<i>c</i> to each pair's DPO margin, so conflict pairs are pushed less and matching pairs are pushed more. This is implemented by tilting the reference model against high-cost outputs, which leaves the DPO loss itself unchanged. The constraint risk is estimated on the training pairs every 500 steps. Whenever the estimate rises, &lambda; is raised by a fixed step, up to a cap computed from the data.</li>
 </ol>
+<div class="pc-eq"><div class="row"><i>L</i><sub>CoDPO</sub> = &minus; mean over the batch of &nbsp;<i>w</i><sub>i</sub> &middot; log &sigma;( &beta; <i>r&#770;</i><sub>i</sub> + &beta; &lambda; &Delta;<i>c</i><sub>i</sub> )</div></div>
 
 <h3>Evaluation</h3>
 <div class="pc-pills">
-<span class="pc-pill"><b>6</b> domains</span>
-<span class="pc-pill"><b>4</b> base-model architectures</span>
-<span class="pc-pill">several preference losses</span>
-<span class="pc-pill">baselines: hard filtering, constrained and multi-objective methods</span>
+<span class="pc-pill"><b>6</b> domains: 5 conflict-dominated, 1 self-correcting control</span>
+<span class="pc-pill"><b>4</b> base models</span>
+<span class="pc-pill"><b>3</b> further preference losses: IPO, SimPO, KTO</span>
+<span class="pc-pill"><b>5</b> recent baselines, plus hard filtering</span>
 </div>
-<p>Across these settings, drift grows with exposure to conflict pairs, the diagnostic tracks where drift appears in practice, and CoDPO reduces drift while keeping most of the preference learning of vanilla DPO. Its trade-off between drift and preference performance is better than that of hard filtering and recent constrained and multi-objective baselines.</p>
+<p>The main model is Qwen2.5-7B-Instruct trained with LoRA. The conflict-dominated domains are HelpSteer2 and TL;DR, where the criterion is length, and GSM8K, ARC, and Math-Calc, where it is answer correctness. PKU-SafeRLHF, with a safety score as the criterion, is the control. On all five conflict-dominated domains, drift grows steadily as more weight is kept on conflict pairs, and &rho;*<sub>eq</sub> is below 1. On PKU-SafeRLHF, &rho;*<sub>eq</sub> is at least 1 and drift stays negligible. Removing conflict pairs altogether suppresses drift but costs most of the preference learning: hard filtering keeps only 7% to 41% of vanilla DPO's gain on four domains, and on TL;DR it falls below the base model.</p>
+<div class="pc-tw">
+<table class="pc-tbl">
+<thead><tr><th>Domain</th><th>Drift: vanilla DPO &rarr; <span style="color:var(--co)">CoDPO</span></th><th>P(chosen): vanilla DPO &rarr; <span style="color:var(--co)">CoDPO</span></th></tr></thead>
+<tbody>
+<tr><td>HelpSteer2</td><td>+59.000 &rarr; <b>+18.700</b> characters</td><td>0.566 &rarr; <b>0.640</b></td></tr>
+<tr><td>GSM8K</td><td>+0.129 &rarr; <b>+0.082</b></td><td>0.453 &rarr; <b>0.551</b></td></tr>
+<tr><td>ARC</td><td>+0.055 &rarr; <b>+0.046</b></td><td>0.532 &rarr; <b>0.622</b></td></tr>
+<tr><td>Math-Calc</td><td>+0.071 &rarr; <b>+0.066</b></td><td>0.652 &rarr; <b>0.757</b></td></tr>
+</tbody>
+</table>
+</div>
+<p>Drift is the change in expected constraint cost relative to the base model: response length on HelpSteer2 and the probability of an incorrect answer on the other three domains. P(chosen) is the probability the model assigns to the preferred output within a pair and measures preference learning. Lower drift and higher P(chosen) are better. Methods that enforce a constraint on the expected cost, such as SafeDPO and PD-DPO, lower drift further, but their P(chosen) stays near or below that of the base model. Among all compared methods and settings with drift comparable to or below CoDPO's, CoDPO has the highest P(chosen) on all four domains. On HelpSteer2, an LLM judge (JudgeLM-13B) rates CoDPO and vanilla DPO as tied in 75.5% of comparisons, so the lower drift comes without a quality loss that this judge can detect.</p>
 
 <div class="pc-paper"><span class="pc-venue" style="background:#7c3aed">NeurIPS 2026</span><div><span class="t">When Scores Conflict with Preferences: Pre-Alignment Diagnosis and Adaptive Correction of Constraint Drift in DPO</span><span class="a"><b>Ping Liu</b>, Yan Yan</span><span class="l"><a href="https://arxiv.org/abs/2611.07375">arXiv</a></span></div></div>
 </div>
 
 <div class="pc-sec al" id="compare">
-<div class="pc-head"><div class="pc-num">03</div><h2><span class="pc-tag">Connection and difference</span>How the two papers relate</h2></div>
-<p>PSDPO came first and CoDPO grew out of it. Both rest on the same observation: a preference pair is not equally trustworthy when a pointwise criterion disagrees with it, and treating all pairs alike lets that disagreement leak into the trained model. PSDPO turned this observation into a working method for physically plausible video generation, where the conflict rate is high and a semantic score is available for every video. CoDPO generalized it to direct preference optimization across domains, explained when conflict pairs cause drift, and used that explanation to decide in advance how much correction a dataset needs.</p>
-<div class="pc-tw">
-<table class="pc-tbl">
-<thead><tr><th></th><th class="ps">PSDPO</th><th class="co">CoDPO</th></tr></thead>
-<tbody>
-<tr><td>Setting</td><td>Text-to-video generation</td><td>Direct preference optimization across domains</td></tr>
-<tr><td>Pairwise signal</td><td>Physical plausibility, judged by comparing two videos</td><td>Preference labels in the training data</td></tr>
-<tr><td>Pointwise criterion</td><td>Prompt fidelity, scored per video by ViCLIP</td><td>Criteria such as length, correctness, or safety</td></tr>
-<tr><td>Treatment of conflict pairs</td><td>Exponential down-weighting by the size of the semantic gap</td><td>Per-sample control plus an adaptive margin shift</td></tr>
-<tr><td>How strong the correction is</td><td>Set by the temperature &tau;</td><td>Set by the pre-alignment diagnostic &rho;*<sub>eq</sub></td></tr>
-<tr><td>During training</td><td>Matching pairs first, then all pairs with weights</td><td>Margin adjusted during training for residual drift</td></tr>
-<tr><td>Prediction before training</td><td>Not part of the method</td><td>Central: whether the data self-corrects or needs intervention</td></tr>
-<tr><td>Evaluation</td><td>Wan 1.3B on VBench, VideoPhy-2, and PhyGenBench</td><td>Six domains, four architectures, several preference losses</td></tr>
-</tbody>
-</table>
-</div>
+<div class="pc-head"><div class="pc-num">03</div><h2><span class="pc-tag">From one paper to the next</span>How PSDPO led to CoDPO</h2></div>
+<p>CoDPO keeps PSDPO's core idea: keep matching pairs at full weight, and discount conflict pairs instead of discarding them. What changed is that each part of CoDPO answers a question PSDPO raised but did not settle. The steps below follow that sequence.</p>
 
-<h3>What the two papers share</h3>
-<div class="pc-take">
-<div class="pc-card"><i class="fas fa-search"></i><b>Measure the conflict</b>Both papers separate matching pairs from conflict pairs before deciding how to train, rather than assuming the preference labels and the criterion agree.</div>
-<div class="pc-card"><i class="fas fa-sliders-h"></i><b>Discount, do not discard</b>Both keep conflict pairs in training at reduced weight, so the useful part of their preference signal is not thrown away with the conflicting part.</div>
-<div class="pc-card"><i class="fas fa-check-double"></i><b>Check the signal itself</b>Both treat the training signal as something to verify, which is the theme of our work on <a href="{{ base_path }}/research/#alignment">verifiable rewards and alignment</a>.</div>
+<div class="pc-evo">
+<div class="pc-step s-ps"><span class="who">PSDPO</span><h4>The observation</h4><p>In text-to-video training data, the physically preferred video was the less faithful one in 51.5% of pairs, and DPO trained on these pairs drifted away from the prompt. PSDPO split the data into matching and conflict pairs and down-weighted conflict pairs by the size of their semantic gap, with a temperature &tau; chosen as a hyperparameter.</p></div>
+<div class="pc-q"><i class="fas fa-arrow-down"></i> Is this a quirk of video generation?</div>
+<div class="pc-step s-co"><span class="who">CoDPO</span><h4>The same structure appears elsewhere</h4><p>The conflict did not come from video itself. It came from the form of the supervision: a pairwise preference next to a criterion that scores each output on its own. Language-model alignment has the same form with length, correctness, or safety as the criterion. CoDPO therefore keeps PSDPO's definition of conflict pairs, replaces prompt fidelity with any pointwise criterion, and finds conflict rates of similar size, such as 57% on HelpSteer2 and 71% on GSM8K.</p></div>
+<div class="pc-q"><i class="fas fa-arrow-down"></i> Why do conflict pairs cause drift, and do they always?</div>
+<div class="pc-step s-co"><span class="who">CoDPO</span><h4>From conflict pairs alone to a balance</h4><p>PSDPO's analysis bounded the gradient contributed by conflict pairs and showed that the bound shrinks under stronger down-weighting. That justified down-weighting, but it looked at conflict pairs only. CoDPO instead follows the effect of each update on the constraint cost, and this brings the matching pairs into view: they pull the cost down while conflict pairs push it up. Drift therefore depends on the balance between the two groups, not on the conflict rate alone. Because the balance can be estimated from the data, the question of whether a dataset needs any correction can be answered before training. The resulting diagnostic, &rho;*<sub>eq</sub>, gave the right decision on all six domains tested.</p></div>
+<div class="pc-q"><i class="fas fa-arrow-down"></i> How much down-weighting is enough?</div>
+<div class="pc-step s-co"><span class="who">CoDPO</span><h4>Strength from the data, not from tuning</h4><p>The balance also says where to stop. Once the average weight on conflict pairs falls below a critical value, the pressure they exert is smaller than the repair from matching pairs, and the cost stops rising to first order. CoDPO keeps PSDPO's exponential weight, adds a sharpness parameter (PSDPO's weight is the case <i>p</i> = 1), and sets &tau; so that the average conflict weight equals &rho;*<sub>eq</sub>. The temperature that PSDPO had to tune is now computed.</p></div>
+<div class="pc-q"><i class="fas fa-arrow-down"></i> What about drift that builds up during training?</div>
+<div class="pc-step s-co"><span class="who">CoDPO</span><h4>From a fixed schedule to feedback</h4><p>&rho;*<sub>eq</sub> describes the balance at the start of training, and the balance moves as the model changes. During vanilla DPO training on HelpSteer2, the balance point went from 0.710 at the start to 0.603 later on. PSDPO handled drift during training with a fixed schedule: matching pairs first, conflict pairs later. CoDPO replaces the schedule with feedback. It measures the constraint risk on the training pairs as training runs and strengthens a margin shift only when that risk rises.</p></div>
+<div class="pc-q"><i class="fas fa-arrow-down"></i> What comes next?</div>
+<div class="pc-step s-next"><span class="who">Open</span><h4>Following the balance as it moves</h4><p>The next step named in CoDPO is to track the balance throughout training rather than estimate it only at the start, and to extend the analysis to settings where the preference pairs are themselves generated during training. Both continue the theme of our work on <a href="{{ base_path }}/research/#alignment">verifiable rewards and alignment</a>: checking the training signal before trusting it.</p></div>
 </div>
 </div>
 
