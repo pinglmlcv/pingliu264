@@ -200,6 +200,8 @@ With <i>p</i> = 1 this is PSDPO's weight. CoDPO uses <i>p</i> = 8, so the weight
 <div class="pc-paper"><span class="pc-venue" style="background:#7c3aed">NeurIPS 2026</span><div><span class="t">When Scores Conflict with Preferences: Pre-Alignment Diagnosis and Adaptive Correction of Constraint Drift in DPO</span><span class="a"><b>Ping Liu</b>, Yan Yan</span><span class="l"><a href="https://arxiv.org/abs/2611.07375">arXiv</a></span></div></div>
 </div>
 
+<div class="pc-more">More will be coming</div>
+
 <div class="pc-sec al" id="compare">
 <div class="pc-head"><div class="pc-num">03</div><h2><span class="pc-tag">From one paper to the next</span>How PSDPO led to CoDPO</h2></div>
 <p>CoDPO keeps PSDPO's core idea: keep matching pairs at full weight, and discount conflict pairs instead of discarding them. What changed is that each part of CoDPO answers a question PSDPO raised but did not settle. The steps below follow that sequence.</p>
@@ -219,7 +221,6 @@ With <i>p</i> = 1 this is PSDPO's weight. CoDPO uses <i>p</i> = 8, so the weight
 </div>
 </div>
 
-<div class="pc-more">More will be coming</div>
 
 <p class="pc-back"><a href="{{ base_path }}/notes/"><i class="fas fa-arrow-left"></i>&nbsp; All research notes</a></p>
 
