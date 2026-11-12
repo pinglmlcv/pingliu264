@@ -174,7 +174,7 @@ author_profile: true
 <div class="rs-q"><i class="fas fa-clipboard-check"></i>How can an agent rank and verify its own candidate solutions before committing to one?</div>
 <div class="rs-q"><i class="fas fa-robot"></i>How can an agent check its own perception and the intent behind a request before acting?</div>
 </div>
-<div class="rs-callout al-c"><i class="fas fa-book-open"></i><span>How do PSDPO and CoDPO relate? <a href="{{ base_path }}/research/preference-conflicts/">Read our note on preference conflicts &rarr;</a></span></div>
+<div class="rs-callout al-c"><i class="fas fa-book-open"></i><span>How do PSDPO and CoDPO relate? <a href="{{ base_path }}/notes/preference-conflicts/">Read our note on preference conflicts &rarr;</a></span></div>
 <h3 class="rs-h3">Representative papers</h3>
 <ul class="rs-pubs">
 <li class="rs-pub"><span class="rs-venue v-neurips">NeurIPS 2026</span><div><span class="t">When Scores Conflict with Preferences: Pre-Alignment Diagnosis and Adaptive Correction of Constraint Drift in DPO</span><span class="a"><b>Ping Liu</b>, Yan Yan</span><span class="l"><a href="https://arxiv.org/abs/2611.07375">arXiv</a></span></div></li>

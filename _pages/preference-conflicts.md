@@ -1,7 +1,9 @@
 ---
 layout: archive
 title: "When Preferences and Scores Disagree"
-permalink: /research/preference-conflicts/
+permalink: /notes/preference-conflicts/
+redirect_from:
+  - /research/preference-conflicts/
 author_profile: true
 ---
 
@@ -220,6 +222,6 @@ With <i>p</i> = 1 this is PSDPO's weight. CoDPO uses <i>p</i> = 8, so the weight
 </div>
 </div>
 
-<p class="pc-back"><a href="{{ base_path }}/research/"><i class="fas fa-arrow-left"></i>&nbsp; Back to Research</a></p>
+<p class="pc-back"><a href="{{ base_path }}/notes/"><i class="fas fa-arrow-left"></i>&nbsp; All research notes</a></p>
 
 </div>
