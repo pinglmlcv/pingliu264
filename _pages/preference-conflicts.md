@@ -78,6 +78,8 @@ author_profile: true
 .pc-step p { margin:0 0 0.7em; font-size:0.95em; }
 .pc-q { margin:0.55em 0 0.55em; font-style:italic; color:var(--al); font-weight:600; font-size:0.92em; }
 .pc-q i { font-style:normal; margin-right:0.35em; opacity:0.8; }
+.pc-step.s-more { --dot:#c3c9d6; background:transparent; border:2px dashed #c3c9d6; box-shadow:none; min-height:6.5em; display:flex; align-items:center; justify-content:center; padding:1em; }
+.pc-step.s-more span { color:#8a93a8; font-style:italic; letter-spacing:0.04em; }
 .pc-back { font-size:0.88em; margin:0 0 2em; }
 @media (max-width: 760px) {
   .pc-hero { padding:1.6em 1.3em; } .pc-sec { padding:1.4em 1.1em; }
@@ -213,6 +215,8 @@ With <i>p</i> = 1 this is PSDPO's weight. CoDPO uses <i>p</i> = 8, so the weight
 <div class="pc-step s-co"><span class="who">CoDPO</span><h4>From a fixed schedule to feedback</h4><p>&rho;*<sub>eq</sub> describes the balance at the start of training, and the balance moves as the model changes. During vanilla DPO training on HelpSteer2, the balance point went from 0.710 at the start to 0.603 later on. PSDPO handled drift during training with a fixed schedule: matching pairs first, conflict pairs later. CoDPO replaces the schedule with feedback. It measures the constraint risk on the training pairs as training runs and strengthens a margin shift only when that risk rises.</p></div>
 <div class="pc-q"><i class="fas fa-arrow-down"></i> What comes next?</div>
 <div class="pc-step s-next"><span class="who">Open</span><h4>Following the balance as it moves</h4><p>The next step named in CoDPO is to track the balance throughout training rather than estimate it only at the start, and to extend the analysis to settings where the preference pairs are themselves generated during training. Both continue the theme of our work on <a href="{{ base_path }}/research/#alignment">verifiable rewards and alignment</a>: checking the training signal before trusting it.</p></div>
+<div class="pc-q"><i class="fas fa-arrow-down"></i></div>
+<div class="pc-step s-more"><span>More will be coming</span></div>
 </div>
 </div>
 
