@@ -78,8 +78,8 @@ author_profile: true
 .pc-step p { margin:0 0 0.7em; font-size:0.95em; }
 .pc-q { margin:0.55em 0 0.55em; font-style:italic; color:var(--al); font-weight:600; font-size:0.92em; }
 .pc-q i { font-style:normal; margin-right:0.35em; opacity:0.8; }
-.pc-step.s-more { --dot:#c3c9d6; background:transparent; border:2px dashed #c3c9d6; box-shadow:none; min-height:6.5em; display:flex; align-items:center; justify-content:center; padding:1em; }
-.pc-step.s-more span { color:#8a93a8; font-style:italic; letter-spacing:0.04em; }
+.pc-step.s-more { --dot:var(--al); background:transparent; border:2px dashed var(--al); box-shadow:none; min-height:6.5em; display:flex; align-items:center; justify-content:center; padding:1em; }
+.pc-step.s-more span { color:var(--al); font-weight:700; font-size:1.2em; letter-spacing:0.04em; }
 .pc-back { font-size:0.88em; margin:0 0 2em; }
 @media (max-width: 760px) {
   .pc-hero { padding:1.6em 1.3em; } .pc-sec { padding:1.4em 1.1em; }
