@@ -100,7 +100,7 @@ author_profile: true
 </div>
 
 <div class="pc-sec ps" id="psdpo">
-<div class="pc-head"><div class="pc-num">01</div><h2><span class="pc-tag">Where it started · Text-to-video generation · ACM MM 2026, Oral</span>PSDPO: physical preferences meet semantic constraints</h2></div>
+<div class="pc-head"><div class="pc-num">01</div><h2><span class="pc-tag">Where it started · Text-to-video generation · ACM MM 2026, Oral, Outstanding Paper Award</span>PSDPO: physical preferences meet semantic constraints</h2></div>
 <p>Preference optimization can make generated videos more physically plausible, but it often makes them less faithful to the prompt. PSDPO traces this to how the two signals are obtained. Physical plausibility is judged by comparing the dynamics of two videos, so it is a pairwise signal. Prompt fidelity is checked one video at a time against its prompt, so it is a pointwise signal. In our training data, the physically preferred video was the less faithful one in 51.5% of pairs. A typical case: the prompt asks for a lemon slice, and the physically more convincing video shows a whole lemon. Training on such a pair rewards the model for drifting away from the prompt.</p>
 <p>Direct preference optimization (DPO) trains on pairs. For a prompt <i>x</i>, one output <i>y</i><sub>w</sub> is preferred over another output <i>y</i><sub>l</sub>, and the update raises the likelihood of <i>y</i><sub>w</sub> relative to <i>y</i><sub>l</sub>. PSDPO separates two kinds of pairs. In a <b>matching pair</b>, the physically preferred video is also at least as faithful to the prompt. In a <b>conflict pair</b>, it is less faithful. Standard DPO applies the same update to both kinds, so on a conflict pair it raises the likelihood of the less faithful video and moves the model away from the prompt. With conflict pairs making up about half of the data, these updates accumulate, which explains why prompt fidelity drops even as physical plausibility improves.</p>
 
@@ -155,7 +155,7 @@ The temperature &tau; sets how strongly conflicts are discounted. As &tau; appro
 <div class="pc-stat"><span class="lab">VideoPhy-2 hard subset</span><span class="val"><span class="from">0.039</span> &rarr; <span class="to">0.078</span></span></div>
 </div>
 
-<div class="pc-paper"><span class="pc-venue" style="background:#0f766e">ACM MM 2026</span><div><span class="t">When Physical Preferences Meet Semantic Constraints: Physical and Semantic Direct Preference Optimization for Text-to-Video Generation</span><span class="a">Siwei Meng, Yawei Luo, Shu Zhang, <b>Ping Liu</b><sup>†</sup> · Oral presentation</span><span class="l"><a href="https://arxiv.org/abs/2607.16947">arXiv</a></span></div></div>
+<div class="pc-paper"><span class="pc-venue" style="background:#0f766e">ACM MM 2026</span><div><span class="t">When Physical Preferences Meet Semantic Constraints: Physical and Semantic Direct Preference Optimization for Text-to-Video Generation</span><span class="a">Siwei Meng, Yawei Luo, Shu Zhang, <b>Ping Liu</b><sup>†</sup> · Oral presentation · Outstanding Paper Award</span><span class="l"><a href="https://arxiv.org/abs/2607.16947">arXiv</a></span></div></div>
 </div>
 
 <div class="pc-sec co" id="codpo">

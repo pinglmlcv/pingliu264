@@ -37,6 +37,7 @@ publications:
   type: conference
   badge: ACM MM
   oral: true
+  award: Outstanding Paper Award
   links:
   - name: arXiv
     url: https://arxiv.org/abs/2607.16947
