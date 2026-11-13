@@ -42,7 +42,7 @@ author_profile: true
 <span class="nt-k">Verifiable rewards and alignment</span>
 <span class="nt-t">From PSDPO to CoDPO: preference optimization under conflicting signals</span>
 <span class="nt-d">When a preferred output scores worse on a pointwise criterion, preference optimization drifts away from that criterion. PSDPO found this in text-to-video generation; CoDPO explains when it happens in DPO and sets the correction from the data before training.</span>
-<span class="nt-tags"><span>PSDPO · ACM MM 2026, Outstanding Paper Award</span><span>CoDPO · NeurIPS 2026</span></span>
+<span class="nt-tags"><span>PSDPO · ACM MM 2026, Outstanding Paper Award&nbsp;<i class="fas fa-trophy" style="color:#d4a017"></i></span><span>CoDPO · NeurIPS 2026</span></span>
 <span class="nt-go">Read the note &rarr;</span>
 </span>
 </a>
