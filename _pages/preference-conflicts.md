@@ -71,7 +71,7 @@ author_profile: true
 .pc-card b { display:block; margin-bottom:0.25em; }
 .co .pc-eq { border-left-color:var(--co); }
 .pc-evo { position:relative; margin:1.2em 0 0.4em; padding-left:2.6em; }
-.pc-evo::before { content:""; position:absolute; left:0.95em; top:1em; bottom:1em; width:3px; border-radius:2px; background:linear-gradient(180deg,var(--ps) 0%,var(--co) 30%,var(--co) 85%,#9aa3b8 100%); }
+.pc-evo::before { content:""; position:absolute; left:0.95em; top:1em; bottom:1em; width:3px; border-radius:2px; background:linear-gradient(180deg,var(--ps) 0%,var(--co) 30%,var(--co) 100%); }
 .pc-step { position:relative; background:#fff; border:1px solid var(--line); border-radius:12px; padding:0.85em 1.1em 0.3em; box-shadow:0 3px 12px rgba(31,42,68,0.05); }
 .pc-step::before { content:""; position:absolute; left:-2.15em; top:1em; width:1.15em; height:1.15em; border-radius:50%; background:var(--dot); border:3px solid #fff; box-shadow:0 0 0 1px var(--dot); }
 .pc-step.s-ps { --dot:var(--ps); border-left:4px solid var(--ps); } .pc-step.s-co { --dot:var(--co); border-left:4px solid var(--co); } .pc-step.s-next { --dot:#9aa3b8; border-left:4px solid #9aa3b8; border-style:dashed solid dashed solid; }
@@ -216,8 +216,6 @@ With <i>p</i> = 1 this is PSDPO's weight. CoDPO uses <i>p</i> = 8, so the weight
 <div class="pc-step s-co"><span class="who">CoDPO</span><h4>Strength from the data, not from tuning</h4><p>The balance also says where to stop. Once the average weight on conflict pairs falls below a critical value, the pressure they exert is smaller than the repair from matching pairs, and the cost stops rising to first order. CoDPO keeps PSDPO's exponential weight, adds a sharpness parameter (PSDPO's weight is the case <i>p</i> = 1), and sets &tau; so that the average conflict weight equals &rho;*<sub>eq</sub>. The temperature that PSDPO had to tune is now computed.</p></div>
 <div class="pc-q"><i class="fas fa-arrow-down"></i> What about drift that builds up during training?</div>
 <div class="pc-step s-co"><span class="who">CoDPO</span><h4>From a fixed schedule to feedback</h4><p>&rho;*<sub>eq</sub> describes the balance at the start of training, and the balance moves as the model changes. During vanilla DPO training on HelpSteer2, the balance point went from 0.710 at the start to 0.603 later on. PSDPO handled drift during training with a fixed schedule: matching pairs first, conflict pairs later. CoDPO replaces the schedule with feedback. It measures the constraint risk on the training pairs as training runs and strengthens a margin shift only when that risk rises.</p></div>
-<div class="pc-q"><i class="fas fa-arrow-down"></i> What comes next?</div>
-<div class="pc-step s-next"><span class="who">Open</span><h4>Following the balance as it moves</h4><p>The next step named in CoDPO is to track the balance throughout training rather than estimate it only at the start, and to extend the analysis to settings where the preference pairs are themselves generated during training. Both continue the theme of our work on <a href="{{ base_path }}/research/#alignment">verifiable rewards and alignment</a>: checking the training signal before trusting it.</p></div>
 </div>
 </div>
 
